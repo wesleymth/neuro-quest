@@ -1,0 +1,4584 @@
+{
+    "title": "Neuro Quest",
+    "terms": {
+        "basic": [
+            "Level",
+            "Lv",
+            "HP",
+            "HP",
+            "MP",
+            "MP",
+            "TP",
+            "TP",
+            "EXP",
+            "EXP"
+        ],
+        "commands": [
+            "Fight",
+            "Escape",
+            "Attack",
+            "Guard",
+            "Item",
+            "Skill",
+            "Equip",
+            "Status",
+            "Formation",
+            "Save",
+            "Game End",
+            "Options",
+            "Weapon",
+            "Armor",
+            "Key Item",
+            "Equip",
+            "Optimize",
+            "Clear",
+            "New Game",
+            "Continue",
+            null,
+            "To Title",
+            "Cancel",
+            null,
+            "Buy",
+            "Sell"
+        ],
+        "params": [
+            "Max HP",
+            "Max MP",
+            "Attack",
+            "Defense",
+            "M.Attack",
+            "M.Defense",
+            "Agility",
+            "Luck",
+            "Hit",
+            "Evasion"
+        ],
+        "messages": {
+            "actionFailure": "There was no effect on %1!",
+            "actorDamage": "%1 took %2 damage!",
+            "actorDrain": "%1 was drained of %2 %3!",
+            "actorGain": "%1 gained %2 %3!",
+            "actorLoss": "%1 lost %2 %3!",
+            "actorNoDamage": "%1 took no damage!",
+            "actorNoHit": "Miss! %1 took no damage!",
+            "actorRecovery": "%1 recovered %2 %3!",
+            "alwaysDash": "Always Dash",
+            "bgmVolume": "BGM Volume",
+            "bgsVolume": "BGS Volume",
+            "buffAdd": "%1's %2 went up!",
+            "buffRemove": "%1's %2 returned to normal!",
+            "commandRemember": "Command Remember",
+            "counterAttack": "%1 counterattacked!",
+            "criticalToActor": "A painful blow!!",
+            "criticalToEnemy": "An excellent hit!!",
+            "debuffAdd": "%1's %2 went down!",
+            "defeat": "%1 was defeated.",
+            "emerge": "%1 emerged!",
+            "enemyDamage": "%1 took %2 damage!",
+            "enemyDrain": "%1 was drained of %2 %3!",
+            "enemyGain": "%1 gained %2 %3!",
+            "enemyLoss": "%1 lost %2 %3!",
+            "enemyNoDamage": "%1 took no damage!",
+            "enemyNoHit": "Miss! %1 took no damage!",
+            "enemyRecovery": "%1 recovered %2 %3!",
+            "escapeFailure": "However, it was unable to escape!",
+            "escapeStart": "%1 has started to escape!",
+            "evasion": "%1 evaded the attack!",
+            "expNext": "To Next %1",
+            "expTotal": "Current %1",
+            "file": "File",
+            "levelUp": "%1 is now %2 %3!",
+            "loadMessage": "Load which file?",
+            "magicEvasion": "%1 nullified the magic!",
+            "magicReflection": "%1 reflected the magic!",
+            "meVolume": "ME Volume",
+            "obtainExp": "%1 %2 received!",
+            "obtainGold": "%1\\G found!",
+            "obtainItem": "%1 found!",
+            "obtainSkill": "%1 learned!",
+            "partyName": "%1's Party",
+            "possession": "Possession",
+            "preemptive": "%1 got the upper hand!",
+            "saveMessage": "Save to which file?",
+            "seVolume": "SE Volume",
+            "substitute": "%1 protected %2!",
+            "surprise": "%1 was surprised!",
+            "useItem": "%1 uses %2!",
+            "victory": "%1 was victorious!"
+        }
+    },
+    "equip_types": [
+        "",
+        "Weapon",
+        "Shield",
+        "Head",
+        "Body",
+        "Accessory"
+    ],
+    "skill_types": [
+        "",
+        "Magic",
+        "Special"
+    ],
+    "weapon_types": [
+        "",
+        "Dagger",
+        "Sword",
+        "Flail",
+        "Axe",
+        "Whip",
+        "Cane",
+        "Bow",
+        "Crossbow",
+        "Gun",
+        "Claw",
+        "Glove",
+        "Spear"
+    ],
+    "actors": [
+        {
+            "name": "Pablo",
+            "nickname": "",
+            "profile": ""
+        },
+        {
+            "name": "Martín",
+            "nickname": "",
+            "profile": ""
+        },
+        {
+            "name": "Lucía",
+            "nickname": "",
+            "profile": ""
+        },
+        {
+            "name": "Álvaro",
+            "nickname": "",
+            "profile": ""
+        }
+    ],
+    "armors": [
+        {
+            "name": "Shield",
+            "description": ""
+        },
+        {
+            "name": "Hat",
+            "description": ""
+        },
+        {
+            "name": "Cloth",
+            "description": ""
+        },
+        {
+            "name": "Ring",
+            "description": ""
+        }
+    ],
+    "classes": [
+        "Neuron",
+        "Microglia",
+        "Oligodendrocyte",
+        "Astrocyte"
+    ],
+    "common_events": [
+        {
+            "messages": []
+        },
+        {
+            "messages": []
+        },
+        {
+            "messages": []
+        },
+        {
+            "messages": []
+        },
+        {
+            "messages": [
+                {
+                    "index": 1,
+                    "parameters": [
+                        "This game aims to provide an educational and "
+                    ]
+                },
+                {
+                    "index": 2,
+                    "parameters": [
+                        "entertaining experience about neuroscience and "
+                    ]
+                },
+                {
+                    "index": 3,
+                    "parameters": [
+                        "Parkinson's disease. "
+                    ]
+                },
+                {
+                    "index": 5,
+                    "parameters": [
+                        "However, please note that some "
+                    ]
+                },
+                {
+                    "index": 6,
+                    "parameters": [
+                        "of the game mechanics and features may not be "
+                    ]
+                },
+                {
+                    "index": 7,
+                    "parameters": [
+                        "biologically accurate, "
+                    ]
+                },
+                {
+                    "index": 9,
+                    "parameters": [
+                        "and should not be taken as "
+                    ]
+                },
+                {
+                    "index": 10,
+                    "parameters": [
+                        "medical advice or a substitute for professional medical "
+                    ]
+                },
+                {
+                    "index": 11,
+                    "parameters": [
+                        "treatment."
+                    ]
+                },
+                {
+                    "index": 13,
+                    "parameters": [
+                        "The information provided in the game is for "
+                    ]
+                },
+                {
+                    "index": 14,
+                    "parameters": [
+                        "educational purposes only and should not be used to "
+                    ]
+                },
+                {
+                    "index": 15,
+                    "parameters": [
+                        "diagnose or treat any medical condition. "
+                    ]
+                }
+            ]
+        },
+        {
+            "messages": [
+                {
+                    "index": 1,
+                    "parameters": [
+                        "Avery (https://forums.rpgmakerweb.com/index.php?members"
+                    ]
+                },
+                {
+                    "index": 2,
+                    "parameters": [
+                        "/avery.5315/) on \"RPG Maker Forum\" : "
+                    ]
+                },
+                {
+                    "index": 3,
+                    "parameters": [
+                        "https://forums.rpgmakerweb.com/index.php?threas/avys-mv"
+                    ]
+                },
+                {
+                    "index": 4,
+                    "parameters": [
+                        "-stuff.53317/page-77#pos..."
+                    ]
+                },
+                {
+                    "index": 6,
+                    "parameters": [
+                        "Kadokawa and Gotcha Gotcha Games"
+                    ]
+                },
+                {
+                    "index": 7,
+                    "parameters": [
+                        "(for the default RPG Maker tilesets)"
+                    ]
+                }
+            ]
+        },
+        {
+            "messages": []
+        }
+    ],
+    "enemies": [
+        "Bat",
+        "Slime",
+        "Mage",
+        "Darklord-final",
+        "Firespirit",
+        "Waterspirit",
+        "Jellyfish",
+        "Ghost"
+    ],
+    "items": [
+        {
+            "name": "Potion",
+            "description": ""
+        },
+        {
+            "name": "Magic Water",
+            "description": ""
+        },
+        {
+            "name": "Dispel Herb",
+            "description": ""
+        },
+        {
+            "name": "Stimulant",
+            "description": ""
+        },
+        {
+            "name": "Overworld map",
+            "description": ""
+        }
+    ],
+    "skills": [
+        {
+            "name": "Attack",
+            "description": "",
+            "message1": " attacks!",
+            "message2": ""
+        },
+        {
+            "name": "Guard",
+            "description": "",
+            "message1": " guards.",
+            "message2": ""
+        },
+        {
+            "name": "Dual Attack",
+            "description": "",
+            "message1": " attacks!",
+            "message2": ""
+        },
+        {
+            "name": "Double Attack",
+            "description": "",
+            "message1": " attacks!",
+            "message2": ""
+        },
+        {
+            "name": "Triple Attack",
+            "description": "",
+            "message1": " attacks!",
+            "message2": ""
+        },
+        {
+            "name": "Escape",
+            "description": "",
+            "message1": " flees.",
+            "message2": ""
+        },
+        {
+            "name": "Wait",
+            "description": "",
+            "message1": " waits.",
+            "message2": ""
+        },
+        {
+            "name": "Heal",
+            "description": "",
+            "message1": " casts %1!",
+            "message2": ""
+        },
+        {
+            "name": "Fire",
+            "description": "",
+            "message1": " casts %1!",
+            "message2": ""
+        },
+        {
+            "name": "Action potential",
+            "description": "Powerful electric charge that can stun enemies",
+            "message1": " casts %1!",
+            "message2": ""
+        },
+        {
+            "name": "Neurotransmitter barrage",
+            "description": "Rapid-fire attack that uses different neurotransmitters to confuse enemies",
+            "message1": " casts %1!",
+            "message2": ""
+        },
+        {
+            "name": "Dendritic strike",
+            "description": "Precise attack that targets an enemy's weak point,\ndealing extra damage",
+            "message1": " a precise strike!",
+            "message2": ""
+        },
+        {
+            "name": "Neural network",
+            "description": "Creates a protective network of connections with the \nneuron's companions, increasing allies's defense",
+            "message1": " casts %1!",
+            "message2": ""
+        },
+        {
+            "name": "Plasticity boost",
+            "description": "Increases the neuron's ability to form new connections\nimproving the effectiveness of all attacks",
+            "message1": " casts %1!",
+            "message2": ""
+        },
+        {
+            "name": "Phagocytosis",
+            "description": "Engulfs and digests enemy cells",
+            "message1": "",
+            "message2": ""
+        },
+        {
+            "name": "Pro-inflammatory burst",
+            "description": "Releases reactive oxygen species and other \ninflammatory molecules to damage multiple enemies",
+            "message1": " casts %1!",
+            "message2": ""
+        },
+        {
+            "name": "Growth factor boost",
+            "description": "Stimulates neuron growth and repair",
+            "message1": " casts %1!",
+            "message2": ""
+        },
+        {
+            "name": "Synaptic pruning",
+            "description": "Removes weak or unnecessary synapses to improve neural\nefficiency and speed up processing (extra XP)",
+            "message1": " casts %1!",
+            "message2": ""
+        },
+        {
+            "name": "Adaptive immunity",
+            "description": "Enhances the microglia's immune function, making it \nmore resistant to enemy attacks",
+            "message1": " casts %1!",
+            "message2": ""
+        },
+        {
+            "name": "Myelinate",
+            "description": "Creates new myelin sheaths around nearby axons, \nincreasing their speed and defense",
+            "message1": " casts %1!",
+            "message2": ""
+        },
+        {
+            "name": "Demyelinate",
+            "description": "Breaks down myelin sheaths around nearby axons, \nmaking them more vulnerable to damage and slower",
+            "message1": " casts %1!",
+            "message2": ""
+        },
+        {
+            "name": "Neurotrophic support",
+            "description": "Secretes neurotrophic factors, which are molecules \nthat can promote the survival of nearby neurons",
+            "message1": " casts %1!",
+            "message2": ""
+        },
+        {
+            "name": "Neurotransmitter",
+            "description": "Make the nearby neurons able to produce another action",
+            "message1": " casts %1!",
+            "message2": ""
+        },
+        {
+            "name": "Ice",
+            "description": "",
+            "message1": " casts %1!",
+            "message2": ""
+        },
+        {
+            "name": "Instant death",
+            "description": "",
+            "message1": " does a fatal blow!",
+            "message2": ""
+        }
+    ],
+    "states": [
+        {
+            "name": "Knockout",
+            "message1": " has fallen!",
+            "message2": " is slain!",
+            "message3": "",
+            "message4": " revives!"
+        },
+        {
+            "name": "Guard",
+            "description": "",
+            "message1": "",
+            "message2": "",
+            "message3": "",
+            "message4": ""
+        },
+        {
+            "name": "Immortal",
+            "description": "",
+            "message1": "",
+            "message2": "",
+            "message3": "",
+            "message4": ""
+        },
+        {
+            "name": "Poison",
+            "message1": " is poisoned!",
+            "message2": " is poisoned!",
+            "message3": "",
+            "message4": " is no longer poisoned!"
+        },
+        {
+            "name": "Blind",
+            "message1": " is blinded!",
+            "message2": " is blinded!",
+            "message3": "",
+            "message4": " is no longer blinded!"
+        },
+        {
+            "name": "Silence",
+            "message1": " is silenced!",
+            "message2": " is silenced!",
+            "message3": "",
+            "message4": " is no longer silenced!"
+        },
+        {
+            "name": "Rage",
+            "message1": " is enraged!",
+            "message2": " is enraged!",
+            "message3": "",
+            "message4": " is no longer enraged!"
+        },
+        {
+            "name": "Confusion",
+            "message1": " is confused!",
+            "message2": " is confused!",
+            "message3": "",
+            "message4": " is no longer confused!"
+        },
+        {
+            "name": "Fascination",
+            "message1": " is fascinated!",
+            "message2": " is fascinated!",
+            "message3": "",
+            "message4": " is no longer fascinated!"
+        },
+        {
+            "name": "Sleep",
+            "message1": " falls asleep!",
+            "message2": " falls asleep!",
+            "message3": " is sleeping.",
+            "message4": " wakes up!"
+        },
+        {
+            "name": "Stuned",
+            "message1": " is stuned!",
+            "message2": " is stuned!",
+            "message3": "",
+            "message4": " is no longer stuned!"
+        },
+        {
+            "name": "Improved attacks",
+            "message1": " has improved attacks!",
+            "message2": " has improved attacks!",
+            "message3": "",
+            "message4": " hit normally again..."
+        },
+        {
+            "name": "Burn",
+            "message1": " is burning!",
+            "message2": " is burning!",
+            "message3": "",
+            "message4": " stopped burning!"
+        },
+        {
+            "name": "Xp up",
+            "message1": " now gain double XP!",
+            "message2": "",
+            "message3": "",
+            "message4": " no longer gain extra xp..."
+        },
+        {
+            "name": "Actions+",
+            "message1": " will be able to attack twice!",
+            "message2": " will be able to attack twice!",
+            "message3": "",
+            "message4": ""
+        },
+        {
+            "name": "Speed+",
+            "message1": " will attack faster!",
+            "message2": " will attack faster!",
+            "message3": "",
+            "message4": " will no longer attack faster..."
+        },
+        {
+            "name": "Speed-",
+            "message1": " is slowed down!",
+            "message2": " is slowed down!",
+            "message3": "",
+            "message4": " is no longer slowed!"
+        },
+        {
+            "name": "",
+            "message1": "",
+            "message2": "",
+            "message3": "",
+            "message4": ""
+        },
+        {
+            "name": "",
+            "message1": "",
+            "message2": "",
+            "message3": "",
+            "message4": ""
+        },
+        {
+            "name": "High crit",
+            "message1": "",
+            "message2": "",
+            "message3": "",
+            "message4": ""
+        }
+    ],
+    "troops": [
+        {
+            "name": "Alcohol molecule*2",
+            "pages": [
+                []
+            ]
+        },
+        {
+            "name": "Slime*2",
+            "pages": [
+                []
+            ]
+        },
+        {
+            "name": "Parkinson's minion",
+            "pages": [
+                []
+            ]
+        },
+        {
+            "name": "Parkinson's disease",
+            "pages": [
+                []
+            ]
+        },
+        {
+            "name": "Slime*4",
+            "pages": [
+                []
+            ]
+        },
+        {
+            "name": "Slime",
+            "pages": [
+                []
+            ]
+        },
+        {
+            "name": "Slime*3",
+            "pages": [
+                []
+            ]
+        },
+        {
+            "name": "Parkinson's minion*2",
+            "pages": [
+                []
+            ]
+        },
+        {
+            "name": "Alcohol molecule*3",
+            "pages": [
+                []
+            ]
+        },
+        {
+            "name": "Hot element",
+            "pages": [
+                []
+            ]
+        },
+        {
+            "name": "Hot element*2",
+            "pages": [
+                []
+            ]
+        },
+        {
+            "name": "Cold element",
+            "pages": [
+                []
+            ]
+        },
+        {
+            "name": "Cold element*2",
+            "pages": [
+                []
+            ]
+        },
+        {
+            "name": "Parasit*5",
+            "pages": [
+                []
+            ]
+        },
+        {
+            "name": "Parasit*8",
+            "pages": [
+                []
+            ]
+        },
+        {
+            "name": "Memory lost",
+            "pages": [
+                []
+            ]
+        },
+        {
+            "name": "Memory lost*2",
+            "pages": [
+                []
+            ]
+        },
+        {
+            "name": "",
+            "pages": [
+                []
+            ]
+        },
+        {
+            "name": "",
+            "pages": [
+                []
+            ]
+        },
+        {
+            "name": "",
+            "pages": [
+                []
+            ]
+        }
+    ],
+    "weapons": [
+        {
+            "name": "Sword",
+            "description": ""
+        },
+        {
+            "name": "Axe",
+            "description": ""
+        },
+        {
+            "name": "Cane",
+            "description": ""
+        },
+        {
+            "name": "Bow",
+            "description": ""
+        }
+    ],
+    "map_data": {
+        "MAP001": [
+            {
+                "event": 1,
+                "page": 0,
+                "index": 10,
+                "parameters": [
+                    "Potion was found!"
+                ]
+            },
+            {
+                "event": 3,
+                "page": 1,
+                "index": 1,
+                "parameters": [
+                    "Thank you for saving this village."
+                ]
+            }
+        ],
+        "MAP002": [
+            {
+                "event": 10,
+                "page": 0,
+                "index": 1,
+                "parameters": [
+                    "I am praying for nothing bad to happen to the brain."
+                ]
+            },
+            {
+                "event": 12,
+                "page": 0,
+                "index": 1,
+                "parameters": [
+                    "The cerebellum contains more neurons than any other "
+                ]
+            },
+            {
+                "event": 12,
+                "page": 0,
+                "index": 2,
+                "parameters": [
+                    "part of the brain, despite its small size. "
+                ]
+            },
+            {
+                "event": 12,
+                "page": 0,
+                "index": 4,
+                "parameters": [
+                    "Isn't it amazing how much functionality can be packed "
+                ]
+            },
+            {
+                "event": 12,
+                "page": 0,
+                "index": 5,
+                "parameters": [
+                    "into such a tiny structure?"
+                ]
+            },
+            {
+                "event": 13,
+                "page": 0,
+                "index": 1,
+                "parameters": [
+                    "The cerebellum is particularly susceptible to "
+                ]
+            },
+            {
+                "event": 13,
+                "page": 0,
+                "index": 2,
+                "parameters": [
+                    "alcohol-related damage, which can cause a range of "
+                ]
+            },
+            {
+                "event": 13,
+                "page": 0,
+                "index": 3,
+                "parameters": [
+                    "motor and cognitive impairments. "
+                ]
+            },
+            {
+                "event": 13,
+                "page": 0,
+                "index": 5,
+                "parameters": [
+                    "Stay sober as you journey through this castle!"
+                ]
+            }
+        ],
+        "MAP003": [],
+        "MAP004": [],
+        "MAP005": [],
+        "MAP006": [],
+        "MAP007": [
+            {
+                "event": 4,
+                "page": 0,
+                "index": 1,
+                "parameters": [
+                    "Ah, another neuron wandering into my majestic domain. "
+                ]
+            },
+            {
+                "event": 4,
+                "page": 0,
+                "index": 2,
+                "parameters": [
+                    "What business do you have with myself, King Purkinje,"
+                ]
+            },
+            {
+                "event": 4,
+                "page": 0,
+                "index": 3,
+                "parameters": [
+                    "the ruler of the Cerebellum?"
+                ]
+            },
+            {
+                "event": 4,
+                "page": 0,
+                "index": 5,
+                "parameters": [
+                    "\\P[1]: Hum hello King Purkinje, "
+                ]
+            },
+            {
+                "event": 4,
+                "page": 0,
+                "index": 6,
+                "parameters": [
+                    "I am visiting every part of the brain,"
+                ]
+            },
+            {
+                "event": 4,
+                "page": 0,
+                "index": 7,
+                "parameters": [
+                    "and thought I would come visit the"
+                ]
+            },
+            {
+                "event": 4,
+                "page": 0,
+                "index": 8,
+                "parameters": [
+                    "Cerebellum first."
+                ]
+            },
+            {
+                "event": 4,
+                "page": 0,
+                "index": 10,
+                "parameters": [
+                    "King Purkinje: (Reluctantly) Very well, listen closely, "
+                ]
+            },
+            {
+                "event": 4,
+                "page": 0,
+                "index": 11,
+                "parameters": [
+                    "insignificant neuron. "
+                ]
+            },
+            {
+                "event": 4,
+                "page": 0,
+                "index": 12,
+                "parameters": [
+                    ""
+                ]
+            },
+            {
+                "event": 4,
+                "page": 0,
+                "index": 13,
+                "parameters": [
+                    ""
+                ]
+            },
+            {
+                "event": 4,
+                "page": 0,
+                "index": 15,
+                "parameters": [
+                    "Rumors whisper of a malevolent force growing within "
+                ]
+            },
+            {
+                "event": 4,
+                "page": 0,
+                "index": 16,
+                "parameters": [
+                    "the basal ganglia. It threatens the delicate balance "
+                ]
+            },
+            {
+                "event": 4,
+                "page": 0,
+                "index": 17,
+                "parameters": [
+                    "and harmony of our interconnected systems. "
+                ]
+            },
+            {
+                "event": 4,
+                "page": 0,
+                "index": 18,
+                "parameters": [
+                    ""
+                ]
+            },
+            {
+                "event": 4,
+                "page": 0,
+                "index": 20,
+                "parameters": [
+                    "If it were to spread, chaos would reign over our once "
+                ]
+            },
+            {
+                "event": 4,
+                "page": 0,
+                "index": 21,
+                "parameters": [
+                    "well-orchestrated movements."
+                ]
+            },
+            {
+                "event": 4,
+                "page": 0,
+                "index": 23,
+                "parameters": [
+                    "\\P[1]: Thank you, Your Highness, for sharing this "
+                ]
+            },
+            {
+                "event": 4,
+                "page": 0,
+                "index": 24,
+                "parameters": [
+                    "crucial information. Together, we must vanquish this "
+                ]
+            },
+            {
+                "event": 4,
+                "page": 0,
+                "index": 25,
+                "parameters": [
+                    "encroaching darkness and restore order to the brain."
+                ]
+            },
+            {
+                "event": 4,
+                "page": 0,
+                "index": 27,
+                "parameters": [
+                    "King Purkinje: (Grudgingly) Yes, yes, do what you must. "
+                ]
+            },
+            {
+                "event": 4,
+                "page": 0,
+                "index": 28,
+                "parameters": [
+                    "Just remember your place, little neuron. "
+                ]
+            },
+            {
+                "event": 4,
+                "page": 0,
+                "index": 29,
+                "parameters": [
+                    ""
+                ]
+            },
+            {
+                "event": 4,
+                "page": 0,
+                "index": 30,
+                "parameters": [
+                    ""
+                ]
+            },
+            {
+                "event": 4,
+                "page": 0,
+                "index": 32,
+                "parameters": [
+                    "The Cerebellum shall continue to rule with poise "
+                ]
+            },
+            {
+                "event": 4,
+                "page": 0,
+                "index": 33,
+                "parameters": [
+                    "and precision while you scurry along in your "
+                ]
+            },
+            {
+                "event": 4,
+                "page": 0,
+                "index": 34,
+                "parameters": [
+                    "simplistic ways."
+                ]
+            },
+            {
+                "event": 4,
+                "page": 0,
+                "index": 36,
+                "parameters": [
+                    "I suggest you go to"
+                ]
+            },
+            {
+                "event": 4,
+                "page": 0,
+                "index": 37,
+                "parameters": [
+                    "see what is going on in the basal ganglia."
+                ]
+            },
+            {
+                "event": 4,
+                "page": 0,
+                "index": 38,
+                "parameters": [
+                    "To do so you will head North and pass the swamp, "
+                ]
+            },
+            {
+                "event": 4,
+                "page": 0,
+                "index": 39,
+                "parameters": [
+                    "the forest, and the cortices."
+                ]
+            },
+            {
+                "event": 4,
+                "page": 0,
+                "index": 41,
+                "parameters": [
+                    "If you don't know what that means peasant, cortices"
+                ]
+            },
+            {
+                "event": 4,
+                "page": 0,
+                "index": 42,
+                "parameters": [
+                    "is the plural for cortex."
+                ]
+            },
+            {
+                "event": 4,
+                "page": 0,
+                "index": 43,
+                "parameters": [
+                    "I guess they don't learn that in the Brainstem..."
+                ]
+            },
+            {
+                "event": 4,
+                "page": 0,
+                "index": 45,
+                "parameters": [
+                    "\\P[1]: I shall prove the worth of neurons, "
+                ]
+            },
+            {
+                "event": 4,
+                "page": 0,
+                "index": 46,
+                "parameters": [
+                    "even to a lofty ruler like yourself. "
+                ]
+            },
+            {
+                "event": 4,
+                "page": 0,
+                "index": 47,
+                "parameters": [
+                    "The fate of the entire brain depends on our unity and "
+                ]
+            },
+            {
+                "event": 4,
+                "page": 0,
+                "index": 48,
+                "parameters": [
+                    "resilience."
+                ]
+            },
+            {
+                "event": 4,
+                "page": 1,
+                "index": 1,
+                "parameters": [
+                    "Good luck with your mission!"
+                ]
+            },
+            {
+                "event": 5,
+                "page": 0,
+                "index": 1,
+                "parameters": [
+                    "This way please."
+                ]
+            },
+            {
+                "event": 6,
+                "page": 0,
+                "index": 1,
+                "parameters": [
+                    "Our King is right to worry."
+                ]
+            },
+            {
+                "event": 6,
+                "page": 0,
+                "index": 2,
+                "parameters": [
+                    "I've been getting a lot of signals from the basal "
+                ]
+            },
+            {
+                "event": 6,
+                "page": 0,
+                "index": 3,
+                "parameters": [
+                    "ganglia lately, and they don't look good... "
+                ]
+            },
+            {
+                "event": 6,
+                "page": 0,
+                "index": 5,
+                "parameters": [
+                    "There's been an increase in inflammation and the "
+                ]
+            },
+            {
+                "event": 6,
+                "page": 0,
+                "index": 6,
+                "parameters": [
+                    "accumulation of misfolded proteins. If this continues, "
+                ]
+            },
+            {
+                "event": 6,
+                "page": 0,
+                "index": 7,
+                "parameters": [
+                    "it could lead to some serious degeneration and "
+                ]
+            },
+            {
+                "event": 6,
+                "page": 0,
+                "index": 8,
+                "parameters": [
+                    "dysfunction."
+                ]
+            },
+            {
+                "event": 11,
+                "page": 0,
+                "index": 1,
+                "parameters": [
+                    "Show respect to King Purkinje!"
+                ]
+            },
+            {
+                "event": 13,
+                "page": 0,
+                "index": 1,
+                "parameters": [
+                    "King Purkinje's quarters are not open for the public."
+                ]
+            },
+            {
+                "event": 13,
+                "page": 0,
+                "index": 2,
+                "parameters": [
+                    "Get out of here!"
+                ]
+            },
+            {
+                "event": 14,
+                "page": 1,
+                "index": 1,
+                "parameters": [
+                    "Show respect to King Purkinje!"
+                ]
+            },
+            {
+                "event": 15,
+                "page": 0,
+                "index": 1,
+                "parameters": [
+                    "As a neuron in the cerebellum, my job is to transmit "
+                ]
+            },
+            {
+                "event": 15,
+                "page": 0,
+                "index": 2,
+                "parameters": [
+                    "information about movement and coordination. "
+                ]
+            },
+            {
+                "event": 15,
+                "page": 0,
+                "index": 4,
+                "parameters": [
+                    "But I don't forget about the importance of receiving "
+                ]
+            },
+            {
+                "event": 15,
+                "page": 0,
+                "index": 5,
+                "parameters": [
+                    "information, too - the cerebellum is constantly "
+                ]
+            },
+            {
+                "event": 15,
+                "page": 0,
+                "index": 6,
+                "parameters": [
+                    "receiving input from other parts of the brain and body."
+                ]
+            }
+        ],
+        "MAP008": [
+            {
+                "event": 1,
+                "page": 0,
+                "index": 2,
+                "parameters": [
+                    "Welcome to Neuro-Quest!"
+                ]
+            },
+            {
+                "event": 1,
+                "page": 0,
+                "index": 3,
+                "parameters": [
+                    "A game where you are a neuron inside the amazing"
+                ]
+            },
+            {
+                "event": 1,
+                "page": 0,
+                "index": 4,
+                "parameters": [
+                    "world that is the Brain. "
+                ]
+            },
+            {
+                "event": 1,
+                "page": 0,
+                "index": 6,
+                "parameters": [
+                    "During your quest, you will embark on a remarkable "
+                ]
+            },
+            {
+                "event": 1,
+                "page": 0,
+                "index": 7,
+                "parameters": [
+                    "journey deep within the intricate realm of the human "
+                ]
+            },
+            {
+                "event": 1,
+                "page": 0,
+                "index": 8,
+                "parameters": [
+                    "brain. "
+                ]
+            },
+            {
+                "event": 1,
+                "page": 0,
+                "index": 9,
+                "parameters": [
+                    ""
+                ]
+            },
+            {
+                "event": 1,
+                "page": 0,
+                "index": 11,
+                "parameters": [
+                    "Prepare to explore the vast expanse of neurons, "
+                ]
+            },
+            {
+                "event": 1,
+                "page": 0,
+                "index": 12,
+                "parameters": [
+                    "synapses, and neural circuits that shape our thoughts, "
+                ]
+            },
+            {
+                "event": 1,
+                "page": 0,
+                "index": 13,
+                "parameters": [
+                    "emotions, and actions."
+                ]
+            },
+            {
+                "event": 1,
+                "page": 0,
+                "index": 15,
+                "parameters": [
+                    "To begin with, please choose a name:"
+                ]
+            },
+            {
+                "event": 1,
+                "page": 0,
+                "index": 19,
+                "parameters": [
+                    "You are ready to start your adventure. Good luck!"
+                ]
+            }
+        ],
+        "MAP009": [],
+        "MAP010": [],
+        "MAP011": [],
+        "MAP012": [],
+        "MAP013": [],
+        "MAP014": [
+            {
+                "event": 2,
+                "page": 0,
+                "index": 10,
+                "parameters": [
+                    "10000\\G were found!"
+                ]
+            },
+            {
+                "event": 9,
+                "page": 0,
+                "index": 7,
+                "parameters": [
+                    "Please I am begging you... \\|"
+                ]
+            },
+            {
+                "event": 9,
+                "page": 0,
+                "index": 8,
+                "parameters": [
+                    "Let us go! \\!"
+                ]
+            },
+            {
+                "event": 9,
+                "page": 0,
+                "index": 9,
+                "parameters": [
+                    "We haven't done anything wrong."
+                ]
+            },
+            {
+                "event": 9,
+                "page": 0,
+                "index": 16,
+                "parameters": [
+                    "SILENCE! \\!"
+                ]
+            },
+            {
+                "event": 9,
+                "page": 0,
+                "index": 17,
+                "parameters": [
+                    "Be grateful that my master is letting you live a"
+                ]
+            },
+            {
+                "event": 9,
+                "page": 0,
+                "index": 18,
+                "parameters": [
+                    "little longer by capturing you. \\|"
+                ]
+            },
+            {
+                "event": 9,
+                "page": 0,
+                "index": 20,
+                "parameters": [
+                    "You will slowly turn mad and degenerate... \\!"
+                ]
+            },
+            {
+                "event": 9,
+                "page": 0,
+                "index": 21,
+                "parameters": [
+                    "I can't wait to see it! \\. MWHAHAHA!"
+                ]
+            },
+            {
+                "event": 9,
+                "page": 0,
+                "index": 28,
+                "parameters": [
+                    "Someone please help us... \\!"
+                ]
+            }
+        ],
+        "MAP015": [],
+        "MAP016": [],
+        "MAP017": [
+            {
+                "event": 1,
+                "page": 0,
+                "index": 2,
+                "parameters": [
+                    "Please help us! We are getting infected!"
+                ]
+            },
+            {
+                "event": 1,
+                "page": 0,
+                "index": 4,
+                "parameters": [
+                    "We do not have any Microglia cells here so we have"
+                ]
+            },
+            {
+                "event": 1,
+                "page": 0,
+                "index": 5,
+                "parameters": [
+                    "no way to protect ourselves.\\!"
+                ]
+            },
+            {
+                "event": 1,
+                "page": 0,
+                "index": 6,
+                "parameters": [
+                    "I am begging you please help us by killing the "
+                ]
+            },
+            {
+                "event": 1,
+                "page": 0,
+                "index": 7,
+                "parameters": [
+                    "pathogens!"
+                ]
+            },
+            {
+                "event": 1,
+                "page": 1,
+                "index": 1,
+                "parameters": [
+                    "Thank you from behalf of all. Pathogens are very "
+                ]
+            },
+            {
+                "event": 1,
+                "page": 1,
+                "index": 2,
+                "parameters": [
+                    "dangerous. Having a microglia around would sure help."
+                ]
+            },
+            {
+                "event": 1,
+                "page": 1,
+                "index": 3,
+                "parameters": [
+                    "I hear there is one that lives North from here."
+                ]
+            },
+            {
+                "event": 1,
+                "page": 1,
+                "index": 4,
+                "parameters": [
+                    "Maybe he would be willing to travel with you?"
+                ]
+            },
+            {
+                "event": 2,
+                "page": 0,
+                "index": 1,
+                "parameters": [
+                    "Help! Help! I'm being attacked by a pathogen! "
+                ]
+            },
+            {
+                "event": 2,
+                "page": 0,
+                "index": 2,
+                "parameters": [
+                    "Please, you have to help me!"
+                ]
+            },
+            {
+                "event": 2,
+                "page": 1,
+                "index": 1,
+                "parameters": [
+                    "Thank you so much for saving me! I was so scared that "
+                ]
+            },
+            {
+                "event": 2,
+                "page": 1,
+                "index": 2,
+                "parameters": [
+                    "I was going to die."
+                ]
+            },
+            {
+                "event": 2,
+                "page": 1,
+                "index": 4,
+                "parameters": [
+                    "It must have been rough for you since neurons are not"
+                ]
+            },
+            {
+                "event": 2,
+                "page": 1,
+                "index": 5,
+                "parameters": [
+                    "made to fight pathogens."
+                ]
+            },
+            {
+                "event": 2,
+                "page": 1,
+                "index": 7,
+                "parameters": [
+                    "Don't hesistate to go to the Inn to rest if you need "
+                ]
+            },
+            {
+                "event": 2,
+                "page": 1,
+                "index": 8,
+                "parameters": [
+                    "to."
+                ]
+            },
+            {
+                "event": 3,
+                "page": 0,
+                "index": 1,
+                "parameters": [
+                    "Oh look, it's my favorite host. You're like a walking "
+                ]
+            },
+            {
+                "event": 3,
+                "page": 0,
+                "index": 2,
+                "parameters": [
+                    "buffet for me. I can't wait to dig in."
+                ]
+            },
+            {
+                "event": 4,
+                "page": 0,
+                "index": 1,
+                "parameters": [
+                    "Oh look, it's my favorite host. You're like a walking "
+                ]
+            },
+            {
+                "event": 4,
+                "page": 0,
+                "index": 2,
+                "parameters": [
+                    "buffet for me. I can't wait to dig in."
+                ]
+            },
+            {
+                "event": 17,
+                "page": 0,
+                "index": 1,
+                "parameters": [
+                    "You're my hero! I can't believe you were able to "
+                ]
+            },
+            {
+                "event": 17,
+                "page": 0,
+                "index": 2,
+                "parameters": [
+                    "defeat those pathogens and save my life."
+                ]
+            },
+            {
+                "event": 18,
+                "page": 0,
+                "index": 1,
+                "parameters": [
+                    "I hope you don't mind if I make myself at home. "
+                ]
+            },
+            {
+                "event": 18,
+                "page": 0,
+                "index": 2,
+                "parameters": [
+                    "I promise to be a polite guest..."
+                ]
+            },
+            {
+                "event": 18,
+                "page": 0,
+                "index": 3,
+                "parameters": [
+                    "Until I start destroying everything."
+                ]
+            },
+            {
+                "event": 19,
+                "page": 0,
+                "index": 1,
+                "parameters": [
+                    "I hope you don't mind if I make myself at home. "
+                ]
+            },
+            {
+                "event": 19,
+                "page": 0,
+                "index": 2,
+                "parameters": [
+                    "I promise to be a polite guest..."
+                ]
+            },
+            {
+                "event": 19,
+                "page": 0,
+                "index": 3,
+                "parameters": [
+                    "Until I start destroying everything."
+                ]
+            },
+            {
+                "event": 20,
+                "page": 0,
+                "index": 1,
+                "parameters": [
+                    "I hope you don't mind if I make myself at home. "
+                ]
+            },
+            {
+                "event": 20,
+                "page": 0,
+                "index": 2,
+                "parameters": [
+                    "I promise to be a polite guest..."
+                ]
+            },
+            {
+                "event": 20,
+                "page": 0,
+                "index": 3,
+                "parameters": [
+                    "Until I start destroying everything."
+                ]
+            },
+            {
+                "event": 21,
+                "page": 0,
+                "index": 1,
+                "parameters": [
+                    "I hope you don't mind if I make myself at home. "
+                ]
+            },
+            {
+                "event": 21,
+                "page": 0,
+                "index": 2,
+                "parameters": [
+                    "I promise to be a polite guest..."
+                ]
+            },
+            {
+                "event": 21,
+                "page": 0,
+                "index": 3,
+                "parameters": [
+                    "Until I start destroying everything."
+                ]
+            },
+            {
+                "event": 22,
+                "page": 0,
+                "index": 10,
+                "parameters": [
+                    "Potion was found!"
+                ]
+            }
+        ],
+        "MAP018": [
+            {
+                "event": 3,
+                "page": 0,
+                "index": 20,
+                "parameters": [
+                    "It is boring here."
+                ]
+            },
+            {
+                "event": 3,
+                "page": 0,
+                "index": 21,
+                "parameters": [
+                    "I want to go explore the world!"
+                ]
+            },
+            {
+                "event": 4,
+                "page": 0,
+                "index": 1,
+                "parameters": [
+                    "Would you like to sleep?"
+                ]
+            },
+            {
+                "event": 4,
+                "page": 0,
+                "index": 2,
+                "parameters": [
+                    [
+                        "Yes",
+                        "No"
+                    ],
+                    1,
+                    0,
+                    2,
+                    0
+                ]
+            },
+            {
+                "event": 5,
+                "page": 0,
+                "index": 1,
+                "parameters": [
+                    "Would you like to sleep?"
+                ]
+            },
+            {
+                "event": 5,
+                "page": 0,
+                "index": 2,
+                "parameters": [
+                    [
+                        "Yes",
+                        "No"
+                    ],
+                    1,
+                    0,
+                    2,
+                    0
+                ]
+            },
+            {
+                "event": 6,
+                "page": 0,
+                "index": 10,
+                "parameters": [
+                    "10\\G were found!"
+                ]
+            }
+        ],
+        "MAP019": [
+            {
+                "event": 6,
+                "page": 0,
+                "index": 1,
+                "parameters": [
+                    "As you can see the brain is funky."
+                ]
+            },
+            {
+                "event": 6,
+                "page": 0,
+                "index": 2,
+                "parameters": [
+                    "We are currently in the Brainstem, the lowest part "
+                ]
+            },
+            {
+                "event": 6,
+                "page": 0,
+                "index": 3,
+                "parameters": [
+                    "of the brain when you stand up."
+                ]
+            },
+            {
+                "event": 6,
+                "page": 0,
+                "index": 4,
+                "parameters": [
+                    ""
+                ]
+            },
+            {
+                "event": 6,
+                "page": 0,
+                "index": 6,
+                "parameters": [
+                    "There are two major cell types here:"
+                ]
+            },
+            {
+                "event": 6,
+                "page": 0,
+                "index": 7,
+                "parameters": [
+                    "1) Neurons, just like you and me, and 2) Glial cells."
+                ]
+            },
+            {
+                "event": 6,
+                "page": 0,
+                "index": 9,
+                "parameters": [
+                    "Us neurons we generate electrical and chemical signals,"
+                ]
+            },
+            {
+                "event": 6,
+                "page": 0,
+                "index": 10,
+                "parameters": [
+                    "and send them to different parts of the brain to give"
+                ]
+            },
+            {
+                "event": 6,
+                "page": 0,
+                "index": 11,
+                "parameters": [
+                    "out information."
+                ]
+            },
+            {
+                "event": 10,
+                "page": 0,
+                "index": 1,
+                "parameters": [
+                    "Hey \\P[1]! \\.How are you? \\|"
+                ]
+            },
+            {
+                "event": 10,
+                "page": 0,
+                "index": 3,
+                "parameters": [
+                    "The village chief said that she wanted to talk to you."
+                ]
+            },
+            {
+                "event": 10,
+                "page": 0,
+                "index": 4,
+                "parameters": [
+                    "\\|You should go see her!"
+                ]
+            },
+            {
+                "event": 10,
+                "page": 0,
+                "index": 7,
+                "parameters": [
+                    "What do you mean what am I?"
+                ]
+            },
+            {
+                "event": 10,
+                "page": 0,
+                "index": 8,
+                "parameters": [
+                    "I am a Microglia! A type of glial cell."
+                ]
+            },
+            {
+                "event": 11,
+                "page": 0,
+                "index": 1,
+                "parameters": [
+                    "I am an oligodendrocyte."
+                ]
+            },
+            {
+                "event": 11,
+                "page": 0,
+                "index": 3,
+                "parameters": [
+                    "I take great pride in my ability to produce myelin "
+                ]
+            },
+            {
+                "event": 11,
+                "page": 0,
+                "index": 4,
+                "parameters": [
+                    "- the fatty substance that wraps around axons to "
+                ]
+            },
+            {
+                "event": 11,
+                "page": 0,
+                "index": 5,
+                "parameters": [
+                    "increase the speed of neural signaling. "
+                ]
+            },
+            {
+                "event": 11,
+                "page": 0,
+                "index": 7,
+                "parameters": [
+                    "It's hard work, but it's all worth it when I see the "
+                ]
+            },
+            {
+                "event": 11,
+                "page": 0,
+                "index": 8,
+                "parameters": [
+                    "signals flying through the brain at lightning speed!"
+                ]
+            },
+            {
+                "event": 12,
+                "page": 0,
+                "index": 1,
+                "parameters": [
+                    "\"Welcome to the Brainstem.\\!"
+                ]
+            },
+            {
+                "event": 12,
+                "page": 0,
+                "index": 2,
+                "parameters": [
+                    "This place is responsible for many vital functions "
+                ]
+            },
+            {
+                "event": 12,
+                "page": 0,
+                "index": 3,
+                "parameters": [
+                    "of life, such as breathing, consciousness, "
+                ]
+            },
+            {
+                "event": 12,
+                "page": 0,
+                "index": 4,
+                "parameters": [
+                    "blood pressure, heart rate, and sleep.\""
+                ]
+            },
+            {
+                "event": 13,
+                "page": 0,
+                "index": 10,
+                "parameters": [
+                    "10\\G were found!"
+                ]
+            },
+            {
+                "event": 14,
+                "page": 0,
+                "index": 1,
+                "parameters": [
+                    "I have to stay in shape because as a Microglia, "
+                ]
+            },
+            {
+                "event": 14,
+                "page": 0,
+                "index": 2,
+                "parameters": [
+                    "my job is to protect the brain from harmful invaders "
+                ]
+            },
+            {
+                "event": 14,
+                "page": 0,
+                "index": 3,
+                "parameters": [
+                    "like viruses and toxins. "
+                ]
+            },
+            {
+                "event": 14,
+                "page": 0,
+                "index": 5,
+                "parameters": [
+                    "It's exhausting work, and sometimes I wish I could "
+                ]
+            },
+            {
+                "event": 14,
+                "page": 0,
+                "index": 6,
+                "parameters": [
+                    "just take a break and relax for a while. "
+                ]
+            },
+            {
+                "event": 14,
+                "page": 0,
+                "index": 8,
+                "parameters": [
+                    "But I know that my duty is important, and I won't rest "
+                ]
+            },
+            {
+                "event": 14,
+                "page": 0,
+                "index": 9,
+                "parameters": [
+                    "until the brain is safe and healthy."
+                ]
+            },
+            {
+                "event": 15,
+                "page": 0,
+                "index": 1,
+                "parameters": [
+                    "Hey \\P[1]! The village chief said that she wanted to"
+                ]
+            },
+            {
+                "event": 15,
+                "page": 0,
+                "index": 2,
+                "parameters": [
+                    "see you. Before leaving the Brainstem you should go "
+                ]
+            },
+            {
+                "event": 15,
+                "page": 0,
+                "index": 3,
+                "parameters": [
+                    "see her!"
+                ]
+            },
+            {
+                "event": 15,
+                "page": 0,
+                "index": 4,
+                "parameters": [
+                    "Her house is north from here."
+                ]
+            },
+            {
+                "event": 16,
+                "page": 0,
+                "index": 1,
+                "parameters": [
+                    "The brain is a complex and fascinating organ, with many "
+                ]
+            },
+            {
+                "event": 16,
+                "page": 0,
+                "index": 2,
+                "parameters": [
+                    "mysteries still waiting to be uncovered."
+                ]
+            },
+            {
+                "event": 16,
+                "page": 0,
+                "index": 4,
+                "parameters": [
+                    "As you journey through the different regions and "
+                ]
+            },
+            {
+                "event": 16,
+                "page": 0,
+                "index": 5,
+                "parameters": [
+                    "pathways, keep an open mind and be ready for new "
+                ]
+            },
+            {
+                "event": 16,
+                "page": 0,
+                "index": 6,
+                "parameters": [
+                    "discoveries."
+                ]
+            },
+            {
+                "event": 17,
+                "page": 0,
+                "index": 1,
+                "parameters": [
+                    "Did you know that the brain is the most complex organ "
+                ]
+            },
+            {
+                "event": 17,
+                "page": 0,
+                "index": 2,
+                "parameters": [
+                    "in the human body, with over 100 billion neurons and "
+                ]
+            },
+            {
+                "event": 17,
+                "page": 0,
+                "index": 3,
+                "parameters": [
+                    "trillions of connections between them?"
+                ]
+            },
+            {
+                "event": 17,
+                "page": 0,
+                "index": 4,
+                "parameters": [
+                    [
+                        "Yes",
+                        "No"
+                    ],
+                    1,
+                    0,
+                    2,
+                    0
+                ]
+            },
+            {
+                "event": 17,
+                "page": 0,
+                "index": 7,
+                "parameters": [
+                    "It's amazing don't you think?"
+                ]
+            },
+            {
+                "event": 17,
+                "page": 0,
+                "index": 11,
+                "parameters": [
+                    "That's okay! You are also here to learn right?"
+                ]
+            },
+            {
+                "event": 17,
+                "page": 0,
+                "index": 15,
+                "parameters": [
+                    "It's a reminder of the amazing capacity of the brain "
+                ]
+            },
+            {
+                "event": 17,
+                "page": 0,
+                "index": 16,
+                "parameters": [
+                    "to process information and regulate bodily functions."
+                ]
+            },
+            {
+                "event": 18,
+                "page": 0,
+                "index": 1,
+                "parameters": [
+                    "The item shop is a great place to gear up if you"
+                ]
+            },
+            {
+                "event": 18,
+                "page": 0,
+                "index": 2,
+                "parameters": [
+                    "have the funds."
+                ]
+            },
+            {
+                "event": 20,
+                "page": 0,
+                "index": 1,
+                "parameters": [
+                    "Hey \\P[1]! You are looking for the village chief?"
+                ]
+            },
+            {
+                "event": 20,
+                "page": 0,
+                "index": 2,
+                "parameters": [
+                    "Her house is located to the North-West of the village."
+                ]
+            },
+            {
+                "event": 20,
+                "page": 0,
+                "index": 3,
+                "parameters": [
+                    ""
+                ]
+            },
+            {
+                "event": 20,
+                "page": 0,
+                "index": 4,
+                "parameters": [
+                    ""
+                ]
+            },
+            {
+                "event": 20,
+                "page": 0,
+                "index": 6,
+                "parameters": [
+                    "Don't hesitate to explore and talk to everyone!"
+                ]
+            },
+            {
+                "event": 20,
+                "page": 0,
+                "index": 7,
+                "parameters": [
+                    "They have plenty to say about the brain."
+                ]
+            },
+            {
+                "event": 21,
+                "page": 0,
+                "index": 1,
+                "parameters": [
+                    "As a good ol' fashioned neuron farmer, I take pride in "
+                ]
+            },
+            {
+                "event": 21,
+                "page": 0,
+                "index": 2,
+                "parameters": [
+                    "my ability to cultivate the neural pathways of the "
+                ]
+            },
+            {
+                "event": 21,
+                "page": 0,
+                "index": 3,
+                "parameters": [
+                    "brain."
+                ]
+            },
+            {
+                "event": 21,
+                "page": 0,
+                "index": 5,
+                "parameters": [
+                    "Just like how I tend to my crops, I tend to "
+                ]
+            },
+            {
+                "event": 21,
+                "page": 0,
+                "index": 6,
+                "parameters": [
+                    "my axons, making sure they're healthy and strong so "
+                ]
+            },
+            {
+                "event": 21,
+                "page": 0,
+                "index": 7,
+                "parameters": [
+                    "the signals can travel fast and true."
+                ]
+            },
+            {
+                "event": 22,
+                "page": 0,
+                "index": 1,
+                "parameters": [
+                    "As a good ol' fashioned neuron farmer, I take pride in "
+                ]
+            },
+            {
+                "event": 22,
+                "page": 0,
+                "index": 2,
+                "parameters": [
+                    "my ability to cultivate the neural pathways of the "
+                ]
+            },
+            {
+                "event": 22,
+                "page": 0,
+                "index": 3,
+                "parameters": [
+                    "brain."
+                ]
+            },
+            {
+                "event": 22,
+                "page": 0,
+                "index": 5,
+                "parameters": [
+                    "Just like how I tend to my crops, I tend to "
+                ]
+            },
+            {
+                "event": 22,
+                "page": 0,
+                "index": 6,
+                "parameters": [
+                    "my axons, making sure they're healthy and strong so "
+                ]
+            },
+            {
+                "event": 22,
+                "page": 0,
+                "index": 7,
+                "parameters": [
+                    "the signals can travel fast and true."
+                ]
+            },
+            {
+                "event": 23,
+                "page": 0,
+                "index": 1,
+                "parameters": [
+                    "As a good ol' fashioned neuron farmer, I take pride in "
+                ]
+            },
+            {
+                "event": 23,
+                "page": 0,
+                "index": 2,
+                "parameters": [
+                    "my ability to cultivate the neural pathways of the "
+                ]
+            },
+            {
+                "event": 23,
+                "page": 0,
+                "index": 3,
+                "parameters": [
+                    "brain."
+                ]
+            },
+            {
+                "event": 23,
+                "page": 0,
+                "index": 5,
+                "parameters": [
+                    "Just like how I tend to my crops, I tend to "
+                ]
+            },
+            {
+                "event": 23,
+                "page": 0,
+                "index": 6,
+                "parameters": [
+                    "my axons, making sure they're healthy and strong so "
+                ]
+            },
+            {
+                "event": 23,
+                "page": 0,
+                "index": 7,
+                "parameters": [
+                    "the signals can travel fast and true."
+                ]
+            },
+            {
+                "event": 24,
+                "page": 0,
+                "index": 1,
+                "parameters": [
+                    "Gray matter and white matter may seem like simple "
+                ]
+            },
+            {
+                "event": 24,
+                "page": 0,
+                "index": 2,
+                "parameters": [
+                    "concepts, but they represent the intricate network of "
+                ]
+            },
+            {
+                "event": 24,
+                "page": 0,
+                "index": 3,
+                "parameters": [
+                    "neurons and axons that make up the brain. "
+                ]
+            },
+            {
+                "event": 24,
+                "page": 0,
+                "index": 5,
+                "parameters": [
+                    "As a neuron in this network, I feel a sense of awe and "
+                ]
+            },
+            {
+                "event": 24,
+                "page": 0,
+                "index": 6,
+                "parameters": [
+                    "wonder at the complexity and beauty of the brain."
+                ]
+            },
+            {
+                "event": 24,
+                "page": 0,
+                "index": 8,
+                "parameters": [
+                    "Ah don't mind me, I am just contemplating my life"
+                ]
+            },
+            {
+                "event": 24,
+                "page": 0,
+                "index": 9,
+                "parameters": [
+                    "decisions..."
+                ]
+            },
+            {
+                "event": 25,
+                "page": 0,
+                "index": 1,
+                "parameters": [
+                    "It is important to have good gear, especially for"
+                ]
+            },
+            {
+                "event": 25,
+                "page": 0,
+                "index": 2,
+                "parameters": [
+                    "battling with pathogens, mutants and neurotoxins!"
+                ]
+            },
+            {
+                "event": 25,
+                "page": 0,
+                "index": 4,
+                "parameters": [
+                    "My advice: \\|INVEST! And I am not just saying that"
+                ]
+            },
+            {
+                "event": 25,
+                "page": 0,
+                "index": 5,
+                "parameters": [
+                    "because my brother is a weaponsmith..."
+                ]
+            },
+            {
+                "event": 25,
+                "page": 0,
+                "index": 7,
+                "parameters": [
+                    "Unfortunatly he is sick right now, just like "
+                ]
+            },
+            {
+                "event": 25,
+                "page": 0,
+                "index": 8,
+                "parameters": [
+                    "the armorer, but I'm sure that are armories or "
+                ]
+            },
+            {
+                "event": 25,
+                "page": 0,
+                "index": 9,
+                "parameters": [
+                    "weaponries in other cities."
+                ]
+            },
+            {
+                "event": 25,
+                "page": 0,
+                "index": 11,
+                "parameters": [
+                    "I even hear that there are merchants inside a forest."
+                ]
+            },
+            {
+                "event": 26,
+                "page": 0,
+                "index": 10,
+                "parameters": [
+                    "10\\G were found!"
+                ]
+            }
+        ],
+        "MAP020": [],
+        "MAP021": [
+            {
+                "event": 3,
+                "page": 0,
+                "index": 1,
+                "parameters": [
+                    "My partner keeps explaining to me what a neuron is made "
+                ]
+            },
+            {
+                "event": 3,
+                "page": 0,
+                "index": 2,
+                "parameters": [
+                    "out of. I don't think he understands that I am ALSO"
+                ]
+            },
+            {
+                "event": 3,
+                "page": 0,
+                "index": 3,
+                "parameters": [
+                    "a neuron. I guess that's what 30 years of marriage will"
+                ]
+            },
+            {
+                "event": 3,
+                "page": 0,
+                "index": 4,
+                "parameters": [
+                    "do to you. "
+                ]
+            },
+            {
+                "event": 3,
+                "page": 0,
+                "index": 6,
+                "parameters": [
+                    "You don't look the person in the eye anymore... \\|"
+                ]
+            },
+            {
+                "event": 4,
+                "page": 0,
+                "index": 1,
+                "parameters": [
+                    "Neurons like you and me are made out of three things:"
+                ]
+            },
+            {
+                "event": 4,
+                "page": 0,
+                "index": 2,
+                "parameters": [
+                    "DENDRITES, small branches where we receive and combine "
+                ]
+            },
+            {
+                "event": 4,
+                "page": 0,
+                "index": 3,
+                "parameters": [
+                    "information. Then we have a cell body, also called "
+                ]
+            },
+            {
+                "event": 4,
+                "page": 0,
+                "index": 4,
+                "parameters": [
+                    "the SOMA. And finally an AXON, a tube where the "
+                ]
+            },
+            {
+                "event": 4,
+                "page": 0,
+                "index": 6,
+                "parameters": [
+                    "electrical signal travels."
+                ]
+            }
+        ],
+        "MAP022": [],
+        "MAP023": [
+            {
+                "event": 5,
+                "page": 0,
+                "index": 1,
+                "parameters": [
+                    "Chief: Hi \\P[1]! How are you?"
+                ]
+            },
+            {
+                "event": 5,
+                "page": 0,
+                "index": 2,
+                "parameters": [
+                    "I have a present for you. Here take it."
+                ]
+            },
+            {
+                "event": 5,
+                "page": 0,
+                "index": 4,
+                "parameters": [
+                    "\\P[1] received Map."
+                ]
+            },
+            {
+                "event": 5,
+                "page": 0,
+                "index": 6,
+                "parameters": [
+                    "Chief: I know you have always wanted to leave town "
+                ]
+            },
+            {
+                "event": 5,
+                "page": 0,
+                "index": 7,
+                "parameters": [
+                    "and explore all of the different parts of the brain."
+                ]
+            },
+            {
+                "event": 5,
+                "page": 0,
+                "index": 9,
+                "parameters": [
+                    "I guess our small little village located in the"
+                ]
+            },
+            {
+                "event": 5,
+                "page": 0,
+                "index": 10,
+                "parameters": [
+                    "Brainstem wasn't big enough for you."
+                ]
+            },
+            {
+                "event": 5,
+                "page": 0,
+                "index": 12,
+                "parameters": [
+                    "So this is a way to show you that I support you!"
+                ]
+            },
+            {
+                "event": 5,
+                "page": 0,
+                "index": 13,
+                "parameters": [
+                    "It is a map of the brain so you can easily navigate.\\|"
+                ]
+            },
+            {
+                "event": 5,
+                "page": 0,
+                "index": 14,
+                "parameters": [
+                    "We will all miss you very much. But I'm sure you'll"
+                ]
+            },
+            {
+                "event": 5,
+                "page": 0,
+                "index": 15,
+                "parameters": [
+                    "enjoy your journey."
+                ]
+            },
+            {
+                "event": 5,
+                "page": 0,
+                "index": 18,
+                "parameters": [
+                    "To get out of town just head to the bottom of the "
+                ]
+            },
+            {
+                "event": 5,
+                "page": 0,
+                "index": 19,
+                "parameters": [
+                    "village. The gate is located there."
+                ]
+            },
+            {
+                "event": 5,
+                "page": 0,
+                "index": 21,
+                "parameters": [
+                    "One last thing: if you don't know where to start"
+                ]
+            },
+            {
+                "event": 5,
+                "page": 0,
+                "index": 22,
+                "parameters": [
+                    "you should head to the Cerebellum. There is a big"
+                ]
+            },
+            {
+                "event": 5,
+                "page": 0,
+                "index": 23,
+                "parameters": [
+                    "castle where a king lives."
+                ]
+            },
+            {
+                "event": 5,
+                "page": 0,
+                "index": 26,
+                "parameters": [
+                    "You can now find the map in your inventory."
+                ]
+            },
+            {
+                "event": 5,
+                "page": 0,
+                "index": 27,
+                "parameters": [
+                    "Press the down button to fold it."
+                ]
+            },
+            {
+                "event": 5,
+                "page": 1,
+                "index": 1,
+                "parameters": [
+                    "Good luck with your journey!"
+                ]
+            },
+            {
+                "event": 5,
+                "page": 1,
+                "index": 3,
+                "parameters": [
+                    "To get out of town just head to the bottom of the "
+                ]
+            },
+            {
+                "event": 5,
+                "page": 1,
+                "index": 4,
+                "parameters": [
+                    "village. The gate is located there."
+                ]
+            },
+            {
+                "event": 5,
+                "page": 1,
+                "index": 6,
+                "parameters": [
+                    "One last thing: if you don't know where to start"
+                ]
+            },
+            {
+                "event": 5,
+                "page": 1,
+                "index": 7,
+                "parameters": [
+                    "you should head to the Cerebellum. There is a big"
+                ]
+            },
+            {
+                "event": 5,
+                "page": 1,
+                "index": 8,
+                "parameters": [
+                    "castle where a king lives."
+                ]
+            }
+        ],
+        "MAP024": [
+            {
+                "event": 6,
+                "page": 0,
+                "index": 10,
+                "parameters": [
+                    "10\\G were found!"
+                ]
+            },
+            {
+                "event": 7,
+                "page": 0,
+                "index": 1,
+                "parameters": [
+                    "Good that you're leaving! "
+                ]
+            },
+            {
+                "event": 7,
+                "page": 0,
+                "index": 2,
+                "parameters": [
+                    "I never liked you \\P[1]. Get away as far as you can "
+                ]
+            },
+            {
+                "event": 7,
+                "page": 0,
+                "index": 3,
+                "parameters": [
+                    "from here!"
+                ]
+            }
+        ],
+        "MAP025": [],
+        "MAP026": [
+            {
+                "event": 10,
+                "page": 0,
+                "index": 1,
+                "parameters": [
+                    "Did you know that damage to the cerebellum can lead to "
+                ]
+            },
+            {
+                "event": 10,
+                "page": 0,
+                "index": 2,
+                "parameters": [
+                    "problems with balance and coordination?"
+                ]
+            },
+            {
+                "event": 11,
+                "page": 0,
+                "index": 1,
+                "parameters": [
+                    "The cerebellum is located at the base of the brain, "
+                ]
+            },
+            {
+                "event": 11,
+                "page": 0,
+                "index": 2,
+                "parameters": [
+                    "just above the brainstem"
+                ]
+            }
+        ],
+        "MAP027": [
+            {
+                "event": 4,
+                "page": 0,
+                "index": 1,
+                "parameters": [
+                    "SOMEBODY HELP US!"
+                ]
+            },
+            {
+                "event": 4,
+                "page": 0,
+                "index": 2,
+                "parameters": [
+                    "If you can't fight you can stay here."
+                ]
+            },
+            {
+                "event": 4,
+                "page": 0,
+                "index": 3,
+                "parameters": [
+                    "Would you like to try to sleep through the attack?"
+                ]
+            },
+            {
+                "event": 4,
+                "page": 0,
+                "index": 4,
+                "parameters": [
+                    [
+                        "Yes",
+                        "No"
+                    ],
+                    2
+                ]
+            },
+            {
+                "event": 4,
+                "page": 0,
+                "index": 14,
+                "parameters": [
+                    "Okay just stay calm, somebody will help..."
+                ]
+            },
+            {
+                "event": 4,
+                "page": 0,
+                "index": 15,
+                "parameters": [
+                    "I hope."
+                ]
+            },
+            {
+                "event": 4,
+                "page": 1,
+                "index": 1,
+                "parameters": [
+                    "10\\G for one night. Would you like to stay?"
+                ]
+            },
+            {
+                "event": 4,
+                "page": 1,
+                "index": 2,
+                "parameters": [
+                    [
+                        "Yes",
+                        "No"
+                    ],
+                    2
+                ]
+            },
+            {
+                "event": 4,
+                "page": 1,
+                "index": 14,
+                "parameters": [
+                    "You don't have enough money."
+                ]
+            },
+            {
+                "event": 6,
+                "page": 0,
+                "index": 1,
+                "parameters": [
+                    "I wish I could help, but for us neurons it is very"
+                ]
+            },
+            {
+                "event": 6,
+                "page": 0,
+                "index": 2,
+                "parameters": [
+                    "hard to do anything against pathogens...\\!"
+                ]
+            },
+            {
+                "event": 6,
+                "page": 0,
+                "index": 3,
+                "parameters": [
+                    "I wish there was a microglia in this village."
+                ]
+            },
+            {
+                "event": 6,
+                "page": 1,
+                "index": 1,
+                "parameters": [
+                    "Thank you for saving us. If you decide to travel the"
+                ]
+            },
+            {
+                "event": 6,
+                "page": 1,
+                "index": 2,
+                "parameters": [
+                    "brain you will probably need a microglia with you."
+                ]
+            },
+            {
+                "event": 7,
+                "page": 0,
+                "index": 1,
+                "parameters": [
+                    "All of the others are stuck because of the attacks!"
+                ]
+            },
+            {
+                "event": 8,
+                "page": 0,
+                "index": 1,
+                "parameters": [
+                    "I'm so scared!"
+                ]
+            }
+        ],
+        "MAP028": [
+            {
+                "event": 1,
+                "page": 0,
+                "index": 1,
+                "parameters": [
+                    "Shhhhhh! I'm trying to hide."
+                ]
+            },
+            {
+                "event": 2,
+                "page": 0,
+                "index": 1,
+                "parameters": [
+                    "Shhhhhh! I'm trying to hide."
+                ]
+            }
+        ],
+        "MAP029": [
+            {
+                "event": 1,
+                "page": 0,
+                "index": 10,
+                "parameters": [
+                    "Potion was found!"
+                ]
+            },
+            {
+                "event": 4,
+                "page": 1,
+                "index": 1,
+                "parameters": [
+                    "Thank you for saving this village."
+                ]
+            }
+        ],
+        "MAP030": [
+            {
+                "event": 1,
+                "page": 0,
+                "index": 1,
+                "parameters": [
+                    "Please! I am begging you...\\! Don't infect me."
+                ]
+            },
+            {
+                "event": 1,
+                "page": 1,
+                "index": 1,
+                "parameters": [
+                    "Is it over?"
+                ]
+            },
+            {
+                "event": 2,
+                "page": 0,
+                "index": 1,
+                "parameters": [
+                    "Let me get in your cells!"
+                ]
+            }
+        ],
+        "MAP031": [],
+        "MAP032": [
+            {
+                "event": 1,
+                "page": 0,
+                "index": 1,
+                "parameters": [
+                    "\"You have entered the Cerebellum region.\\!"
+                ]
+            },
+            {
+                "event": 1,
+                "page": 0,
+                "index": 2,
+                "parameters": [
+                    "Cerebellum Caste: North-East\""
+                ]
+            },
+            {
+                "event": 6,
+                "page": 0,
+                "index": 2,
+                "parameters": [
+                    "\\P[1]: Mmhhhh... That's strange."
+                ]
+            },
+            {
+                "event": 6,
+                "page": 0,
+                "index": 3,
+                "parameters": [
+                    "It feels like something is wrong..."
+                ]
+            },
+            {
+                "event": 6,
+                "page": 0,
+                "index": 4,
+                "parameters": [
+                    "What could be causing that shaking?"
+                ]
+            },
+            {
+                "event": 7,
+                "page": 0,
+                "index": 2,
+                "parameters": [
+                    "\\P[1]: Mmhhhh... That's strange."
+                ]
+            },
+            {
+                "event": 7,
+                "page": 0,
+                "index": 3,
+                "parameters": [
+                    "It feels like something is wrong..."
+                ]
+            },
+            {
+                "event": 7,
+                "page": 0,
+                "index": 4,
+                "parameters": [
+                    "What could be causing that shaking?"
+                ]
+            },
+            {
+                "event": 8,
+                "page": 0,
+                "index": 1,
+                "parameters": [
+                    "Pathogen: Soon we will attack this village.\\! "
+                ]
+            },
+            {
+                "event": 8,
+                "page": 0,
+                "index": 2,
+                "parameters": [
+                    "There are no microglia so nothing will be able to stop"
+                ]
+            },
+            {
+                "event": 8,
+                "page": 0,
+                "index": 3,
+                "parameters": [
+                    "us..."
+                ]
+            },
+            {
+                "event": 14,
+                "page": 0,
+                "index": 1,
+                "parameters": [
+                    "Soon we will attack this village.\\! Nothing will stop"
+                ]
+            },
+            {
+                "event": 14,
+                "page": 0,
+                "index": 2,
+                "parameters": [
+                    "us..."
+                ]
+            },
+            {
+                "event": 15,
+                "page": 1,
+                "index": 1,
+                "parameters": [
+                    "AHHHH! My neural village is getting attacked"
+                ]
+            },
+            {
+                "event": 15,
+                "page": 1,
+                "index": 2,
+                "parameters": [
+                    "by pathogens. I ran away before getting caught..."
+                ]
+            },
+            {
+                "event": 15,
+                "page": 1,
+                "index": 4,
+                "parameters": [
+                    "Are you able to fight?\\!"
+                ]
+            },
+            {
+                "event": 15,
+                "page": 1,
+                "index": 5,
+                "parameters": [
+                    "If so please help us!"
+                ]
+            }
+        ],
+        "MAP033": [],
+        "MAP034": [
+            {
+                "event": 15,
+                "page": 0,
+                "index": 1,
+                "parameters": [
+                    "I heard that a Microglia called Martìn "
+                ]
+            },
+            {
+                "event": 15,
+                "page": 0,
+                "index": 2,
+                "parameters": [
+                    "lives here."
+                ]
+            },
+            {
+                "event": 15,
+                "page": 0,
+                "index": 4,
+                "parameters": [
+                    "But people say that he is very agressive and likes to"
+                ]
+            },
+            {
+                "event": 15,
+                "page": 0,
+                "index": 5,
+                "parameters": [
+                    "fight."
+                ]
+            },
+            {
+                "event": 15,
+                "page": 0,
+                "index": 7,
+                "parameters": [
+                    "I'd be careful if I were you."
+                ]
+            },
+            {
+                "event": 30,
+                "page": 0,
+                "index": 10,
+                "parameters": [
+                    "10\\G were found!"
+                ]
+            },
+            {
+                "event": 31,
+                "page": 0,
+                "index": 1,
+                "parameters": [
+                    "Hey! You should go talk to Martìn."
+                ]
+            },
+            {
+                "event": 31,
+                "page": 0,
+                "index": 2,
+                "parameters": [
+                    "He comes off as agressive but he would really"
+                ]
+            },
+            {
+                "event": 31,
+                "page": 0,
+                "index": 3,
+                "parameters": [
+                    "love to travel with you."
+                ]
+            }
+        ],
+        "MAP035": [],
+        "MAP036": [],
+        "MAP037": [],
+        "MAP038": [],
+        "MAP039": [],
+        "MAP040": [],
+        "MAP041": [],
+        "MAP042": [],
+        "MAP043": [],
+        "MAP044": [
+            {
+                "event": 2,
+                "page": 0,
+                "index": 2,
+                "parameters": [
+                    "I will fight to my last breath!"
+                ]
+            },
+            {
+                "event": 2,
+                "page": 1,
+                "index": 1,
+                "parameters": [
+                    "Thank you so much for your help!"
+                ]
+            },
+            {
+                "event": 3,
+                "page": 0,
+                "index": 2,
+                "parameters": [
+                    "What do you want?!"
+                ]
+            },
+            {
+                "event": 3,
+                "page": 0,
+                "index": 3,
+                "parameters": [
+                    "Get lost!"
+                ]
+            },
+            {
+                "event": 4,
+                "page": 0,
+                "index": 2,
+                "parameters": [
+                    "What do you want?!"
+                ]
+            },
+            {
+                "event": 4,
+                "page": 0,
+                "index": 3,
+                "parameters": [
+                    "Get lost!"
+                ]
+            },
+            {
+                "event": 5,
+                "page": 0,
+                "index": 1,
+                "parameters": [
+                    "Please help my sister!"
+                ]
+            },
+            {
+                "event": 5,
+                "page": 1,
+                "index": 1,
+                "parameters": [
+                    "Thank you for helping my big sister!"
+                ]
+            },
+            {
+                "event": 7,
+                "page": 0,
+                "index": 2,
+                "parameters": [
+                    "What do you want?!"
+                ]
+            },
+            {
+                "event": 7,
+                "page": 0,
+                "index": 3,
+                "parameters": [
+                    "Get lost!"
+                ]
+            }
+        ],
+        "MAP045": [],
+        "MAP046": [],
+        "MAP047": [],
+        "MAP048": [
+            {
+                "event": 18,
+                "page": 0,
+                "index": 3,
+                "parameters": [
+                    "Guard: Halt! Decline your intentions?!"
+                ]
+            },
+            {
+                "event": 18,
+                "page": 0,
+                "index": 5,
+                "parameters": [
+                    "\\P[1]: Hum okay..."
+                ]
+            },
+            {
+                "event": 18,
+                "page": 0,
+                "index": 6,
+                "parameters": [
+                    "I would like to meet the King"
+                ]
+            },
+            {
+                "event": 18,
+                "page": 0,
+                "index": 7,
+                "parameters": [
+                    "of the Cerebellum region."
+                ]
+            },
+            {
+                "event": 18,
+                "page": 0,
+                "index": 9,
+                "parameters": [
+                    "Guard: Only neurons and glial cells are allowed "
+                ]
+            },
+            {
+                "event": 18,
+                "page": 0,
+                "index": 10,
+                "parameters": [
+                    "to enter the Cerebellum Castle. "
+                ]
+            },
+            {
+                "event": 18,
+                "page": 0,
+                "index": 13,
+                "parameters": [
+                    "Which one are you?"
+                ]
+            },
+            {
+                "event": 18,
+                "page": 0,
+                "index": 14,
+                "parameters": [
+                    [
+                        "A neuron obviously",
+                        "A glial cell just like you",
+                        "A pathogen that will attack you!",
+                        "A mutation that is goint to destroy the cerebellum"
+                    ],
+                    1,
+                    3,
+                    2,
+                    0
+                ]
+            },
+            {
+                "event": 18,
+                "page": 0,
+                "index": 17,
+                "parameters": [
+                    "Yeah I just wanted to be sure."
+                ]
+            },
+            {
+                "event": 18,
+                "page": 0,
+                "index": 31,
+                "parameters": [
+                    "You don't look like a Microglia."
+                ]
+            },
+            {
+                "event": 18,
+                "page": 0,
+                "index": 32,
+                "parameters": [
+                    "Are you lying to me?!"
+                ]
+            },
+            {
+                "event": 18,
+                "page": 0,
+                "index": 36,
+                "parameters": [
+                    "Be careful, pathogen's are my specialty."
+                ]
+            },
+            {
+                "event": 18,
+                "page": 0,
+                "index": 37,
+                "parameters": [
+                    "I eat them ALIVE!"
+                ]
+            },
+            {
+                "event": 18,
+                "page": 0,
+                "index": 41,
+                "parameters": [
+                    "Don't joke with that. It's not funny."
+                ]
+            },
+            {
+                "event": 18,
+                "page": 0,
+                "index": 43,
+                "parameters": [
+                    "Especially with that rumour that has been going around."
+                ]
+            },
+            {
+                "event": 18,
+                "page": 0,
+                "index": 47,
+                "parameters": [
+                    "Stop fooling around!"
+                ]
+            },
+            {
+                "event": 18,
+                "page": 0,
+                "index": 54,
+                "parameters": [
+                    "You may pass."
+                ]
+            },
+            {
+                "event": 18,
+                "page": 0,
+                "index": 55,
+                "parameters": [
+                    "But beware that the Cerebellum is very crowded."
+                ]
+            },
+            {
+                "event": 18,
+                "page": 0,
+                "index": 56,
+                "parameters": [
+                    "If you are looking for the king he is at the very top."
+                ]
+            },
+            {
+                "event": 19,
+                "page": 0,
+                "index": 1,
+                "parameters": [
+                    "King Purkinje is afraid of something these days..."
+                ]
+            },
+            {
+                "event": 19,
+                "page": 0,
+                "index": 3,
+                "parameters": [
+                    "People say that it is linked with the rumour up North."
+                ]
+            },
+            {
+                "event": 19,
+                "page": 0,
+                "index": 4,
+                "parameters": [
+                    "Do you think it is really true?"
+                ]
+            },
+            {
+                "event": 21,
+                "page": 0,
+                "index": 1,
+                "parameters": [
+                    "Welcome to the cerebellum! "
+                ]
+            },
+            {
+                "event": 21,
+                "page": 0,
+                "index": 3,
+                "parameters": [
+                    "This region of the brain is responsible for "
+                ]
+            },
+            {
+                "event": 21,
+                "page": 0,
+                "index": 4,
+                "parameters": [
+                    "coordination, balance, and movement. "
+                ]
+            },
+            {
+                "event": 21,
+                "page": 0,
+                "index": 6,
+                "parameters": [
+                    "As a neuron, you must know that the cerebellum receives "
+                ]
+            },
+            {
+                "event": 21,
+                "page": 0,
+                "index": 7,
+                "parameters": [
+                    "information from the sensory systems, the spinal cord, "
+                ]
+            },
+            {
+                "event": 21,
+                "page": 0,
+                "index": 8,
+                "parameters": [
+                    "and other parts of the brain to coordinate smooth and "
+                ]
+            },
+            {
+                "event": 21,
+                "page": 0,
+                "index": 9,
+                "parameters": [
+                    "balanced movements. "
+                ]
+            },
+            {
+                "event": 22,
+                "page": 1,
+                "index": 1,
+                "parameters": [
+                    "Guard: You may pass."
+                ]
+            },
+            {
+                "event": 22,
+                "page": 1,
+                "index": 2,
+                "parameters": [
+                    "But beware that the Cerebellum is very crowded."
+                ]
+            },
+            {
+                "event": 22,
+                "page": 1,
+                "index": 3,
+                "parameters": [
+                    "If you are looking for the king he is at the very top."
+                ]
+            },
+            {
+                "event": 23,
+                "page": 0,
+                "index": 10,
+                "parameters": [
+                    "Potion was found!"
+                ]
+            }
+        ],
+        "MAP049": [
+            {
+                "event": 2,
+                "page": 0,
+                "index": 2,
+                "parameters": [
+                    "Please help me!"
+                ]
+            },
+            {
+                "event": 2,
+                "page": 1,
+                "index": 1,
+                "parameters": [
+                    "I can't believe I'm still alive! "
+                ]
+            },
+            {
+                "event": 2,
+                "page": 1,
+                "index": 2,
+                "parameters": [
+                    "I thought for sure that pathogen was going to kill me."
+                ]
+            },
+            {
+                "event": 3,
+                "page": 0,
+                "index": 1,
+                "parameters": [
+                    "Gaaargh! Let me catch up to you little neuron.\\!"
+                ]
+            },
+            {
+                "event": 3,
+                "page": 0,
+                "index": 2,
+                "parameters": [
+                    "I guess you will have to do."
+                ]
+            }
+        ],
+        "MAP050": [],
+        "MAP051": [],
+        "MAP052": [],
+        "MAP053": [],
+        "MAP054": [
+            {
+                "event": 4,
+                "page": 0,
+                "index": 1,
+                "parameters": [
+                    "\\P[1]: Hey, I've been hearing great "
+                ]
+            },
+            {
+                "event": 4,
+                "page": 0,
+                "index": 2,
+                "parameters": [
+                    "things about you. I think you'd be a "
+                ]
+            },
+            {
+                "event": 4,
+                "page": 0,
+                "index": 3,
+                "parameters": [
+                    "perfect fit for my team. How about joining "
+                ]
+            },
+            {
+                "event": 4,
+                "page": 0,
+                "index": 4,
+                "parameters": [
+                    "me?"
+                ]
+            },
+            {
+                "event": 4,
+                "page": 0,
+                "index": 7,
+                "parameters": [
+                    "Martìn: Oh, look who's here! The mighty "
+                ]
+            },
+            {
+                "event": 4,
+                "page": 0,
+                "index": 8,
+                "parameters": [
+                    "hero with a plan. I'm sorry, did you just "
+                ]
+            },
+            {
+                "event": 4,
+                "page": 0,
+                "index": 9,
+                "parameters": [
+                    "mistake me for someone who cares?"
+                ]
+            },
+            {
+                "event": 4,
+                "page": 0,
+                "index": 11,
+                "parameters": [
+                    "\\P[1]: Come on, don't be like that. "
+                ]
+            },
+            {
+                "event": 4,
+                "page": 0,
+                "index": 12,
+                "parameters": [
+                    "I could really use your skills. I am very, "
+                ]
+            },
+            {
+                "event": 4,
+                "page": 0,
+                "index": 13,
+                "parameters": [
+                    "weak and I can't fight, unlike you!"
+                ]
+            },
+            {
+                "event": 4,
+                "page": 0,
+                "index": 15,
+                "parameters": [
+                    "Martìn: Yeah, I've seen you in action, "
+                ]
+            },
+            {
+                "event": 4,
+                "page": 0,
+                "index": 16,
+                "parameters": [
+                    "and let's just say you have the grace of a "
+                ]
+            },
+            {
+                "event": 4,
+                "page": 0,
+                "index": 17,
+                "parameters": [
+                    "clumsy walrus. You also look weak and "
+                ]
+            },
+            {
+                "event": 4,
+                "page": 0,
+                "index": 18,
+                "parameters": [
+                    "febrile."
+                ]
+            },
+            {
+                "event": 4,
+                "page": 0,
+                "index": 20,
+                "parameters": [
+                    "\\P[1]: Alright, I get it. "
+                ]
+            },
+            {
+                "event": 4,
+                "page": 0,
+                "index": 21,
+                "parameters": [
+                    "You're not easily impressed. "
+                ]
+            },
+            {
+                "event": 4,
+                "page": 0,
+                "index": 22,
+                "parameters": [
+                    "But trust me, we've got a great "
+                ]
+            },
+            {
+                "event": 4,
+                "page": 0,
+                "index": 23,
+                "parameters": [
+                    "mission ahead, "
+                ]
+            },
+            {
+                "event": 4,
+                "page": 0,
+                "index": 25,
+                "parameters": [
+                    "and I believe you have what it takes to"
+                ]
+            },
+            {
+                "event": 4,
+                "page": 0,
+                "index": 26,
+                "parameters": [
+                    "make the difference."
+                ]
+            },
+            {
+                "event": 4,
+                "page": 0,
+                "index": 28,
+                "parameters": [
+                    "Martìn: A great mission, huh? Is it a "
+                ]
+            },
+            {
+                "event": 4,
+                "page": 0,
+                "index": 29,
+                "parameters": [
+                    "quest to find your missing charisma?"
+                ]
+            },
+            {
+                "event": 4,
+                "page": 0,
+                "index": 31,
+                "parameters": [
+                    "\\P[1]: Look, I know you enjoy poking "
+                ]
+            },
+            {
+                "event": 4,
+                "page": 0,
+                "index": 32,
+                "parameters": [
+                    "fun at me, but deep down, I know you want "
+                ]
+            },
+            {
+                "event": 4,
+                "page": 0,
+                "index": 33,
+                "parameters": [
+                    "to be part of something meaningful. "
+                ]
+            },
+            {
+                "event": 4,
+                "page": 0,
+                "index": 35,
+                "parameters": [
+                    "Not just staying in this swamp exercising"
+                ]
+            },
+            {
+                "event": 4,
+                "page": 0,
+                "index": 36,
+                "parameters": [
+                    "on some little pathogens."
+                ]
+            },
+            {
+                "event": 4,
+                "page": 0,
+                "index": 38,
+                "parameters": [
+                    "Now do you want to join or not?"
+                ]
+            },
+            {
+                "event": 4,
+                "page": 0,
+                "index": 40,
+                "parameters": [
+                    "Martìn: What is this quest you have?"
+                ]
+            },
+            {
+                "event": 4,
+                "page": 0,
+                "index": 42,
+                "parameters": [
+                    "\\P[1]: A lot of neurons are worried"
+                ]
+            },
+            {
+                "event": 4,
+                "page": 0,
+                "index": 43,
+                "parameters": [
+                    "about something happening in the basal "
+                ]
+            },
+            {
+                "event": 4,
+                "page": 0,
+                "index": 44,
+                "parameters": [
+                    "ganglia. I want to go check it out."
+                ]
+            },
+            {
+                "event": 4,
+                "page": 0,
+                "index": 46,
+                "parameters": [
+                    "Martìn: Mmmmh.... \\!"
+                ]
+            },
+            {
+                "event": 4,
+                "page": 0,
+                "index": 47,
+                "parameters": [
+                    "Alright you got me, I'll join you!"
+                ]
+            },
+            {
+                "event": 4,
+                "page": 0,
+                "index": 52,
+                "parameters": [
+                    "\\P[2] joined your team!"
+                ]
+            }
+        ],
+        "MAP055": [],
+        "MAP056": [
+            {
+                "event": 5,
+                "page": 0,
+                "index": 1,
+                "parameters": [
+                    "10\\G for one night. Would you like to stay?"
+                ]
+            },
+            {
+                "event": 5,
+                "page": 0,
+                "index": 2,
+                "parameters": [
+                    [
+                        "Yes",
+                        "No"
+                    ],
+                    2
+                ]
+            },
+            {
+                "event": 5,
+                "page": 0,
+                "index": 14,
+                "parameters": [
+                    "You don't have enough money."
+                ]
+            },
+            {
+                "event": 6,
+                "page": 0,
+                "index": 1,
+                "parameters": [
+                    "The brain is composed of many different regions, "
+                ]
+            },
+            {
+                "event": 6,
+                "page": 0,
+                "index": 2,
+                "parameters": [
+                    "each with its own specialized functions."
+                ]
+            },
+            {
+                "event": 6,
+                "page": 0,
+                "index": 4,
+                "parameters": [
+                    "But these regions are not operating in isolation - "
+                ]
+            },
+            {
+                "event": 6,
+                "page": 0,
+                "index": 5,
+                "parameters": [
+                    "they are constantly communicating and cooperating "
+                ]
+            },
+            {
+                "event": 6,
+                "page": 0,
+                "index": 6,
+                "parameters": [
+                    "with each other to keep the brain functioning properly."
+                ]
+            },
+            {
+                "event": 6,
+                "page": 0,
+                "index": 8,
+                "parameters": [
+                    "There is a person upstairs that has travelled a lot"
+                ]
+            },
+            {
+                "event": 6,
+                "page": 0,
+                "index": 9,
+                "parameters": [
+                    "and that could talk to you about the different brain"
+                ]
+            },
+            {
+                "event": 6,
+                "page": 0,
+                "index": 10,
+                "parameters": [
+                    "regions."
+                ]
+            }
+        ],
+        "MAP057": [
+            {
+                "event": 4,
+                "page": 0,
+                "index": 1,
+                "parameters": [
+                    "What do you want! "
+                ]
+            },
+            {
+                "event": 4,
+                "page": 0,
+                "index": 2,
+                "parameters": [
+                    "Don't you have other people to go talk to?"
+                ]
+            },
+            {
+                "event": 4,
+                "page": 0,
+                "index": 5,
+                "parameters": [
+                    "Oh... If I travelled the brain? Well yes I did. I went"
+                ]
+            },
+            {
+                "event": 4,
+                "page": 0,
+                "index": 6,
+                "parameters": [
+                    "to quite a few places. Which brain region do you want "
+                ]
+            },
+            {
+                "event": 4,
+                "page": 0,
+                "index": 7,
+                "parameters": [
+                    "to learn more about?"
+                ]
+            },
+            {
+                "event": 4,
+                "page": 0,
+                "index": 8,
+                "parameters": [
+                    [
+                        "Cerebellum",
+                        "Somatosensory Cortex",
+                        "Motor Cortex",
+                        "Basal Ganglia"
+                    ],
+                    1,
+                    0,
+                    2,
+                    0
+                ]
+            },
+            {
+                "event": 4,
+                "page": 0,
+                "index": 11,
+                "parameters": [
+                    "The Cerebellum is responsible for coordination, "
+                ]
+            },
+            {
+                "event": 4,
+                "page": 0,
+                "index": 12,
+                "parameters": [
+                    "balance, and movement of the human body."
+                ]
+            },
+            {
+                "event": 4,
+                "page": 0,
+                "index": 14,
+                "parameters": [
+                    "It is very close to where we are now. Get out of town "
+                ]
+            },
+            {
+                "event": 4,
+                "page": 0,
+                "index": 15,
+                "parameters": [
+                    "and head North."
+                ]
+            },
+            {
+                "event": 4,
+                "page": 0,
+                "index": 20,
+                "parameters": [
+                    "The Somatosensory Cortex is responsible for receiving "
+                ]
+            },
+            {
+                "event": 4,
+                "page": 0,
+                "index": 21,
+                "parameters": [
+                    "and processing sensory information from across the "
+                ]
+            },
+            {
+                "event": 4,
+                "page": 0,
+                "index": 22,
+                "parameters": [
+                    "body, such as touch, temperature, and pain."
+                ]
+            },
+            {
+                "event": 4,
+                "page": 0,
+                "index": 24,
+                "parameters": [
+                    "It is far out North, after you pass the Cerebellum,"
+                ]
+            },
+            {
+                "event": 4,
+                "page": 0,
+                "index": 25,
+                "parameters": [
+                    "and very close to the Motor cortex."
+                ]
+            },
+            {
+                "event": 4,
+                "page": 0,
+                "index": 29,
+                "parameters": [
+                    "The Motor Cortex is is involved in the planning, "
+                ]
+            },
+            {
+                "event": 4,
+                "page": 0,
+                "index": 30,
+                "parameters": [
+                    "control, and execution of voluntary movements of the"
+                ]
+            },
+            {
+                "event": 4,
+                "page": 0,
+                "index": 31,
+                "parameters": [
+                    "human body."
+                ]
+            },
+            {
+                "event": 4,
+                "page": 0,
+                "index": 33,
+                "parameters": [
+                    "It is far out North, after you pass the Cerebellum,"
+                ]
+            },
+            {
+                "event": 4,
+                "page": 0,
+                "index": 34,
+                "parameters": [
+                    "and very close to the somatosensory cortex."
+                ]
+            },
+            {
+                "event": 4,
+                "page": 0,
+                "index": 38,
+                "parameters": [
+                    "The Basal Ganglia are best known for how they help "
+                ]
+            },
+            {
+                "event": 4,
+                "page": 0,
+                "index": 39,
+                "parameters": [
+                    "your brain control your body’s movements."
+                ]
+            },
+            {
+                "event": 4,
+                "page": 0,
+                "index": 41,
+                "parameters": [
+                    "It is located near the center of the brain so quite "
+                ]
+            },
+            {
+                "event": 4,
+                "page": 0,
+                "index": 42,
+                "parameters": [
+                    "hard to get to it."
+                ]
+            },
+            {
+                "event": 4,
+                "page": 0,
+                "index": 44,
+                "parameters": [
+                    "It has been a very long time since I visited there."
+                ]
+            },
+            {
+                "event": 4,
+                "page": 0,
+                "index": 45,
+                "parameters": [
+                    "I hear it has changed a lot, and not in a good way..."
+                ]
+            },
+            {
+                "event": 5,
+                "page": 0,
+                "index": 1,
+                "parameters": [
+                    "Here is some gold for you to kickstart your adventure."
+                ]
+            },
+            {
+                "event": 5,
+                "page": 0,
+                "index": 2,
+                "parameters": [
+                    "Make good use of it!"
+                ]
+            },
+            {
+                "event": 5,
+                "page": 0,
+                "index": 5,
+                "parameters": [
+                    "\\P[1] received 10 \\G."
+                ]
+            },
+            {
+                "event": 5,
+                "page": 1,
+                "index": 1,
+                "parameters": [
+                    "Make good use of that gold!"
+                ]
+            }
+        ],
+        "MAP058": [],
+        "MAP059": [],
+        "MAP060": [],
+        "MAP061": [],
+        "MAP062": [],
+        "MAP063": [],
+        "MAP064": [],
+        "MAP065": [],
+        "MAP066": [],
+        "MAP068": [],
+        "MAP070": [],
+        "MAP071": [],
+        "MAP072": [],
+        "MAP073": [],
+        "MAP074": [],
+        "MAP075": [],
+        "MAP076": [],
+        "MAP077": [],
+        "MAP078": [],
+        "MAP079": [],
+        "MAP080": [],
+        "MAP092": [
+            {
+                "event": 1,
+                "page": 0,
+                "index": 1,
+                "parameters": [
+                    "\"You have entered the Cerebellum region.\\!"
+                ]
+            },
+            {
+                "event": 1,
+                "page": 0,
+                "index": 2,
+                "parameters": [
+                    "Cerebellum Caste: North-East\""
+                ]
+            },
+            {
+                "event": 6,
+                "page": 0,
+                "index": 2,
+                "parameters": [
+                    "\\P[1]: Mmhhhh... That's strange."
+                ]
+            },
+            {
+                "event": 6,
+                "page": 0,
+                "index": 3,
+                "parameters": [
+                    "It feels like something is wrong..."
+                ]
+            },
+            {
+                "event": 6,
+                "page": 0,
+                "index": 4,
+                "parameters": [
+                    "What could be causing that shaking?"
+                ]
+            },
+            {
+                "event": 7,
+                "page": 0,
+                "index": 2,
+                "parameters": [
+                    "\\P[1]: Mmhhhh... That's strange."
+                ]
+            },
+            {
+                "event": 7,
+                "page": 0,
+                "index": 3,
+                "parameters": [
+                    "It feels like something is wrong..."
+                ]
+            },
+            {
+                "event": 7,
+                "page": 0,
+                "index": 4,
+                "parameters": [
+                    "What could be causing that shaking?"
+                ]
+            },
+            {
+                "event": 8,
+                "page": 0,
+                "index": 1,
+                "parameters": [
+                    "Pathogen: Soon we will attack this village.\\! "
+                ]
+            },
+            {
+                "event": 8,
+                "page": 0,
+                "index": 2,
+                "parameters": [
+                    "There are no microglia so nothing will be able to stop"
+                ]
+            },
+            {
+                "event": 8,
+                "page": 0,
+                "index": 3,
+                "parameters": [
+                    "us..."
+                ]
+            },
+            {
+                "event": 14,
+                "page": 0,
+                "index": 1,
+                "parameters": [
+                    "Soon we will attack this village.\\! Nothing will stop"
+                ]
+            },
+            {
+                "event": 14,
+                "page": 0,
+                "index": 2,
+                "parameters": [
+                    "us..."
+                ]
+            },
+            {
+                "event": 15,
+                "page": 1,
+                "index": 1,
+                "parameters": [
+                    "AHHHH! My neural village is getting attacked"
+                ]
+            },
+            {
+                "event": 15,
+                "page": 1,
+                "index": 2,
+                "parameters": [
+                    "by pathogens. I ran away before getting caught..."
+                ]
+            },
+            {
+                "event": 15,
+                "page": 1,
+                "index": 4,
+                "parameters": [
+                    "Are you able to fight?\\!"
+                ]
+            },
+            {
+                "event": 15,
+                "page": 1,
+                "index": 5,
+                "parameters": [
+                    "If so please help us!"
+                ]
+            }
+        ],
+        "MAP096": []
+    },
+    "custom": {}
+}
