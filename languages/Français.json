@@ -109,31 +109,31 @@
     },
     "equip_types": [
         "",
-        "Weapon",
-        "Shield",
-        "Head",
-        "Body",
-        "Accessory"
+        "Arme",
+        "Bouclier",
+        "Tête",
+        "Corps",
+        "Accessoir"
     ],
     "skill_types": [
         "",
-        "Magic",
-        "Special"
+        "Magique",
+        "Spécial"
     ],
     "weapon_types": [
         "",
-        "Dagger",
-        "Sword",
-        "Flail",
-        "Axe",
-        "Whip",
-        "Cane",
-        "Bow",
-        "Crossbow",
-        "Gun",
-        "Claw",
-        "Glove",
-        "Spear"
+        "Dague",
+        "Épée",
+        "Fléau",
+        "Hache",
+        "Fouet",
+        "Canne",
+        "Arc",
+        "Arbalète",
+        "Fusil",
+        "Griffe",
+        "Gant",
+        "Lance"
     ],
     "actors": [
         {
@@ -176,8 +176,8 @@
         }
     ],
     "classes": [
-        "Neuron",
-        "Microglia",
+        "Neurone",
+        "Microglie",
         "Oligodendrocyte",
         "Astrocyte"
     ],
@@ -199,7 +199,7 @@
                 {
                     "index": 1,
                     "parameters": [
-                        "Ce je vise à apporter une expérience éducative "
+                        "Ce jeu vise à apporter une expérience éducative "
                     ]
                 },
                 {
@@ -348,57 +348,57 @@
     ],
     "skills": [
         {
-            "name": "Attack",
+            "name": "Attaque",
             "description": "",
-            "message1": " attacks!",
+            "message1": " Attaque!",
             "message2": ""
         },
         {
-            "name": "Guard",
+            "name": "Défendre",
             "description": "",
-            "message1": " guards.",
+            "message1": " défend.",
             "message2": ""
         },
         {
-            "name": "Dual Attack",
+            "name": "Attaque Combinée",
             "description": "",
-            "message1": " attacks!",
+            "message1": " attaque!",
             "message2": ""
         },
         {
-            "name": "Double Attack",
+            "name": "Double Attaque",
             "description": "",
-            "message1": " attacks!",
+            "message1": " attaque!",
             "message2": ""
         },
         {
-            "name": "Triple Attack",
+            "name": "Triple Attaque",
             "description": "",
-            "message1": " attacks!",
+            "message1": " attaque!",
             "message2": ""
         },
         {
-            "name": "Escape",
+            "name": "Fuir",
             "description": "",
-            "message1": " flees.",
+            "message1": " s'enfuit.",
             "message2": ""
         },
         {
-            "name": "Wait",
+            "name": "Attendre",
             "description": "",
-            "message1": " waits.",
+            "message1": " attend.",
             "message2": ""
         },
         {
-            "name": "Heal",
+            "name": "Soigner",
             "description": "",
-            "message1": " casts %1!",
+            "message1": " utilise %1!",
             "message2": ""
         },
         {
-            "name": "Fire",
+            "name": "Tirer",
             "description": "",
-            "message1": " casts %1!",
+            "message1": " utilise %1!",
             "message2": ""
         },
         {
@@ -766,19 +766,19 @@
     ],
     "weapons": [
         {
-            "name": "Sword",
+            "name": "Épée",
             "description": ""
         },
         {
-            "name": "Axe",
+            "name": "Hache",
             "description": ""
         },
         {
-            "name": "Cane",
+            "name": "Canne",
             "description": ""
         },
         {
-            "name": "Bow",
+            "name": "Arc",
             "description": ""
         }
     ],
@@ -885,7 +885,7 @@
                 "page": 0,
                 "index": 1,
                 "parameters": [
-                    "Ah, another neuron wandering into my majestic domain. "
+                    "Ah, un autre neurone en ballade dans mon majestueux domaine. "
                 ]
             },
             {
@@ -893,7 +893,7 @@
                 "page": 0,
                 "index": 2,
                 "parameters": [
-                    "What business do you have with myself, King Purkinje,"
+                    "Qu'est-ce qui t'amènes devant moi, le Roi Purkinje, "
                 ]
             },
             {
@@ -901,7 +901,7 @@
                 "page": 0,
                 "index": 3,
                 "parameters": [
-                    "the ruler of the Cerebellum?"
+                    "le grand dirigeant du Cerebellum?"
                 ]
             },
             {
@@ -909,7 +909,7 @@
                 "page": 0,
                 "index": 5,
                 "parameters": [
-                    "\\P[1]: Hum hello King Purkinje, "
+                    "\\P[1]: Euh, salut Roi Purkinje, "
                 ]
             },
             {
@@ -917,7 +917,7 @@
                 "page": 0,
                 "index": 6,
                 "parameters": [
-                    "I am visiting every part of the brain,"
+                    "Je visite chaque partie du cerveau,"
                 ]
             },
             {
@@ -925,7 +925,7 @@
                 "page": 0,
                 "index": 7,
                 "parameters": [
-                    "and thought I would come visit the"
+                    "et j'ai pensé d'abord visiter"
                 ]
             },
             {
@@ -933,7 +933,7 @@
                 "page": 0,
                 "index": 8,
                 "parameters": [
-                    "Cerebellum first."
+                    "le Cerebellum en premier lieu."
                 ]
             },
             {
@@ -941,7 +941,7 @@
                 "page": 0,
                 "index": 10,
                 "parameters": [
-                    "King Purkinje: (Reluctantly) Very well, listen closely, "
+                    "King Purkinje: (sans enthousiasme) Eh bien, écoute attentivement, "
                 ]
             },
             {
@@ -949,7 +949,7 @@
                 "page": 0,
                 "index": 11,
                 "parameters": [
-                    "insignificant neuron. "
+                    "espèce de neurone insignifiant. "
                 ]
             },
             {
@@ -973,7 +973,7 @@
                 "page": 0,
                 "index": 15,
                 "parameters": [
-                    "Rumors whisper of a malevolent force growing within "
+                    "Des rumeurs se répendent à propos de forces diaboliques au niveau "
                 ]
             },
             {
@@ -981,7 +981,7 @@
                 "page": 0,
                 "index": 16,
                 "parameters": [
-                    "the basal ganglia. It threatens the delicate balance "
+                    "de la base des ganglions. Cela met en péril la balance délicate "
                 ]
             },
             {
@@ -989,7 +989,7 @@
                 "page": 0,
                 "index": 17,
                 "parameters": [
-                    "and harmony of our interconnected systems. "
+                    "ainsi que l'harmonie de notre système interconnecté. "
                 ]
             },
             {
@@ -1005,7 +1005,7 @@
                 "page": 0,
                 "index": 20,
                 "parameters": [
-                    "If it were to spread, chaos would reign over our once "
+                    "Si cela se répandrait, le chaos contrôlera tous nos "
                 ]
             },
             {
@@ -1013,7 +1013,7 @@
                 "page": 0,
                 "index": 21,
                 "parameters": [
-                    "well-orchestrated movements."
+                    "mouvements bien organisés"
                 ]
             },
             {
@@ -1021,7 +1021,7 @@
                 "page": 0,
                 "index": 23,
                 "parameters": [
-                    "\\P[1]: Thank you, Your Highness, for sharing this "
+                    "\\P[1]: Merci votre altesse pour me révéler cette "
                 ]
             },
             {
@@ -1029,7 +1029,7 @@
                 "page": 0,
                 "index": 24,
                 "parameters": [
-                    "crucial information. Together, we must vanquish this "
+                    "information cruciale. Ensemble, nous devons vaincre cette "
                 ]
             },
             {
@@ -1037,7 +1037,7 @@
                 "page": 0,
                 "index": 25,
                 "parameters": [
-                    "encroaching darkness and restore order to the brain."
+                    "obscurité envahissante et restorer l'ordre dans le cerveau."
                 ]
             },
             {
@@ -1045,7 +1045,7 @@
                 "page": 0,
                 "index": 27,
                 "parameters": [
-                    "King Purkinje: (Grudgingly) Yes, yes, do what you must. "
+                    "King Purkinje: (bâillant) Ouais ouais, c'est ça, c'est ça. "
                 ]
             },
             {
@@ -1053,7 +1053,7 @@
                 "page": 0,
                 "index": 28,
                 "parameters": [
-                    "Just remember your place, little neuron. "
+                    "N'oublie juste pas ta place, petit neurone. "
                 ]
             },
             {
@@ -1077,7 +1077,7 @@
                 "page": 0,
                 "index": 32,
                 "parameters": [
-                    "The Cerebellum shall continue to rule with poise "
+                    "Le Cerebellum gardera son équilibre "
                 ]
             },
             {
@@ -1085,7 +1085,7 @@
                 "page": 0,
                 "index": 33,
                 "parameters": [
-                    "and precision while you scurry along in your "
+                    "et toute sa précision pendant que tu continues "
                 ]
             },
             {
@@ -1093,7 +1093,7 @@
                 "page": 0,
                 "index": 34,
                 "parameters": [
-                    "simplistic ways."
+                    "ton chemin de la façon des plus banales."
                 ]
             },
             {
@@ -1101,7 +1101,7 @@
                 "page": 0,
                 "index": 36,
                 "parameters": [
-                    "I suggest you go to"
+                    "Je te suggère d'aller voir"
                 ]
             },
             {
@@ -1109,7 +1109,7 @@
                 "page": 0,
                 "index": 37,
                 "parameters": [
-                    "see what is going on in the basal ganglia."
+                    "ce qu'il se passe à la base des ganglions."
                 ]
             },
             {
@@ -1117,7 +1117,7 @@
                 "page": 0,
                 "index": 38,
                 "parameters": [
-                    "To do so you will head North and pass the swamp, "
+                    "Pour se faire, tu vas aller au nord et passer par le marais, "
                 ]
             },
             {
@@ -1125,7 +1125,7 @@
                 "page": 0,
                 "index": 39,
                 "parameters": [
-                    "the forest, and the cortices."
+                    "la forêt et les cortices."
                 ]
             },
             {
@@ -1133,7 +1133,7 @@
                 "page": 0,
                 "index": 41,
                 "parameters": [
-                    "If you don't know what that means peasant, cortices"
+                    "Si tu ne sais pas ce que sont les cortices, petit paysant."
                 ]
             },
             {
@@ -1141,7 +1141,7 @@
                 "page": 0,
                 "index": 42,
                 "parameters": [
-                    "is the plural for cortex."
+                    "il s'agit du pluriel de cortex."
                 ]
             },
             {
@@ -1149,7 +1149,7 @@
                 "page": 0,
                 "index": 43,
                 "parameters": [
-                    "I guess they don't learn that in the Brainstem..."
+                    "Je suppose qu'ils ne vous l'apprennent pas dans le tronc cérébral..."
                 ]
             },
             {
@@ -1157,7 +1157,7 @@
                 "page": 0,
                 "index": 45,
                 "parameters": [
-                    "\\P[1]: I shall prove the worth of neurons, "
+                    "\\P[1]: Je vous prouverais l'importance des neurones, "
                 ]
             },
             {
@@ -1165,7 +1165,7 @@
                 "page": 0,
                 "index": 46,
                 "parameters": [
-                    "even to a lofty ruler like yourself. "
+                    "même à un noble dirigeant comme vous. "
                 ]
             },
             {
@@ -1173,7 +1173,7 @@
                 "page": 0,
                 "index": 47,
                 "parameters": [
-                    "The fate of the entire brain depends on our unity and "
+                    "L'espoire de tout le cerveau dépend de notre solidarité et "
                 ]
             },
             {
@@ -1181,7 +1181,7 @@
                 "page": 0,
                 "index": 48,
                 "parameters": [
-                    "resilience."
+                    "de notre résilience."
                 ]
             },
             {
@@ -1189,7 +1189,7 @@
                 "page": 1,
                 "index": 1,
                 "parameters": [
-                    "Good luck with your mission!"
+                    "Bonne chance dans ta mission!"
                 ]
             },
             {
@@ -1197,7 +1197,7 @@
                 "page": 0,
                 "index": 1,
                 "parameters": [
-                    "This way please."
+                    "Par ici, s'il vous plait."
                 ]
             },
             {
@@ -1205,7 +1205,7 @@
                 "page": 0,
                 "index": 1,
                 "parameters": [
-                    "Our King is right to worry."
+                    "Notre roi a raison de s'inquiéter."
                 ]
             },
             {
@@ -1213,7 +1213,7 @@
                 "page": 0,
                 "index": 2,
                 "parameters": [
-                    "I've been getting a lot of signals from the basal "
+                    "J'ai reçu de nombreuses alertes provenant de la base "
                 ]
             },
             {
@@ -1221,7 +1221,7 @@
                 "page": 0,
                 "index": 3,
                 "parameters": [
-                    "ganglia lately, and they don't look good... "
+                    "des ganglions ces derniers temps, et cela sent mauvais... "
                 ]
             },
             {
@@ -1229,7 +1229,7 @@
                 "page": 0,
                 "index": 5,
                 "parameters": [
-                    "There's been an increase in inflammation and the "
+                    "Il y a eu de plus en plus d'inflammations et "
                 ]
             },
             {
@@ -1237,7 +1237,7 @@
                 "page": 0,
                 "index": 6,
                 "parameters": [
-                    "accumulation of misfolded proteins. If this continues, "
+                    "d'accumulation de protéines mal repliées. Si cela continue, "
                 ]
             },
             {
@@ -1245,7 +1245,7 @@
                 "page": 0,
                 "index": 7,
                 "parameters": [
-                    "it could lead to some serious degeneration and "
+                    "cela pourrait produire une violente dégénération et "
                 ]
             },
             {
@@ -1253,7 +1253,7 @@
                 "page": 0,
                 "index": 8,
                 "parameters": [
-                    "dysfunction."
+                    "de nombreux dysfonctionnements."
                 ]
             },
             {
@@ -1261,7 +1261,7 @@
                 "page": 0,
                 "index": 1,
                 "parameters": [
-                    "Show respect to King Purkinje!"
+                    "Montrez du respect au Roi Purkinje!"
                 ]
             },
             {
@@ -1269,7 +1269,7 @@
                 "page": 0,
                 "index": 1,
                 "parameters": [
-                    "King Purkinje's quarters are not open for the public."
+                    "Les cartiers du Roi Purkinje ne sont pas ouverts au pulic."
                 ]
             },
             {
@@ -1277,7 +1277,7 @@
                 "page": 0,
                 "index": 2,
                 "parameters": [
-                    "Get out of here!"
+                    "Maintenant, dégage de là!"
                 ]
             },
             {
@@ -1285,7 +1285,7 @@
                 "page": 1,
                 "index": 1,
                 "parameters": [
-                    "Show respect to King Purkinje!"
+                    "Montrez du respect au Roi Purkinje!"
                 ]
             },
             {
@@ -1293,7 +1293,7 @@
                 "page": 0,
                 "index": 1,
                 "parameters": [
-                    "As a neuron in the cerebellum, my job is to transmit "
+                    "En tant que neurone du cerebellum, mon travail est de transmettre les "
                 ]
             },
             {
@@ -1301,7 +1301,7 @@
                 "page": 0,
                 "index": 2,
                 "parameters": [
-                    "information about movement and coordination. "
+                    "informations sur les mouvements et de maintenir la coordination. "
                 ]
             },
             {
@@ -1309,7 +1309,7 @@
                 "page": 0,
                 "index": 4,
                 "parameters": [
-                    "But I don't forget about the importance of receiving "
+                    "Mais également, je n'oublie pas l'importance de recevoir "
                 ]
             },
             {
@@ -1317,7 +1317,7 @@
                 "page": 0,
                 "index": 5,
                 "parameters": [
-                    "information, too - the cerebellum is constantly "
+                    "les informations - le cerebellum est constamment en train de "
                 ]
             },
             {
@@ -1325,7 +1325,7 @@
                 "page": 0,
                 "index": 6,
                 "parameters": [
-                    "receiving input from other parts of the brain and body."
+                    "recevoir des signals provenant d'autres parties du cerveau et du corps."
                 ]
             }
         ],
@@ -1335,7 +1335,7 @@
                 "page": 0,
                 "index": 2,
                 "parameters": [
-                    "Welcome to Neuro-Quest!"
+                    "Bienvenue dans Neuro-Quest!"
                 ]
             },
             {
@@ -1343,7 +1343,7 @@
                 "page": 0,
                 "index": 3,
                 "parameters": [
-                    "A game where you are a neuron inside the amazing"
+                    "Un jeu où vous incarnez un neurone dans le monde "
                 ]
             },
             {
@@ -1351,7 +1351,7 @@
                 "page": 0,
                 "index": 4,
                 "parameters": [
-                    "world that is the Brain. "
+                    "fantastique qu'est le cerveau. "
                 ]
             },
             {
@@ -1359,7 +1359,7 @@
                 "page": 0,
                 "index": 6,
                 "parameters": [
-                    "During your quest, you will embark on a remarkable "
+                    "Lors de votre quête, vous allez vous embarquer dans un "
                 ]
             },
             {
@@ -1367,7 +1367,7 @@
                 "page": 0,
                 "index": 7,
                 "parameters": [
-                    "journey deep within the intricate realm of the human "
+                    "voyage au plus profond de la complexité du cerveau "
                 ]
             },
             {
@@ -1375,7 +1375,7 @@
                 "page": 0,
                 "index": 8,
                 "parameters": [
-                    "brain. "
+                    "humain. "
                 ]
             },
             {
@@ -1391,7 +1391,7 @@
                 "page": 0,
                 "index": 11,
                 "parameters": [
-                    "Prepare to explore the vast expanse of neurons, "
+                    "Préparez-vous à explorer la vaste variétés des neurones, "
                 ]
             },
             {
@@ -1399,7 +1399,7 @@
                 "page": 0,
                 "index": 12,
                 "parameters": [
-                    "synapses, and neural circuits that shape our thoughts, "
+                    "synapses et circuits neuronaux qui façonnent "
                 ]
             },
             {
@@ -1407,7 +1407,7 @@
                 "page": 0,
                 "index": 13,
                 "parameters": [
-                    "emotions, and actions."
+                    "nos pensées, émotions, et actions."
                 ]
             },
             {
@@ -1415,7 +1415,7 @@
                 "page": 0,
                 "index": 15,
                 "parameters": [
-                    "To begin with, please choose a name:"
+                    "Pour commencer, choisissez un nom:"
                 ]
             },
             {
@@ -1423,7 +1423,7 @@
                 "page": 0,
                 "index": 19,
                 "parameters": [
-                    "You are ready to start your adventure. Good luck!"
+                    "Vous êtes prêts à partir. Bonne chance!"
                 ]
             }
         ],
@@ -1438,7 +1438,7 @@
                 "page": 0,
                 "index": 10,
                 "parameters": [
-                    "10000\\G were found!"
+                    "10000\\G ont été trouvés!"
                 ]
             },
             {
@@ -1446,7 +1446,7 @@
                 "page": 0,
                 "index": 7,
                 "parameters": [
-                    "Please I am begging you... \\|"
+                    "Je vous en supplie... \\|"
                 ]
             },
             {
@@ -1454,7 +1454,7 @@
                 "page": 0,
                 "index": 8,
                 "parameters": [
-                    "Let us go! \\!"
+                    "Laissez nous partir! \\!"
                 ]
             },
             {
@@ -1462,7 +1462,7 @@
                 "page": 0,
                 "index": 9,
                 "parameters": [
-                    "We haven't done anything wrong."
+                    "Nous n'avons rien fait de mal."
                 ]
             },
             {
@@ -1478,7 +1478,7 @@
                 "page": 0,
                 "index": 17,
                 "parameters": [
-                    "Be grateful that my master is letting you live a"
+                    "Soyez reconnaissant que mon maître vous laisse vivre "
                 ]
             },
             {
@@ -1486,7 +1486,7 @@
                 "page": 0,
                 "index": 18,
                 "parameters": [
-                    "little longer by capturing you. \\|"
+                    "plus longtemps en vous capturant. \\|"
                 ]
             },
             {
@@ -1494,7 +1494,7 @@
                 "page": 0,
                 "index": 20,
                 "parameters": [
-                    "You will slowly turn mad and degenerate... \\!"
+                    "Vous allez lentement devenir fou et dégénérer... \\!"
                 ]
             },
             {
@@ -1502,7 +1502,7 @@
                 "page": 0,
                 "index": 21,
                 "parameters": [
-                    "I can't wait to see it! \\. MWHAHAHA!"
+                    "Je suis vraiment impatient de voir cela! \\. MWHAHAHA!"
                 ]
             },
             {
@@ -1510,7 +1510,7 @@
                 "page": 0,
                 "index": 28,
                 "parameters": [
-                    "Someone please help us... \\!"
+                    "Quelqu'un, à l'aide... \\!"
                 ]
             }
         ],
@@ -1522,7 +1522,7 @@
                 "page": 0,
                 "index": 2,
                 "parameters": [
-                    "Please help us! We are getting infected!"
+                    "Aidez-nous! Nous nous faisons infecter!"
                 ]
             },
             {
@@ -1530,7 +1530,7 @@
                 "page": 0,
                 "index": 4,
                 "parameters": [
-                    "We do not have any Microglia cells here so we have"
+                    "Nous n'avons aucune cellule Microglie ici, "
                 ]
             },
             {
@@ -1538,7 +1538,7 @@
                 "page": 0,
                 "index": 5,
                 "parameters": [
-                    "no way to protect ourselves.\\!"
+                    "nous ne pouvons juste pas nous défendre.\\!"
                 ]
             },
             {
@@ -1546,7 +1546,7 @@
                 "page": 0,
                 "index": 6,
                 "parameters": [
-                    "I am begging you please help us by killing the "
+                    "Je vous en supplie, aidez-nous à tuer les "
                 ]
             },
             {
@@ -1554,7 +1554,7 @@
                 "page": 0,
                 "index": 7,
                 "parameters": [
-                    "pathogens!"
+                    "agents pathogènes!"
                 ]
             },
             {
@@ -1562,7 +1562,7 @@
                 "page": 1,
                 "index": 1,
                 "parameters": [
-                    "Thank you from behalf of all. Pathogens are very "
+                    "Au nom de toutes et tous, merci. Les agents pathogènes sont "
                 ]
             },
             {
@@ -1570,7 +1570,7 @@
                 "page": 1,
                 "index": 2,
                 "parameters": [
-                    "dangerous. Having a microglia around would sure help."
+                    "très dangereux. Avoir un microglie dans la coin aurait été une aide."
                 ]
             },
             {
@@ -1578,7 +1578,7 @@
                 "page": 1,
                 "index": 3,
                 "parameters": [
-                    "I hear there is one that lives North from here."
+                    "J'ai entendu  dire qu'il y aurait un qui vit un nord d'ici."
                 ]
             },
             {
@@ -1586,7 +1586,7 @@
                 "page": 1,
                 "index": 4,
                 "parameters": [
-                    "Maybe he would be willing to travel with you?"
+                    "Peut-être qu'il voudra bien vouloir voyager avec toi!"
                 ]
             },
             {
@@ -1594,7 +1594,7 @@
                 "page": 0,
                 "index": 1,
                 "parameters": [
-                    "Help! Help! I'm being attacked by a pathogen! "
+                    "À L'AIDE! Je me fais attaquer par un pathogène! "
                 ]
             },
             {
@@ -1602,7 +1602,7 @@
                 "page": 0,
                 "index": 2,
                 "parameters": [
-                    "Please, you have to help me!"
+                    "S'vous plait, aidez-moi!"
                 ]
             },
             {
@@ -1610,7 +1610,7 @@
                 "page": 1,
                 "index": 1,
                 "parameters": [
-                    "Thank you so much for saving me! I was so scared that "
+                    "Merci pour m'avoir sauvé! J'étais tellement effrayé, "
                 ]
             },
             {
@@ -1618,7 +1618,7 @@
                 "page": 1,
                 "index": 2,
                 "parameters": [
-                    "I was going to die."
+                    "j'ai cru que j'allais mourir."
                 ]
             },
             {
@@ -1626,7 +1626,7 @@
                 "page": 1,
                 "index": 4,
                 "parameters": [
-                    "It must have been rough for you since neurons are not"
+                    "Cela a du être dur pour toi. Les neurones ne sont pas fait"
                 ]
             },
             {
@@ -1634,7 +1634,7 @@
                 "page": 1,
                 "index": 5,
                 "parameters": [
-                    "made to fight pathogens."
+                    "se battre contre des agents pathogènes."
                 ]
             },
             {
@@ -1642,7 +1642,7 @@
                 "page": 1,
                 "index": 7,
                 "parameters": [
-                    "Don't hesistate to go to the Inn to rest if you need "
+                    "N'hésite pas à passer par l'auberge si tu veux te reposer "
                 ]
             },
             {
@@ -1650,7 +1650,7 @@
                 "page": 1,
                 "index": 8,
                 "parameters": [
-                    "to."
+                    "un peu."
                 ]
             },
             {
@@ -1658,7 +1658,7 @@
                 "page": 0,
                 "index": 1,
                 "parameters": [
-                    "Oh look, it's my favorite host. You're like a walking "
+                    "Oh, voyez-vous cela, mon hôte préféré. Tu es comme un "
                 ]
             },
             {
@@ -1666,7 +1666,7 @@
                 "page": 0,
                 "index": 2,
                 "parameters": [
-                    "buffet for me. I can't wait to dig in."
+                    "buffet ambulant pour moi. J'ai hâte de creuser en toi."
                 ]
             },
             {
@@ -1674,7 +1674,7 @@
                 "page": 0,
                 "index": 1,
                 "parameters": [
-                    "Oh look, it's my favorite host. You're like a walking "
+                    "Oh, voyez-vous cela, mon hôte préféré. Tu es comme un "
                 ]
             },
             {
@@ -1682,7 +1682,7 @@
                 "page": 0,
                 "index": 2,
                 "parameters": [
-                    "buffet for me. I can't wait to dig in."
+                    "buffet ambulant pour moi. J'ai hâte de creuser en toi."
                 ]
             },
             {
@@ -1690,7 +1690,7 @@
                 "page": 0,
                 "index": 1,
                 "parameters": [
-                    "You're my hero! I can't believe you were able to "
+                    "Tu es mon héro! J'arrive pas à croire que tu as réussi à "
                 ]
             },
             {
@@ -1698,7 +1698,7 @@
                 "page": 0,
                 "index": 2,
                 "parameters": [
-                    "defeat those pathogens and save my life."
+                    "vaincre tous ces pathogènes et sauver ma vie."
                 ]
             },
             {
@@ -1706,7 +1706,7 @@
                 "page": 0,
                 "index": 1,
                 "parameters": [
-                    "I hope you don't mind if I make myself at home. "
+                    "J'espère que cela ne te dérange pas si je fais comme chez moi. "
                 ]
             },
             {
@@ -1714,7 +1714,7 @@
                 "page": 0,
                 "index": 2,
                 "parameters": [
-                    "I promise to be a polite guest..."
+                    "Je promets d'être un invité des plus polis..."
                 ]
             },
             {
@@ -1722,7 +1722,7 @@
                 "page": 0,
                 "index": 3,
                 "parameters": [
-                    "Until I start destroying everything."
+                    "Enfin, jusqu'à ce que je commence à tout casser!"
                 ]
             },
             {
@@ -1730,7 +1730,7 @@
                 "page": 0,
                 "index": 1,
                 "parameters": [
-                    "I hope you don't mind if I make myself at home. "
+                    "J'espère que cela ne te dérange pas si je fais comme chez moi. "
                 ]
             },
             {
@@ -1738,7 +1738,7 @@
                 "page": 0,
                 "index": 2,
                 "parameters": [
-                    "I promise to be a polite guest..."
+                    "Je promets d'être un invité des plus polis..."
                 ]
             },
             {
@@ -1746,7 +1746,7 @@
                 "page": 0,
                 "index": 3,
                 "parameters": [
-                    "Until I start destroying everything."
+                    "Enfin, jusqu'à ce que je commence à tout casser!"
                 ]
             },
             {
@@ -1754,7 +1754,7 @@
                 "page": 0,
                 "index": 1,
                 "parameters": [
-                    "I hope you don't mind if I make myself at home. "
+                    "J'espère que cela ne te dérange pas si je fais comme chez moi. "
                 ]
             },
             {
@@ -1762,7 +1762,7 @@
                 "page": 0,
                 "index": 2,
                 "parameters": [
-                    "I promise to be a polite guest..."
+                    "Je promets d'être un invité des plus polis..."
                 ]
             },
             {
@@ -1770,7 +1770,7 @@
                 "page": 0,
                 "index": 3,
                 "parameters": [
-                    "Until I start destroying everything."
+                    "Enfin, jusqu'à ce que je commence à tout casser!"
                 ]
             },
             {
@@ -1778,7 +1778,7 @@
                 "page": 0,
                 "index": 1,
                 "parameters": [
-                    "I hope you don't mind if I make myself at home. "
+                    "J'espère que cela ne te dérange pas si je fais comme chez moi. "
                 ]
             },
             {
@@ -1786,7 +1786,7 @@
                 "page": 0,
                 "index": 2,
                 "parameters": [
-                    "I promise to be a polite guest..."
+                    "Je promets d'être un invité des plus polis..."
                 ]
             },
             {
@@ -1794,7 +1794,7 @@
                 "page": 0,
                 "index": 3,
                 "parameters": [
-                    "Until I start destroying everything."
+                    "Enfin, jusqu'à ce que je commence à tout casser!"
                 ]
             },
             {
@@ -1802,7 +1802,7 @@
                 "page": 0,
                 "index": 10,
                 "parameters": [
-                    "Potion was found!"
+                    "Vous avez trouvé une potion!"
                 ]
             }
         ],
@@ -1812,7 +1812,7 @@
                 "page": 0,
                 "index": 20,
                 "parameters": [
-                    "It is boring here."
+                    "C'est lassant ici."
                 ]
             },
             {
@@ -1820,7 +1820,7 @@
                 "page": 0,
                 "index": 21,
                 "parameters": [
-                    "I want to go explore the world!"
+                    "Je veux aller explorer le monde!"
                 ]
             },
             {
@@ -1828,7 +1828,7 @@
                 "page": 0,
                 "index": 1,
                 "parameters": [
-                    "Would you like to sleep?"
+                    "Voulez-vous dormir?"
                 ]
             },
             {
@@ -1837,8 +1837,8 @@
                 "index": 2,
                 "parameters": [
                     [
-                        "Yes",
-                        "No"
+                        "Oui",
+                        "Non"
                     ],
                     1,
                     0,
@@ -1851,7 +1851,7 @@
                 "page": 0,
                 "index": 1,
                 "parameters": [
-                    "Would you like to sleep?"
+                    "Voulez-vous dormir?"
                 ]
             },
             {
@@ -1860,8 +1860,8 @@
                 "index": 2,
                 "parameters": [
                     [
-                        "Yes",
-                        "No"
+                        "Oui",
+                        "Non"
                     ],
                     1,
                     0,
@@ -1874,7 +1874,7 @@
                 "page": 0,
                 "index": 10,
                 "parameters": [
-                    "10\\G were found!"
+                    "10\\G ont été trouvés!"
                 ]
             }
         ],
@@ -1884,7 +1884,7 @@
                 "page": 0,
                 "index": 1,
                 "parameters": [
-                    "As you can see the brain is funky."
+                    "Comme tu peux le voir, le cerveau est amusant."
                 ]
             },
             {
@@ -1892,7 +1892,7 @@
                 "page": 0,
                 "index": 2,
                 "parameters": [
-                    "We are currently in the Brainstem, the lowest part "
+                    "Nous sommes dans le tronc cérébral, la partie la plus basse "
                 ]
             },
             {
@@ -1900,7 +1900,7 @@
                 "page": 0,
                 "index": 3,
                 "parameters": [
-                    "of the brain when you stand up."
+                    "du cerveau dans lequel tu te tiens."
                 ]
             },
             {
@@ -1916,7 +1916,7 @@
                 "page": 0,
                 "index": 6,
                 "parameters": [
-                    "There are two major cell types here:"
+                    "Il y a deux types majeurs de cellules ici:"
                 ]
             },
             {
@@ -1924,7 +1924,7 @@
                 "page": 0,
                 "index": 7,
                 "parameters": [
-                    "1) Neurons, just like you and me, and 2) Glial cells."
+                    "1) Les neurones, comme toi et moi, et 2) les cellules gliales."
                 ]
             },
             {
@@ -1932,7 +1932,7 @@
                 "page": 0,
                 "index": 9,
                 "parameters": [
-                    "Us neurons we generate electrical and chemical signals,"
+                    "Nous générons l'électricité et les signaux chimiques,"
                 ]
             },
             {
@@ -1940,7 +1940,7 @@
                 "page": 0,
                 "index": 10,
                 "parameters": [
-                    "and send them to different parts of the brain to give"
+                    "et les envoyons dans les différentes parties du cerveau"
                 ]
             },
             {
@@ -1948,7 +1948,7 @@
                 "page": 0,
                 "index": 11,
                 "parameters": [
-                    "out information."
+                    "afin de transmettre des informations."
                 ]
             },
             {
@@ -1956,7 +1956,7 @@
                 "page": 0,
                 "index": 1,
                 "parameters": [
-                    "Hey \\P[1]! \\.How are you? \\|"
+                    "Hey \\P[1]! \\.Comment vas-tu? \\|"
                 ]
             },
             {
@@ -1964,7 +1964,7 @@
                 "page": 0,
                 "index": 3,
                 "parameters": [
-                    "The village chief said that she wanted to talk to you."
+                    "La cheffe du village a dit qu'elle voulait te parler."
                 ]
             },
             {
@@ -1972,7 +1972,7 @@
                 "page": 0,
                 "index": 4,
                 "parameters": [
-                    "\\|You should go see her!"
+                    "\\|Tu devrais aller la voir!"
                 ]
             },
             {
@@ -1980,7 +1980,7 @@
                 "page": 0,
                 "index": 7,
                 "parameters": [
-                    "What do you mean what am I?"
+                    "Comment cela que suis-je??"
                 ]
             },
             {
@@ -1988,7 +1988,7 @@
                 "page": 0,
                 "index": 8,
                 "parameters": [
-                    "I am a Microglia! A type of glial cell."
+                    "Je suis un Microglie! Un type de cellule gliale."
                 ]
             },
             {
@@ -1996,7 +1996,7 @@
                 "page": 0,
                 "index": 1,
                 "parameters": [
-                    "I am an oligodendrocyte."
+                    "Je suis un oligodendrocyte."
                 ]
             },
             {
@@ -2004,7 +2004,7 @@
                 "page": 0,
                 "index": 3,
                 "parameters": [
-                    "I take great pride in my ability to produce myelin "
+                    "Je suis très fier de ma capacité à produire de la myéline "
                 ]
             },
             {
@@ -2012,7 +2012,7 @@
                 "page": 0,
                 "index": 4,
                 "parameters": [
-                    "- the fatty substance that wraps around axons to "
+                    "- la substance grasse qui entoure les axones pour "
                 ]
             },
             {
@@ -2020,7 +2020,7 @@
                 "page": 0,
                 "index": 5,
                 "parameters": [
-                    "increase the speed of neural signaling. "
+                    "augmenter la vitesse de la signalisation neuronale. "
                 ]
             },
             {
@@ -2028,7 +2028,7 @@
                 "page": 0,
                 "index": 7,
                 "parameters": [
-                    "It's hard work, but it's all worth it when I see the "
+                    "C'est un travail dur, mais ça en vaut la peine quand je vois les "
                 ]
             },
             {
@@ -2036,7 +2036,7 @@
                 "page": 0,
                 "index": 8,
                 "parameters": [
-                    "signals flying through the brain at lightning speed!"
+                    "signaux traversant le cerveau à une vitesse fulgurante!"
                 ]
             },
             {
@@ -2044,7 +2044,7 @@
                 "page": 0,
                 "index": 1,
                 "parameters": [
-                    "\"Welcome to the Brainstem.\\!"
+                    "\"Bienvenue dans le tronc cérébral.\\!"
                 ]
             },
             {
@@ -2052,7 +2052,7 @@
                 "page": 0,
                 "index": 2,
                 "parameters": [
-                    "This place is responsible for many vital functions "
+                    "Cet endroit est responsable de nombreuses fonctions vitales "
                 ]
             },
             {
@@ -2060,7 +2060,7 @@
                 "page": 0,
                 "index": 3,
                 "parameters": [
-                    "of life, such as breathing, consciousness, "
+                    "comme la respiration, la conscience, "
                 ]
             },
             {
@@ -2068,7 +2068,7 @@
                 "page": 0,
                 "index": 4,
                 "parameters": [
-                    "blood pressure, heart rate, and sleep.\""
+                    "la tension artérielle, la fréquence cardiaque et le sommeil.\""
                 ]
             },
             {
@@ -2076,7 +2076,7 @@
                 "page": 0,
                 "index": 10,
                 "parameters": [
-                    "10\\G were found!"
+                    "10\\G ont été trouvés!"
                 ]
             },
             {
@@ -2084,7 +2084,7 @@
                 "page": 0,
                 "index": 1,
                 "parameters": [
-                    "I have to stay in shape because as a Microglia, "
+                    "Je dois rester en forme car en tant que Microglie, "
                 ]
             },
             {
@@ -2092,7 +2092,7 @@
                 "page": 0,
                 "index": 2,
                 "parameters": [
-                    "my job is to protect the brain from harmful invaders "
+                    "mon travail consiste à protéger le cerveau des envahisseurs nuisibles "
                 ]
             },
             {
@@ -2100,7 +2100,7 @@
                 "page": 0,
                 "index": 3,
                 "parameters": [
-                    "like viruses and toxins. "
+                    "comme les virus et les toxines. "
                 ]
             },
             {
@@ -2108,7 +2108,7 @@
                 "page": 0,
                 "index": 5,
                 "parameters": [
-                    "It's exhausting work, and sometimes I wish I could "
+                    "C'est un travail épuisant, et parfois j'aimerais pouvoir "
                 ]
             },
             {
@@ -2116,7 +2116,7 @@
                 "page": 0,
                 "index": 6,
                 "parameters": [
-                    "just take a break and relax for a while. "
+                    "juste faire une pause et me détendre pendant un moment. "
                 ]
             },
             {
@@ -2124,7 +2124,7 @@
                 "page": 0,
                 "index": 8,
                 "parameters": [
-                    "But I know that my duty is important, and I won't rest "
+                    "Mais je sais que mon devoir est important et je ne me "
                 ]
             },
             {
@@ -2132,7 +2132,7 @@
                 "page": 0,
                 "index": 9,
                 "parameters": [
-                    "until the brain is safe and healthy."
+                    "reposerai pas tant que le cerveau ne soit pas sain et sauf."
                 ]
             },
             {
@@ -2140,7 +2140,7 @@
                 "page": 0,
                 "index": 1,
                 "parameters": [
-                    "Hey \\P[1]! The village chief said that she wanted to"
+                    "Hey \\P[1]! La cheffe du village a dit qu'elle voulait"
                 ]
             },
             {
@@ -2148,7 +2148,7 @@
                 "page": 0,
                 "index": 2,
                 "parameters": [
-                    "see you. Before leaving the Brainstem you should go "
+                    "te voir. Avant de quitter le tronc cérébral, "
                 ]
             },
             {
@@ -2156,7 +2156,7 @@
                 "page": 0,
                 "index": 3,
                 "parameters": [
-                    "see her!"
+                    "vas la voir!"
                 ]
             },
             {
@@ -2164,7 +2164,7 @@
                 "page": 0,
                 "index": 4,
                 "parameters": [
-                    "Her house is north from here."
+                    "Sa maison est au nord d'ici."
                 ]
             },
             {
@@ -2172,7 +2172,7 @@
                 "page": 0,
                 "index": 1,
                 "parameters": [
-                    "The brain is a complex and fascinating organ, with many "
+                    "Le cerveau est un organe complexe et fascinant, doté de nombreux "
                 ]
             },
             {
@@ -2180,7 +2180,7 @@
                 "page": 0,
                 "index": 2,
                 "parameters": [
-                    "mysteries still waiting to be uncovered."
+                    "mystères qui attendent encore d'être découverts."
                 ]
             },
             {
@@ -2188,7 +2188,7 @@
                 "page": 0,
                 "index": 4,
                 "parameters": [
-                    "As you journey through the different regions and "
+                    "En parcourant les différentes régions et "
                 ]
             },
             {
@@ -2196,7 +2196,7 @@
                 "page": 0,
                 "index": 5,
                 "parameters": [
-                    "pathways, keep an open mind and be ready for new "
+                    "voies, gardez l'esprit ouvert et soyez prêt pour de nouvelles "
                 ]
             },
             {
@@ -2204,7 +2204,7 @@
                 "page": 0,
                 "index": 6,
                 "parameters": [
-                    "discoveries."
+                    "découvertes."
                 ]
             },
             {
@@ -2212,7 +2212,7 @@
                 "page": 0,
                 "index": 1,
                 "parameters": [
-                    "Did you know that the brain is the most complex organ "
+                    "Saviez-vous que le cerveau est l'organe le plus complexe "
                 ]
             },
             {
@@ -2220,7 +2220,7 @@
                 "page": 0,
                 "index": 2,
                 "parameters": [
-                    "in the human body, with over 100 billion neurons and "
+                    "dans le corps humain, avec plus de 100 milliards de neurones et "
                 ]
             },
             {
@@ -2228,7 +2228,7 @@
                 "page": 0,
                 "index": 3,
                 "parameters": [
-                    "trillions of connections between them?"
+                    "des milliards de connexions entre eux?"
                 ]
             },
             {
@@ -2237,8 +2237,8 @@
                 "index": 4,
                 "parameters": [
                     [
-                        "Yes",
-                        "No"
+                        "Oui",
+                        "Non"
                     ],
                     1,
                     0,
@@ -2251,7 +2251,7 @@
                 "page": 0,
                 "index": 7,
                 "parameters": [
-                    "It's amazing don't you think?"
+                    "C'est incroyable, ne trouvez-vous pas?"
                 ]
             },
             {
@@ -2259,7 +2259,7 @@
                 "page": 0,
                 "index": 11,
                 "parameters": [
-                    "That's okay! You are also here to learn right?"
+                    "Bon! Vous êtes également ici pour apprendre, n'est-ce pas ?"
                 ]
             },
             {
@@ -2267,7 +2267,7 @@
                 "page": 0,
                 "index": 15,
                 "parameters": [
-                    "It's a reminder of the amazing capacity of the brain "
+                    "C'est un rappel de l'incroyable capacité du cerveau "
                 ]
             },
             {
@@ -2275,7 +2275,7 @@
                 "page": 0,
                 "index": 16,
                 "parameters": [
-                    "to process information and regulate bodily functions."
+                    "à traiter les informations et réguler les fonctions corporelles."
                 ]
             },
             {
@@ -2283,7 +2283,7 @@
                 "page": 0,
                 "index": 1,
                 "parameters": [
-                    "The item shop is a great place to gear up if you"
+                    "La boutique d'objets est un endroit idéal pour vous équiper si vous"
                 ]
             },
             {
@@ -2291,7 +2291,7 @@
                 "page": 0,
                 "index": 2,
                 "parameters": [
-                    "have the funds."
+                    "en avez les moyens."
                 ]
             },
             {
@@ -2299,7 +2299,7 @@
                 "page": 0,
                 "index": 1,
                 "parameters": [
-                    "Hey \\P[1]! You are looking for the village chief?"
+                    "Hey \\P[1]! Tu cherches la cheffe du village?"
                 ]
             },
             {
@@ -2307,7 +2307,7 @@
                 "page": 0,
                 "index": 2,
                 "parameters": [
-                    "Her house is located to the North-West of the village."
+                    "Sa maison se trouve au nord-ouest du village."
                 ]
             },
             {
@@ -2331,7 +2331,7 @@
                 "page": 0,
                 "index": 6,
                 "parameters": [
-                    "Don't hesitate to explore and talk to everyone!"
+                    "N'hésite pas à explorer et à parler avec tout le monde!"
                 ]
             },
             {
@@ -2339,7 +2339,7 @@
                 "page": 0,
                 "index": 7,
                 "parameters": [
-                    "They have plenty to say about the brain."
+                    "Ils ont beaucoup de choses à dire sur le cerveau."
                 ]
             },
             {
@@ -2347,7 +2347,7 @@
                 "page": 0,
                 "index": 1,
                 "parameters": [
-                    "As a good ol' fashioned neuron farmer, I take pride in "
+                    "En tant que bon vieux cultivateur de neurones, je suis fier de "
                 ]
             },
             {
@@ -2355,7 +2355,7 @@
                 "page": 0,
                 "index": 2,
                 "parameters": [
-                    "my ability to cultivate the neural pathways of the "
+                    "ma capacité à cultiver les voies neuronales du "
                 ]
             },
             {
@@ -2363,7 +2363,7 @@
                 "page": 0,
                 "index": 3,
                 "parameters": [
-                    "brain."
+                    "cerveau."
                 ]
             },
             {
@@ -2371,7 +2371,7 @@
                 "page": 0,
                 "index": 5,
                 "parameters": [
-                    "Just like how I tend to my crops, I tend to "
+                    "Tout comme je m'occupe de mes cultures, je m'occupe de mes axones "
                 ]
             },
             {
@@ -2379,7 +2379,7 @@
                 "page": 0,
                 "index": 6,
                 "parameters": [
-                    "my axons, making sure they're healthy and strong so "
+                    "s'assurer qu'ils sont en bonne santé et forts "
                 ]
             },
             {
@@ -2387,7 +2387,7 @@
                 "page": 0,
                 "index": 7,
                 "parameters": [
-                    "the signals can travel fast and true."
+                    "afin d'envoyer des signaux brillants et rapides."
                 ]
             },
             {
@@ -2395,7 +2395,7 @@
                 "page": 0,
                 "index": 1,
                 "parameters": [
-                    "As a good ol' fashioned neuron farmer, I take pride in "
+                    "En tant que bon vieux cultivateur de neurones, je suis fier de "
                 ]
             },
             {
@@ -2403,7 +2403,7 @@
                 "page": 0,
                 "index": 2,
                 "parameters": [
-                    "my ability to cultivate the neural pathways of the "
+                    "ma capacité à cultiver les voies neuronales du "
                 ]
             },
             {
@@ -2411,7 +2411,7 @@
                 "page": 0,
                 "index": 3,
                 "parameters": [
-                    "brain."
+                    "cerveau."
                 ]
             },
             {
@@ -2419,7 +2419,7 @@
                 "page": 0,
                 "index": 5,
                 "parameters": [
-                    "Just like how I tend to my crops, I tend to "
+                    "Tout comme je m'occupe de mes cultures, je m'occupe de mes axones "
                 ]
             },
             {
@@ -2427,7 +2427,7 @@
                 "page": 0,
                 "index": 6,
                 "parameters": [
-                    "my axons, making sure they're healthy and strong so "
+                    "s'assurer qu'ils sont en bonne santé et forts "
                 ]
             },
             {
@@ -2435,7 +2435,7 @@
                 "page": 0,
                 "index": 7,
                 "parameters": [
-                    "the signals can travel fast and true."
+                    "afin d'envoyer des signaux brillants et rapides."
                 ]
             },
             {
@@ -2443,7 +2443,7 @@
                 "page": 0,
                 "index": 1,
                 "parameters": [
-                    "As a good ol' fashioned neuron farmer, I take pride in "
+                    "En tant que bon vieux cultivateur de neurones, je suis fier de "
                 ]
             },
             {
@@ -2451,7 +2451,7 @@
                 "page": 0,
                 "index": 2,
                 "parameters": [
-                    "my ability to cultivate the neural pathways of the "
+                    "ma capacité à cultiver les voies neuronales du "
                 ]
             },
             {
@@ -2459,7 +2459,7 @@
                 "page": 0,
                 "index": 3,
                 "parameters": [
-                    "brain."
+                    "cerveau."
                 ]
             },
             {
@@ -2467,7 +2467,7 @@
                 "page": 0,
                 "index": 5,
                 "parameters": [
-                    "Just like how I tend to my crops, I tend to "
+                    "Tout comme je m'occupe de mes cultures, je m'occupe de mes axones "
                 ]
             },
             {
@@ -2475,7 +2475,7 @@
                 "page": 0,
                 "index": 6,
                 "parameters": [
-                    "my axons, making sure they're healthy and strong so "
+                    "s'assurer qu'ils sont en bonne santé et forts "
                 ]
             },
             {
@@ -2483,7 +2483,7 @@
                 "page": 0,
                 "index": 7,
                 "parameters": [
-                    "the signals can travel fast and true."
+                    "afin d'envoyer des signaux brillants et rapides."
                 ]
             },
             {
@@ -2491,7 +2491,7 @@
                 "page": 0,
                 "index": 1,
                 "parameters": [
-                    "Gray matter and white matter may seem like simple "
+                    "La matière grise et la matière blanche peuvent sembler être"
                 ]
             },
             {
@@ -2499,7 +2499,7 @@
                 "page": 0,
                 "index": 2,
                 "parameters": [
-                    "concepts, but they represent the intricate network of "
+                    "des concepts simples, mais ils représentent le réseau complexe de "
                 ]
             },
             {
@@ -2507,7 +2507,7 @@
                 "page": 0,
                 "index": 3,
                 "parameters": [
-                    "neurons and axons that make up the brain. "
+                    "neurones et axones qui composent le cerveau. "
                 ]
             },
             {
@@ -2515,7 +2515,7 @@
                 "page": 0,
                 "index": 5,
                 "parameters": [
-                    "As a neuron in this network, I feel a sense of awe and "
+                    "En tant que neurone de ce réseau, je ressens un sentiment de respect et "
                 ]
             },
             {
@@ -2523,7 +2523,7 @@
                 "page": 0,
                 "index": 6,
                 "parameters": [
-                    "wonder at the complexity and beauty of the brain."
+                    "d'émerveillement devant la complexité et la beauté du cerveau."
                 ]
             },
             {
@@ -2531,7 +2531,7 @@
                 "page": 0,
                 "index": 8,
                 "parameters": [
-                    "Ah don't mind me, I am just contemplating my life"
+                    "Ah, ne fais pas attention à moi. Je contemple juste mes "
                 ]
             },
             {
@@ -2539,7 +2539,7 @@
                 "page": 0,
                 "index": 9,
                 "parameters": [
-                    "decisions..."
+                    "choix de vie..."
                 ]
             },
             {
@@ -2547,7 +2547,7 @@
                 "page": 0,
                 "index": 1,
                 "parameters": [
-                    "It is important to have good gear, especially for"
+                    "Il est important d'avoir un bon équipement, surtout pour"
                 ]
             },
             {
@@ -2555,7 +2555,7 @@
                 "page": 0,
                 "index": 2,
                 "parameters": [
-                    "battling with pathogens, mutants and neurotoxins!"
+                    "se battre contre des agents pathogènes, des mutants et des neurotoxines !"
                 ]
             },
             {
@@ -2563,7 +2563,7 @@
                 "page": 0,
                 "index": 4,
                 "parameters": [
-                    "My advice: \\|INVEST! And I am not just saying that"
+                    "Un conseil: \\|INVESTIS! Et je ne dis pas juste cela"
                 ]
             },
             {
@@ -2571,7 +2571,7 @@
                 "page": 0,
                 "index": 5,
                 "parameters": [
-                    "because my brother is a weaponsmith..."
+                    "parce que mon frère est un armurier..."
                 ]
             },
             {
@@ -2579,7 +2579,7 @@
                 "page": 0,
                 "index": 7,
                 "parameters": [
-                    "Unfortunatly he is sick right now, just like "
+                    "Malheureusement, il est malade en ce moment, tout comme "
                 ]
             },
             {
@@ -2587,7 +2587,7 @@
                 "page": 0,
                 "index": 8,
                 "parameters": [
-                    "the armorer, but I'm sure that are armories or "
+                    "l'autre armurier, mais je suis sûr qu'il y a des armureries"
                 ]
             },
             {
@@ -2595,7 +2595,7 @@
                 "page": 0,
                 "index": 9,
                 "parameters": [
-                    "weaponries in other cities."
+                    "dans d'autres villes."
                 ]
             },
             {
@@ -2603,7 +2603,7 @@
                 "page": 0,
                 "index": 11,
                 "parameters": [
-                    "I even hear that there are merchants inside a forest."
+                    "J'ai même entendu dire qu'il y avait des marchands à l'intérieur d'une forêt."
                 ]
             },
             {
@@ -2611,7 +2611,7 @@
                 "page": 0,
                 "index": 10,
                 "parameters": [
-                    "10\\G were found!"
+                    "10\\G ont été trouvés!"
                 ]
             }
         ],
@@ -2622,7 +2622,7 @@
                 "page": 0,
                 "index": 1,
                 "parameters": [
-                    "My partner keeps explaining to me what a neuron is made "
+                    "Mon partenaire n'arrête pas de m'expliquer de quoi est fait "
                 ]
             },
             {
@@ -2630,7 +2630,7 @@
                 "page": 0,
                 "index": 2,
                 "parameters": [
-                    "out of. I don't think he understands that I am ALSO"
+                    "un neurone. Je crois qu'il ne comprend pas que j'en suis un"
                 ]
             },
             {
@@ -2638,7 +2638,7 @@
                 "page": 0,
                 "index": 3,
                 "parameters": [
-                    "a neuron. I guess that's what 30 years of marriage will"
+                    "ÉGALEMENT. Je suppose que c'est ce que 30 ans de mariage"
                 ]
             },
             {
@@ -2646,7 +2646,7 @@
                 "page": 0,
                 "index": 4,
                 "parameters": [
-                    "do to you. "
+                    "te feront. "
                 ]
             },
             {
@@ -2654,7 +2654,7 @@
                 "page": 0,
                 "index": 6,
                 "parameters": [
-                    "You don't look the person in the eye anymore... \\|"
+                    "Tu ne regardes plus la personne dans les yeux... \\|"
                 ]
             },
             {
@@ -2662,7 +2662,7 @@
                 "page": 0,
                 "index": 1,
                 "parameters": [
-                    "Neurons like you and me are made out of three things:"
+                    "Les neurones comme toi et moi sont constitués de trois choses:"
                 ]
             },
             {
@@ -2670,7 +2670,7 @@
                 "page": 0,
                 "index": 2,
                 "parameters": [
-                    "DENDRITES, small branches where we receive and combine "
+                    "DENDRITES, petites branches où l'on reçoit et regroupe les "
                 ]
             },
             {
@@ -2678,7 +2678,7 @@
                 "page": 0,
                 "index": 3,
                 "parameters": [
-                    "information. Then we have a cell body, also called "
+                    "information. Nous avons ensuite un corps cellulaire, également appelé "
                 ]
             },
             {
@@ -2686,7 +2686,7 @@
                 "page": 0,
                 "index": 4,
                 "parameters": [
-                    "the SOMA. And finally an AXON, a tube where the "
+                    "le SOMA. Et enfin un AXON, un tube où le "
                 ]
             },
             {
@@ -2694,7 +2694,7 @@
                 "page": 0,
                 "index": 6,
                 "parameters": [
-                    "electrical signal travels."
+                    "signal électrique se propage."
                 ]
             }
         ],
@@ -2705,7 +2705,7 @@
                 "page": 0,
                 "index": 1,
                 "parameters": [
-                    "Chief: Hi \\P[1]! How are you?"
+                    "Cheffe: Salut \\P[1]! Comment vas-tu?"
                 ]
             },
             {
@@ -2713,7 +2713,7 @@
                 "page": 0,
                 "index": 2,
                 "parameters": [
-                    "I have a present for you. Here take it."
+                    "J'ai un cadeau pour toi. Tiens, prends-le."
                 ]
             },
             {
@@ -2721,7 +2721,7 @@
                 "page": 0,
                 "index": 4,
                 "parameters": [
-                    "\\P[1] received Map."
+                    "\\P[1] reçoit une carte."
                 ]
             },
             {
@@ -2729,7 +2729,7 @@
                 "page": 0,
                 "index": 6,
                 "parameters": [
-                    "Chief: I know you have always wanted to leave town "
+                    "Cheffe: Je sais que tu as toujours voulu quitter le village "
                 ]
             },
             {
@@ -2737,7 +2737,7 @@
                 "page": 0,
                 "index": 7,
                 "parameters": [
-                    "and explore all of the different parts of the brain."
+                    "et explorer toutes les différentes parties du cerveau."
                 ]
             },
             {
@@ -2745,7 +2745,7 @@
                 "page": 0,
                 "index": 9,
                 "parameters": [
-                    "I guess our small little village located in the"
+                    "Je suppose que notre petit village situé dans le"
                 ]
             },
             {
@@ -2753,7 +2753,7 @@
                 "page": 0,
                 "index": 10,
                 "parameters": [
-                    "Brainstem wasn't big enough for you."
+                    "ee tronc cérébral n'était pas assez grand pour toi."
                 ]
             },
             {
@@ -2761,7 +2761,7 @@
                 "page": 0,
                 "index": 12,
                 "parameters": [
-                    "So this is a way to show you that I support you!"
+                    "C'est ma façon de te montrer que je te soutiens !"
                 ]
             },
             {
@@ -2769,7 +2769,7 @@
                 "page": 0,
                 "index": 13,
                 "parameters": [
-                    "It is a map of the brain so you can easily navigate.\\|"
+                    "Il s'agit d'une carte du cerveau pour que tu puisses facilement t'y retrouver.\\|"
                 ]
             },
             {
@@ -2777,7 +2777,7 @@
                 "page": 0,
                 "index": 14,
                 "parameters": [
-                    "We will all miss you very much. But I'm sure you'll"
+                    "Tu nous manqueras à tous beaucoup. Mais je suis sûr que tu"
                 ]
             },
             {
@@ -2785,7 +2785,7 @@
                 "page": 0,
                 "index": 15,
                 "parameters": [
-                    "enjoy your journey."
+                    "apprécieras ton voyage."
                 ]
             },
             {
@@ -2793,7 +2793,7 @@
                 "page": 0,
                 "index": 18,
                 "parameters": [
-                    "To get out of town just head to the bottom of the "
+                    "Pour sortir de la ville, diriges-toi simplement vers le bas du"
                 ]
             },
             {
@@ -2801,7 +2801,7 @@
                 "page": 0,
                 "index": 19,
                 "parameters": [
-                    "village. The gate is located there."
+                    "village. La porte s'y trouve."
                 ]
             },
             {
@@ -2809,7 +2809,7 @@
                 "page": 0,
                 "index": 21,
                 "parameters": [
-                    "One last thing: if you don't know where to start"
+                    "Une dernière chose : si tu ne sais pas par où commencer, "
                 ]
             },
             {
@@ -2817,7 +2817,7 @@
                 "page": 0,
                 "index": 22,
                 "parameters": [
-                    "you should head to the Cerebellum. There is a big"
+                    "tu devrais aller au Cerebellum. Il y a un grand"
                 ]
             },
             {
@@ -2825,7 +2825,7 @@
                 "page": 0,
                 "index": 23,
                 "parameters": [
-                    "castle where a king lives."
+                    "château où un roi y vit."
                 ]
             },
             {
@@ -2833,7 +2833,7 @@
                 "page": 0,
                 "index": 26,
                 "parameters": [
-                    "You can now find the map in your inventory."
+                    "Vous pouvez maintenant trouver la carte dans votre inventaire."
                 ]
             },
             {
@@ -2841,7 +2841,7 @@
                 "page": 0,
                 "index": 27,
                 "parameters": [
-                    "Press the down button to fold it."
+                    "Appuyez sur le bouton bas pour la ranger."
                 ]
             },
             {
@@ -2849,7 +2849,7 @@
                 "page": 1,
                 "index": 1,
                 "parameters": [
-                    "Good luck with your journey!"
+                    "Cheffe: Bonne chance avec ton voyage !"
                 ]
             },
             {
@@ -2857,7 +2857,7 @@
                 "page": 1,
                 "index": 3,
                 "parameters": [
-                    "To get out of town just head to the bottom of the "
+                    "Pour sortir de la ville, diriges-toi simplement vers le bas du"
                 ]
             },
             {
@@ -2865,7 +2865,7 @@
                 "page": 1,
                 "index": 4,
                 "parameters": [
-                    "village. The gate is located there."
+                    "village. La porte s'y trouve."
                 ]
             },
             {
@@ -2873,7 +2873,7 @@
                 "page": 1,
                 "index": 6,
                 "parameters": [
-                    "One last thing: if you don't know where to start"
+                    "Une dernière chose : si tu ne sais pas par où commencer, "
                 ]
             },
             {
@@ -2881,7 +2881,7 @@
                 "page": 1,
                 "index": 7,
                 "parameters": [
-                    "you should head to the Cerebellum. There is a big"
+                    "tu devrais aller au Cerebellum. Il y a un grand"
                 ]
             },
             {
@@ -2889,7 +2889,7 @@
                 "page": 1,
                 "index": 8,
                 "parameters": [
-                    "castle where a king lives."
+                    "château où un roi y vit."
                 ]
             }
         ],
@@ -2899,7 +2899,7 @@
                 "page": 0,
                 "index": 10,
                 "parameters": [
-                    "10\\G were found!"
+                    "10\\G ont été trouvés!"
                 ]
             },
             {
@@ -2907,7 +2907,7 @@
                 "page": 0,
                 "index": 1,
                 "parameters": [
-                    "Good that you're leaving! "
+                    "C'est bien que tu partes! "
                 ]
             },
             {
@@ -2915,7 +2915,7 @@
                 "page": 0,
                 "index": 2,
                 "parameters": [
-                    "I never liked you \\P[1]. Get away as far as you can "
+                    "Je t'ai jamais aimé \\P[1]. Casse toi aussi loin que tu peux "
                 ]
             },
             {
@@ -2923,7 +2923,7 @@
                 "page": 0,
                 "index": 3,
                 "parameters": [
-                    "from here!"
+                    "du village!"
                 ]
             }
         ],
@@ -2934,7 +2934,7 @@
                 "page": 0,
                 "index": 1,
                 "parameters": [
-                    "Did you know that damage to the cerebellum can lead to "
+                    "Svais-tu que les dégâts au Cerebellum peuvent causer "
                 ]
             },
             {
@@ -2942,7 +2942,7 @@
                 "page": 0,
                 "index": 2,
                 "parameters": [
-                    "problems with balance and coordination?"
+                    "des problèmes de balance et de coordination?"
                 ]
             },
             {
@@ -2950,7 +2950,7 @@
                 "page": 0,
                 "index": 1,
                 "parameters": [
-                    "The cerebellum is located at the base of the brain, "
+                    "Le cerebellum est localisé à la base du cerveau, "
                 ]
             },
             {
@@ -2958,7 +2958,7 @@
                 "page": 0,
                 "index": 2,
                 "parameters": [
-                    "just above the brainstem"
+                    "juste au-dessus du tronc cérébral."
                 ]
             }
         ],
@@ -2968,7 +2968,7 @@
                 "page": 0,
                 "index": 1,
                 "parameters": [
-                    "SOMEBODY HELP US!"
+                    "QUE QUELQU'UN NOUS AIDE!"
                 ]
             },
             {
@@ -2976,7 +2976,7 @@
                 "page": 0,
                 "index": 2,
                 "parameters": [
-                    "If you can't fight you can stay here."
+                    "Si tu ne peux pas te battre, tu peux rester ici."
                 ]
             },
             {
@@ -2984,7 +2984,7 @@
                 "page": 0,
                 "index": 3,
                 "parameters": [
-                    "Would you like to try to sleep through the attack?"
+                    "Voudriez-vous essayer de dormir pendant l'attaque?"
                 ]
             },
             {
@@ -2993,8 +2993,8 @@
                 "index": 4,
                 "parameters": [
                     [
-                        "Yes",
-                        "No"
+                        "Oui",
+                        "Non"
                     ],
                     2
                 ]
@@ -3004,7 +3004,7 @@
                 "page": 0,
                 "index": 14,
                 "parameters": [
-                    "Okay just stay calm, somebody will help..."
+                    "Ok, juste reste calme, quelqu'un va nous aider..."
                 ]
             },
             {
@@ -3012,7 +3012,7 @@
                 "page": 0,
                 "index": 15,
                 "parameters": [
-                    "I hope."
+                    "J'espère."
                 ]
             },
             {
@@ -3020,7 +3020,7 @@
                 "page": 1,
                 "index": 1,
                 "parameters": [
-                    "10\\G for one night. Would you like to stay?"
+                    "10\\G pour une nuit. Voulez-vous rester?"
                 ]
             },
             {
@@ -3029,8 +3029,8 @@
                 "index": 2,
                 "parameters": [
                     [
-                        "Yes",
-                        "No"
+                        "Oui",
+                        "Non"
                     ],
                     2
                 ]
@@ -3040,7 +3040,7 @@
                 "page": 1,
                 "index": 14,
                 "parameters": [
-                    "You don't have enough money."
+                    "Vous n'avez pas assez d'argent."
                 ]
             },
             {
@@ -3048,7 +3048,7 @@
                 "page": 0,
                 "index": 1,
                 "parameters": [
-                    "I wish I could help, but for us neurons it is very"
+                    "J'aimerais pouvoir aider, mais pour nous, les neurones, c'est très"
                 ]
             },
             {
@@ -3056,7 +3056,7 @@
                 "page": 0,
                 "index": 2,
                 "parameters": [
-                    "hard to do anything against pathogens...\\!"
+                    "difficile de faire quoi que ce soit contre les agents pathogènes...\\!"
                 ]
             },
             {
@@ -3064,7 +3064,7 @@
                 "page": 0,
                 "index": 3,
                 "parameters": [
-                    "I wish there was a microglia in this village."
+                    "J'aurais aimé qu'il y ait une microglie dans ce village."
                 ]
             },
             {
@@ -3072,7 +3072,7 @@
                 "page": 1,
                 "index": 1,
                 "parameters": [
-                    "Thank you for saving us. If you decide to travel the"
+                    "Merci de nous avoir sauvés. Si vous décidez de voyager dans"
                 ]
             },
             {
@@ -3080,7 +3080,7 @@
                 "page": 1,
                 "index": 2,
                 "parameters": [
-                    "brain you will probably need a microglia with you."
+                    "cerveau, vous aurez probablement besoin d'une microglie avec vous."
                 ]
             },
             {
@@ -3088,7 +3088,7 @@
                 "page": 0,
                 "index": 1,
                 "parameters": [
-                    "All of the others are stuck because of the attacks!"
+                    "Tous les autres sont bloqués à cause des attaques!"
                 ]
             },
             {
@@ -3096,7 +3096,7 @@
                 "page": 0,
                 "index": 1,
                 "parameters": [
-                    "I'm so scared!"
+                    "J'ai tellement peur!"
                 ]
             }
         ],
@@ -3106,7 +3106,7 @@
                 "page": 0,
                 "index": 1,
                 "parameters": [
-                    "Shhhhhh! I'm trying to hide."
+                    "Chuuuuuuuut! j'essaie de me cacher."
                 ]
             },
             {
@@ -3114,7 +3114,7 @@
                 "page": 0,
                 "index": 1,
                 "parameters": [
-                    "Shhhhhh! I'm trying to hide."
+                    "Chuuuuuuuut! j'essaie de me cacher."
                 ]
             }
         ],
@@ -3124,7 +3124,7 @@
                 "page": 0,
                 "index": 10,
                 "parameters": [
-                    "Potion was found!"
+                    "Vous avez trouvé une potion!"
                 ]
             },
             {
@@ -3132,7 +3132,7 @@
                 "page": 1,
                 "index": 1,
                 "parameters": [
-                    "Thank you for saving this village."
+                    "Merci d'avoir sauvé ce village."
                 ]
             }
         ],
@@ -3142,7 +3142,7 @@
                 "page": 0,
                 "index": 1,
                 "parameters": [
-                    "Please! I am begging you...\\! Don't infect me."
+                    "S'il vous plaît! Je vous en supplie...\\! Ne m'infectez pas."
                 ]
             },
             {
@@ -3150,7 +3150,7 @@
                 "page": 1,
                 "index": 1,
                 "parameters": [
-                    "Is it over?"
+                    "C'est finit?"
                 ]
             },
             {
@@ -3158,7 +3158,7 @@
                 "page": 0,
                 "index": 1,
                 "parameters": [
-                    "Let me get in your cells!"
+                    "Laisse-moi entrer dans tes cellules!"
                 ]
             }
         ],
@@ -3169,7 +3169,7 @@
                 "page": 0,
                 "index": 1,
                 "parameters": [
-                    "\"You have entered the Cerebellum region.\\!"
+                    "\"Vous êtes entré dans la région du cerebellum.\\!"
                 ]
             },
             {
@@ -3177,7 +3177,7 @@
                 "page": 0,
                 "index": 2,
                 "parameters": [
-                    "Cerebellum Caste: North-East\""
+                    "Château du Cerebellum: Nord-Est\""
                 ]
             },
             {
@@ -3185,7 +3185,7 @@
                 "page": 0,
                 "index": 2,
                 "parameters": [
-                    "\\P[1]: Mmhhhh... That's strange."
+                    "\\P[1]: Hmmmmm... C'est étrange."
                 ]
             },
             {
@@ -3193,7 +3193,7 @@
                 "page": 0,
                 "index": 3,
                 "parameters": [
-                    "It feels like something is wrong..."
+                    "On dirait qu'il y a quelque chose de travers..."
                 ]
             },
             {
@@ -3201,7 +3201,7 @@
                 "page": 0,
                 "index": 4,
                 "parameters": [
-                    "What could be causing that shaking?"
+                    "Qu'est-ce qui pourrait causer ces tremblements?"
                 ]
             },
             {
@@ -3209,7 +3209,7 @@
                 "page": 0,
                 "index": 2,
                 "parameters": [
-                    "\\P[1]: Mmhhhh... That's strange."
+                    "\\P[1]: Hmmmmm... C'est étrange."
                 ]
             },
             {
@@ -3217,7 +3217,7 @@
                 "page": 0,
                 "index": 3,
                 "parameters": [
-                    "It feels like something is wrong..."
+                    "On dirait qu'il y a quelque chose de travers..."
                 ]
             },
             {
@@ -3225,7 +3225,7 @@
                 "page": 0,
                 "index": 4,
                 "parameters": [
-                    "What could be causing that shaking?"
+                    "Qu'est-ce qui pourrait causer ces tremblements?"
                 ]
             },
             {
@@ -3233,7 +3233,7 @@
                 "page": 0,
                 "index": 1,
                 "parameters": [
-                    "Pathogen: Soon we will attack this village.\\! "
+                    "Pathogène: Bientôt, nous attaquerons ce village.\\! "
                 ]
             },
             {
@@ -3241,7 +3241,7 @@
                 "page": 0,
                 "index": 2,
                 "parameters": [
-                    "There are no microglia so nothing will be able to stop"
+                    "Il n’y a pas de microglie donc rien ne pourra "
                 ]
             },
             {
@@ -3249,7 +3249,7 @@
                 "page": 0,
                 "index": 3,
                 "parameters": [
-                    "us..."
+                    "nous arrêter..."
                 ]
             },
             {
@@ -3257,7 +3257,7 @@
                 "page": 0,
                 "index": 1,
                 "parameters": [
-                    "Soon we will attack this village.\\! Nothing will stop"
+                    "Bientôt, nous attaquerons ce village.\\! Rien ne nous"
                 ]
             },
             {
@@ -3265,7 +3265,7 @@
                 "page": 0,
                 "index": 2,
                 "parameters": [
-                    "us..."
+                    "arrêtera..."
                 ]
             },
             {
@@ -3273,7 +3273,7 @@
                 "page": 1,
                 "index": 1,
                 "parameters": [
-                    "AHHHH! My neural village is getting attacked"
+                    "AHHHH ! Mon village neuronal est attaqué par des agents pathogènes."
                 ]
             },
             {
@@ -3281,7 +3281,7 @@
                 "page": 1,
                 "index": 2,
                 "parameters": [
-                    "by pathogens. I ran away before getting caught..."
+                    "Je me suis enfui avant de me faire prendre..."
                 ]
             },
             {
@@ -3289,7 +3289,7 @@
                 "page": 1,
                 "index": 4,
                 "parameters": [
-                    "Are you able to fight?\\!"
+                    "Es-tu capable de te battre?\\!"
                 ]
             },
             {
@@ -3297,7 +3297,7 @@
                 "page": 1,
                 "index": 5,
                 "parameters": [
-                    "If so please help us!"
+                    "Si oui, aide-nous!"
                 ]
             }
         ],
@@ -3308,7 +3308,7 @@
                 "page": 0,
                 "index": 1,
                 "parameters": [
-                    "I heard that a Microglia called Martìn "
+                    "J'ai entendu dire qu'un microglie appelée Martìn "
                 ]
             },
             {
@@ -3316,7 +3316,7 @@
                 "page": 0,
                 "index": 2,
                 "parameters": [
-                    "lives here."
+                    "habite ici."
                 ]
             },
             {
@@ -3324,7 +3324,7 @@
                 "page": 0,
                 "index": 4,
                 "parameters": [
-                    "But people say that he is very agressive and likes to"
+                    "Mais les gens disent qu'il est très agressif et qu'il aime"
                 ]
             },
             {
@@ -3332,7 +3332,7 @@
                 "page": 0,
                 "index": 5,
                 "parameters": [
-                    "fight."
+                    "se battre."
                 ]
             },
             {
@@ -3340,7 +3340,7 @@
                 "page": 0,
                 "index": 7,
                 "parameters": [
-                    "I'd be careful if I were you."
+                    "Je ferais attention si j'étais toi."
                 ]
             },
             {
@@ -3348,7 +3348,7 @@
                 "page": 0,
                 "index": 10,
                 "parameters": [
-                    "10\\G were found!"
+                    "10\\G ont été trouvés!"
                 ]
             },
             {
@@ -3356,7 +3356,7 @@
                 "page": 0,
                 "index": 1,
                 "parameters": [
-                    "Hey! You should go talk to Martìn."
+                    "Hey! Tu devrais aller parler à Martìn."
                 ]
             },
             {
@@ -3364,7 +3364,7 @@
                 "page": 0,
                 "index": 2,
                 "parameters": [
-                    "He comes off as agressive but he would really"
+                    "Il semble agressif mais en réalité il"
                 ]
             },
             {
@@ -3372,7 +3372,7 @@
                 "page": 0,
                 "index": 3,
                 "parameters": [
-                    "love to travel with you."
+                    "aimerait vraiment voyager avec toi."
                 ]
             }
         ],
@@ -3391,7 +3391,7 @@
                 "page": 0,
                 "index": 2,
                 "parameters": [
-                    "I will fight to my last breath!"
+                    "Je me battrai jusqu'à mon dernier souffle!"
                 ]
             },
             {
@@ -3399,7 +3399,7 @@
                 "page": 1,
                 "index": 1,
                 "parameters": [
-                    "Thank you so much for your help!"
+                    "Merci beaucoup pour votre aide!"
                 ]
             },
             {
@@ -3407,7 +3407,7 @@
                 "page": 0,
                 "index": 2,
                 "parameters": [
-                    "What do you want?!"
+                    "Qu'est-ce que tu veux?!"
                 ]
             },
             {
@@ -3415,7 +3415,7 @@
                 "page": 0,
                 "index": 3,
                 "parameters": [
-                    "Get lost!"
+                    "Casse toi!"
                 ]
             },
             {
@@ -3423,7 +3423,7 @@
                 "page": 0,
                 "index": 2,
                 "parameters": [
-                    "What do you want?!"
+                    "Qu'est-ce que tu veux?!"
                 ]
             },
             {
@@ -3431,7 +3431,7 @@
                 "page": 0,
                 "index": 3,
                 "parameters": [
-                    "Get lost!"
+                    "Casse toi!"
                 ]
             },
             {
@@ -3439,7 +3439,7 @@
                 "page": 0,
                 "index": 1,
                 "parameters": [
-                    "Please help my sister!"
+                    "S'il vous plaît, aidez ma sœur!"
                 ]
             },
             {
@@ -3447,7 +3447,7 @@
                 "page": 1,
                 "index": 1,
                 "parameters": [
-                    "Thank you for helping my big sister!"
+                    "Merci d'avoir aidé ma grande sœur!"
                 ]
             },
             {
@@ -3455,7 +3455,7 @@
                 "page": 0,
                 "index": 2,
                 "parameters": [
-                    "What do you want?!"
+                    "Qu'est-ce que tu veux?!"
                 ]
             },
             {
@@ -3463,7 +3463,7 @@
                 "page": 0,
                 "index": 3,
                 "parameters": [
-                    "Get lost!"
+                    "Casse toi!"
                 ]
             }
         ],
@@ -3476,7 +3476,7 @@
                 "page": 0,
                 "index": 3,
                 "parameters": [
-                    "Guard: Halt! Decline your intentions?!"
+                    "Garde: Halte! Déclinez vos intentions!"
                 ]
             },
             {
@@ -3484,7 +3484,7 @@
                 "page": 0,
                 "index": 5,
                 "parameters": [
-                    "\\P[1]: Hum okay..."
+                    "\\P[1]: Mouais..."
                 ]
             },
             {
@@ -3492,7 +3492,7 @@
                 "page": 0,
                 "index": 6,
                 "parameters": [
-                    "I would like to meet the King"
+                    "J'aimerais rencontrer le roi"
                 ]
             },
             {
@@ -3500,7 +3500,7 @@
                 "page": 0,
                 "index": 7,
                 "parameters": [
-                    "of the Cerebellum region."
+                    "de la région du Cerebellum."
                 ]
             },
             {
@@ -3508,7 +3508,7 @@
                 "page": 0,
                 "index": 9,
                 "parameters": [
-                    "Guard: Only neurons and glial cells are allowed "
+                    "Garde: Seuls les neurones et les cellules gliales sont autorisés "
                 ]
             },
             {
@@ -3516,7 +3516,7 @@
                 "page": 0,
                 "index": 10,
                 "parameters": [
-                    "to enter the Cerebellum Castle. "
+                    "pour entrer dans le château du Cervelet. "
                 ]
             },
             {
@@ -3524,7 +3524,7 @@
                 "page": 0,
                 "index": 13,
                 "parameters": [
-                    "Which one are you?"
+                    "Lequel es-tu?"
                 ]
             },
             {
@@ -3533,10 +3533,10 @@
                 "index": 14,
                 "parameters": [
                     [
-                        "A neuron obviously",
-                        "A glial cell just like you",
-                        "A pathogen that will attack you!",
-                        "A mutation that is goint to destroy the cerebellum"
+                        "Un neurone évidemment",
+                        "Une cellule gliale comme toi",
+                        "Un pathogène qui va t'attaquer !",
+                        "Une mutation qui va détruire le cervelet"
                     ],
                     1,
                     3,
@@ -3549,7 +3549,7 @@
                 "page": 0,
                 "index": 17,
                 "parameters": [
-                    "Yeah I just wanted to be sure."
+                    "Ouais, je voulais juste être sûr."
                 ]
             },
             {
@@ -3557,7 +3557,7 @@
                 "page": 0,
                 "index": 31,
                 "parameters": [
-                    "You don't look like a Microglia."
+                    "Tu ne ressembles pas à une microglie."
                 ]
             },
             {
@@ -3565,7 +3565,7 @@
                 "page": 0,
                 "index": 32,
                 "parameters": [
-                    "Are you lying to me?!"
+                    "Est-ce que tu me mens?!"
                 ]
             },
             {
@@ -3573,7 +3573,7 @@
                 "page": 0,
                 "index": 36,
                 "parameters": [
-                    "Be careful, pathogen's are my specialty."
+                    "Attention, les pathogènes sont ma spécialité."
                 ]
             },
             {
@@ -3581,7 +3581,7 @@
                 "page": 0,
                 "index": 37,
                 "parameters": [
-                    "I eat them ALIVE!"
+                    "Je les mange VIVANTS!"
                 ]
             },
             {
@@ -3589,7 +3589,7 @@
                 "page": 0,
                 "index": 41,
                 "parameters": [
-                    "Don't joke with that. It's not funny."
+                    "Ne plaisante pas avec ça. Ce n'est pas drôle."
                 ]
             },
             {
@@ -3597,7 +3597,7 @@
                 "page": 0,
                 "index": 43,
                 "parameters": [
-                    "Especially with that rumour that has been going around."
+                    "Surtout avec la rumeur qui circule."
                 ]
             },
             {
@@ -3605,7 +3605,7 @@
                 "page": 0,
                 "index": 47,
                 "parameters": [
-                    "Stop fooling around!"
+                    "Arrête de faire le clown!"
                 ]
             },
             {
@@ -3613,7 +3613,7 @@
                 "page": 0,
                 "index": 54,
                 "parameters": [
-                    "You may pass."
+                    "Tu peux passer."
                 ]
             },
             {
@@ -3621,7 +3621,7 @@
                 "page": 0,
                 "index": 55,
                 "parameters": [
-                    "But beware that the Cerebellum is very crowded."
+                    "Mais attention, le Cervelet est très fréquenté."
                 ]
             },
             {
@@ -3629,7 +3629,7 @@
                 "page": 0,
                 "index": 56,
                 "parameters": [
-                    "If you are looking for the king he is at the very top."
+                    "Si tu cherches le Roi, il est tout en haut."
                 ]
             },
             {
@@ -3637,7 +3637,7 @@
                 "page": 0,
                 "index": 1,
                 "parameters": [
-                    "King Purkinje is afraid of something these days..."
+                    "Le Roi Purkinje a peur de quelque chose ces derniers temps..."
                 ]
             },
             {
@@ -3645,7 +3645,7 @@
                 "page": 0,
                 "index": 3,
                 "parameters": [
-                    "People say that it is linked with the rumour up North."
+                    "On dit que c'est lié à la rumeur qui circule dans le Nord."
                 ]
             },
             {
@@ -3653,7 +3653,7 @@
                 "page": 0,
                 "index": 4,
                 "parameters": [
-                    "Do you think it is really true?"
+                    "Penses-tu que c'est vrai de vrai?"
                 ]
             },
             {
@@ -3661,7 +3661,7 @@
                 "page": 0,
                 "index": 1,
                 "parameters": [
-                    "Welcome to the cerebellum! "
+                    "Bienvenue dans le cervelet! "
                 ]
             },
             {
@@ -3669,7 +3669,7 @@
                 "page": 0,
                 "index": 3,
                 "parameters": [
-                    "This region of the brain is responsible for "
+                    "Cette région du cerveau est responsable de "
                 ]
             },
             {
@@ -3677,7 +3677,7 @@
                 "page": 0,
                 "index": 4,
                 "parameters": [
-                    "coordination, balance, and movement. "
+                    "la coordination, l'équilibre et le mouvement. "
                 ]
             },
             {
@@ -3685,7 +3685,7 @@
                 "page": 0,
                 "index": 6,
                 "parameters": [
-                    "As a neuron, you must know that the cerebellum receives "
+                    "En tant que neurone, il faut savoir que le cervelet reçoit "
                 ]
             },
             {
@@ -3693,7 +3693,7 @@
                 "page": 0,
                 "index": 7,
                 "parameters": [
-                    "information from the sensory systems, the spinal cord, "
+                    "les informations provenant des systèmes sensoriels, de la moelle épinière, "
                 ]
             },
             {
@@ -3701,7 +3701,7 @@
                 "page": 0,
                 "index": 8,
                 "parameters": [
-                    "and other parts of the brain to coordinate smooth and "
+                    "et d'autres parties du cerveau pour coordonner des mouvements "
                 ]
             },
             {
@@ -3709,7 +3709,7 @@
                 "page": 0,
                 "index": 9,
                 "parameters": [
-                    "balanced movements. "
+                    "fluides et balancés. "
                 ]
             },
             {
@@ -3717,7 +3717,7 @@
                 "page": 1,
                 "index": 1,
                 "parameters": [
-                    "Guard: You may pass."
+                    "Garde: Tu peux passer."
                 ]
             },
             {
@@ -3725,7 +3725,7 @@
                 "page": 1,
                 "index": 2,
                 "parameters": [
-                    "But beware that the Cerebellum is very crowded."
+                    "Mais attention, le Cervelet est très fréquenté."
                 ]
             },
             {
@@ -3733,7 +3733,7 @@
                 "page": 1,
                 "index": 3,
                 "parameters": [
-                    "If you are looking for the king he is at the very top."
+                    "Si tu cherches le Roi, il est tout en haut."
                 ]
             },
             {
@@ -3741,7 +3741,7 @@
                 "page": 0,
                 "index": 10,
                 "parameters": [
-                    "Potion was found!"
+                    "Vous avez trouvé une potion!"
                 ]
             }
         ],
