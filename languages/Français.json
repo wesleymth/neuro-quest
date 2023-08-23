@@ -14,55 +14,55 @@
             "EXP"
         ],
         "commands": [
-            "Fight",
-            "Escape",
-            "Attack",
-            "Guard",
-            "Item",
-            "Skill",
-            "Equip",
+            "Se battre",
+            "Fuir",
+            "Attaquer",
+            "Défendre",
+            "Objet",
+            "Pouvoir",
+            "Équipement",
             "Status",
             "Formation",
-            "Save",
-            "Game End",
+            "Sauvegarder",
+            "Quitter",
             "Options",
-            "Weapon",
-            "Armor",
-            "Key Item",
-            "Equip",
-            "Optimize",
-            "Clear",
-            "New Game",
-            "Continue",
+            "Arme",
+            "Armure",
+            "Objet principal",
+            "Prendre",
+            "Optimiser",
+            "Supprimer",
+            "Nouvelle partie",
+            "Continuer",
             null,
-            "To Title",
-            "Cancel",
+            "Menu",
+            "Annuler",
             null,
-            "Buy",
-            "Sell"
+            "Acheter",
+            "Vendre"
         ],
         "params": [
             "Max HP",
             "Max MP",
-            "Attack",
-            "Defense",
-            "M.Attack",
-            "M.Defense",
-            "Agility",
-            "Luck",
-            "Hit",
-            "Evasion"
+            "Attaque",
+            "Défense",
+            "M.Attaque",
+            "M.Défense",
+            "Agilité",
+            "Chance",
+            "Coup",
+            "Esquive"
         ],
         "messages": {
-            "actionFailure": "There was no effect on %1!",
-            "actorDamage": "%1 took %2 damage!",
-            "actorDrain": "%1 was drained of %2 %3!",
-            "actorGain": "%1 gained %2 %3!",
-            "actorLoss": "%1 lost %2 %3!",
-            "actorNoDamage": "%1 took no damage!",
-            "actorNoHit": "Miss! %1 took no damage!",
-            "actorRecovery": "%1 recovered %2 %3!",
-            "alwaysDash": "Always Dash",
+            "actionFailure": "Il n'y a eu aucun effet sur %1!",
+            "actorDamage": "%1 prend %2 dégât!",
+            "actorDrain": "%1 s'est fait aspirer %2 %3!",
+            "actorGain": "%1 reçoit %2 %3!",
+            "actorLoss": "%1 perd %2 %3!",
+            "actorNoDamage": "%1 n'a reçu aucun dégât!",
+            "actorNoHit": "Râté! %1 ne reçoit aucun dégât!",
+            "actorRecovery": "%1 soigne %2 %3!",
+            "alwaysDash": "Toujours courir",
             "bgmVolume": "BGM Volume",
             "bgsVolume": "BGS Volume",
             "buffAdd": "%1's %2 went up!",
@@ -199,73 +199,73 @@
                 {
                     "index": 1,
                     "parameters": [
-                        "This game aims to provide an educational and "
+                        "Ce je vise à apporter une expérience éducative "
                     ]
                 },
                 {
                     "index": 2,
                     "parameters": [
-                        "entertaining experience about neuroscience and "
+                        "et ludique à propos des neurosciences et "
                     ]
                 },
                 {
                     "index": 3,
                     "parameters": [
-                        "Parkinson's disease. "
+                        "de la maladie de Parkinson. "
                     ]
                 },
                 {
                     "index": 5,
                     "parameters": [
-                        "However, please note that some "
+                        "Cependant, veuillez noter que certaines "
                     ]
                 },
                 {
                     "index": 6,
                     "parameters": [
-                        "of the game mechanics and features may not be "
+                        "mécaniques et fonctionnalités du jeu ne sont pas "
                     ]
                 },
                 {
                     "index": 7,
                     "parameters": [
-                        "biologically accurate, "
+                        "biologiquement correctes, "
                     ]
                 },
                 {
                     "index": 9,
                     "parameters": [
-                        "and should not be taken as "
+                        "et ne doivent pas être prises comme "
                     ]
                 },
                 {
                     "index": 10,
                     "parameters": [
-                        "medical advice or a substitute for professional medical "
+                        "des conseils médicals ou une substitution à un "
                     ]
                 },
                 {
                     "index": 11,
                     "parameters": [
-                        "treatment."
+                        "traitement médical professionnel."
                     ]
                 },
                 {
                     "index": 13,
                     "parameters": [
-                        "The information provided in the game is for "
+                        "Les informations apportées dans ce jeu sont exclusivement "
                     ]
                 },
                 {
                     "index": 14,
                     "parameters": [
-                        "educational purposes only and should not be used to "
+                        "à but éducatif et ne doivent pas être utilisées comme un "
                     ]
                 },
                 {
                     "index": 15,
                     "parameters": [
-                        "diagnose or treat any medical condition. "
+                        "diagnostique ou toute autre recommandation médicale. "
                     ]
                 }
             ]
@@ -315,14 +315,14 @@
         }
     ],
     "enemies": [
-        "Bat",
+        "Chauve-souris",
         "Slime",
         "Mage",
-        "Darklord-final",
-        "Firespirit",
-        "Waterspirit",
-        "Jellyfish",
-        "Ghost"
+        "Darklord",
+        "Esprit de feu",
+        "Esprit d'eau",
+        "Parasite",
+        "Fantôme"
     ],
     "items": [
         {
@@ -330,11 +330,11 @@
             "description": ""
         },
         {
-            "name": "Magic Water",
+            "name": "Eau magique",
             "description": ""
         },
         {
-            "name": "Dispel Herb",
+            "name": "Herbe de dispersion",
             "description": ""
         },
         {
@@ -342,7 +342,7 @@
             "description": ""
         },
         {
-            "name": "Overworld map",
+            "name": "Carte du monde",
             "description": ""
         }
     ],
@@ -789,7 +789,7 @@
                 "page": 0,
                 "index": 10,
                 "parameters": [
-                    "Potion was found!"
+                    "Vous avez trouvé une potion!"
                 ]
             },
             {
@@ -797,7 +797,7 @@
                 "page": 1,
                 "index": 1,
                 "parameters": [
-                    "Thank you for saving this village."
+                    "Merci d'avoir suaver le village."
                 ]
             }
         ],
@@ -807,7 +807,7 @@
                 "page": 0,
                 "index": 1,
                 "parameters": [
-                    "I am praying for nothing bad to happen to the brain."
+                    "Je prie pour que rien de mal arrive au cerveau."
                 ]
             },
             {
@@ -815,7 +815,7 @@
                 "page": 0,
                 "index": 1,
                 "parameters": [
-                    "The cerebellum contains more neurons than any other "
+                    "Le cerebellum contient plus de neurones que n'importe quelle "
                 ]
             },
             {
@@ -823,7 +823,7 @@
                 "page": 0,
                 "index": 2,
                 "parameters": [
-                    "part of the brain, despite its small size. "
+                    "autre partie du cerveau, malgré sa petite taille. "
                 ]
             },
             {
@@ -831,7 +831,7 @@
                 "page": 0,
                 "index": 4,
                 "parameters": [
-                    "Isn't it amazing how much functionality can be packed "
+                    "N'est-ce pas formidable le nombre de fonctionnalités qui peuvent "
                 ]
             },
             {
@@ -839,7 +839,7 @@
                 "page": 0,
                 "index": 5,
                 "parameters": [
-                    "into such a tiny structure?"
+                    "rassemblées dans une si petite structure?"
                 ]
             },
             {
@@ -847,7 +847,7 @@
                 "page": 0,
                 "index": 1,
                 "parameters": [
-                    "The cerebellum is particularly susceptible to "
+                    "Le cerebellum est particulièrement faible contre les attaques "
                 ]
             },
             {
@@ -855,7 +855,7 @@
                 "page": 0,
                 "index": 2,
                 "parameters": [
-                    "alcohol-related damage, which can cause a range of "
+                    "liées à l'alcool, qui causent énormément de dégâts "
                 ]
             },
             {
@@ -863,7 +863,7 @@
                 "page": 0,
                 "index": 3,
                 "parameters": [
-                    "motor and cognitive impairments. "
+                    "aux fonctions motrices et cognitives. "
                 ]
             },
             {
@@ -871,7 +871,7 @@
                 "page": 0,
                 "index": 5,
                 "parameters": [
-                    "Stay sober as you journey through this castle!"
+                    "Reste sobre durant ta visite du château!"
                 ]
             }
         ],
