@@ -403,31 +403,31 @@
         },
         {
             "name": "Potentiel d'action",
-            "description": "Charge électrique puissante qui peut étourdir les ennemis",
+            "description": "Charge électrique puissante qui peut étourdir \nles ennemis",
             "message1": " utilise %1!",
             "message2": ""
         },
         {
             "name": "Barrage de neurotransmetteurs",
-            "description": "Attaque rapide utilisant différents neurotransmetteurs pour perturber les ennemis",
+            "description": "Attaque rapide utilisant différents \nneurotransmetteurs pour perturber les ennemis",
             "message1": " utilise %1!",
             "message2": ""
         },
         {
             "name": "Frappe dendritique",
-            "description": "Attaque précise qui cible le point faible d'un ennemi,\ninfligeant des dégâts supplémentaires",
+            "description": "Attaque précise qui cible le point faible d'un \nennemi,infligeant des dégâts supplémentaires",
             "message1": " une frappe précise!",
             "message2": ""
         },
         {
             "name": "Réseau neuronal",
-            "description": "Crée un réseau protecteur de connexions avec les compagnons \ndu neurone, augmentant ainsi la défense des alliés.",
+            "description": "Crée un réseau protecteur de connexions avec \nles compagnons ndu neurone.",
             "message1": " utilise %1!",
             "message2": ""
         },
         {
             "name": "Augmentation de la plasticité",
-            "description": "Augmente la capacité du neurone à former de nouvelles connexions, \naméliorant l'efficacité de toutes les attaques",
+            "description": "Augmente la capacité du neurone à former de nouvelles \nconnexions, améliorant l'efficacité de toutes les attaques",
             "message1": " utilise %1!",
             "message2": ""
         },
@@ -439,7 +439,7 @@
         },
         {
             "name": "Poussée pro-inflammatoire",
-            "description": "Libère des espèces réactives de l'oxygène et d'autres molécules \ninflammatoires pour endommager plusieurs ennemis.",
+            "description": "Libère des espèces réactives de l'oxygène et d'autres \nmolécules inflammatoires pour endommager plusieurs ennemis.",
             "message1": " utilise %1!",
             "message2": ""
         },
@@ -451,37 +451,37 @@
         },
         {
             "name": "Émondage synaptique",
-            "description": "Supprime les synapses faibles ou inutiles pour améliorer l'efficacité neuronale et accélérer le traitement (Exp supplémentaire)",
+            "description": "Supprime les synapses faibles ou inutiles pour \naméliorer l'efficacité neuronale (Exp +)",
             "message1": " utilise %1!",
             "message2": ""
         },
         {
             "name": "Immunité adaptative",
-            "description": "Améliore la fonction immunitaire de la microglie, la rendant \nplus résistante aux attaques ennemies",
+            "description": "Améliore la fonction immunitaire de la microglie, \nla rendant plus résistante aux attaques ennemies",
             "message1": " utilise %1!",
             "message2": ""
         },
         {
             "name": "Myélinate",
-            "description": "Crée de nouvelles gaines de myéline autour des axones proches, \naugmentant leur vitesse et leur défense",
+            "description": "Crée de nouvelles gaines de myéline autour des axones \nproches, augmentant leur vitesse et leur défense",
             "message1": " utilise %1!",
             "message2": ""
         },
         {
             "name": "Démyélinisation",
-            "description": "Détruit les gaines de myéline autour des axones proches, \nles rendant plus vulnérables aux dommages et plus lents",
+            "description": "Détruit les gaines de myéline autour des axones \nproches, les rendant plus vulnérables aux dommages",
             "message1": " utilise %1!",
             "message2": ""
         },
         {
             "name": "Soutien neurotrophique",
-            "description": "Sécrète des facteurs neurotrophiques, qui sont des molécules pouvant favoriser la survie des neurones voisins.",
+            "description": "Sécrète des facteurs neurotrophiques, qui sont des \nmolécules pouvant favoriser la survie des neurones voisins.",
             "message1": " utilise %1!",
             "message2": ""
         },
         {
             "name": "Neurotransmetteur",
-            "description": "Rend les neurones proches capables de produire une autre action",
+            "description": "Rend les neurones proches capables de produire \nune autre action",
             "message1": " utilise %1!",
             "message2": ""
         },
