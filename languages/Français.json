@@ -65,46 +65,46 @@
             "alwaysDash": "Toujours courir",
             "bgmVolume": "BGM Volume",
             "bgsVolume": "BGS Volume",
-            "buffAdd": "%1's %2 went up!",
-            "buffRemove": "%1's %2 returned to normal!",
+            "buffAdd": "%1's %2 augmente!",
+            "buffRemove": "%1's %2 redevient normal!",
             "commandRemember": "Command Remember",
-            "counterAttack": "%1 counterattacked!",
-            "criticalToActor": "A painful blow!!",
-            "criticalToEnemy": "An excellent hit!!",
-            "debuffAdd": "%1's %2 went down!",
-            "defeat": "%1 was defeated.",
-            "emerge": "%1 emerged!",
-            "enemyDamage": "%1 took %2 damage!",
-            "enemyDrain": "%1 was drained of %2 %3!",
-            "enemyGain": "%1 gained %2 %3!",
-            "enemyLoss": "%1 lost %2 %3!",
-            "enemyNoDamage": "%1 took no damage!",
-            "enemyNoHit": "Miss! %1 took no damage!",
-            "enemyRecovery": "%1 recovered %2 %3!",
-            "escapeFailure": "However, it was unable to escape!",
-            "escapeStart": "%1 has started to escape!",
-            "evasion": "%1 evaded the attack!",
-            "expNext": "To Next %1",
-            "expTotal": "Current %1",
-            "file": "File",
-            "levelUp": "%1 is now %2 %3!",
-            "loadMessage": "Load which file?",
-            "magicEvasion": "%1 nullified the magic!",
-            "magicReflection": "%1 reflected the magic!",
+            "counterAttack": "%1 a contre-attaqué!",
+            "criticalToActor": "Un terrible coup!!",
+            "criticalToEnemy": "Une frappe magnifique!!",
+            "debuffAdd": "%1's %2 descend!",
+            "defeat": "%1 a été vaincu.",
+            "emerge": "%1 a émergé!",
+            "enemyDamage": "%1 reçoit %2 dégât!",
+            "enemyDrain": "%1 a été vidé de %2 %3!",
+            "enemyGain": "%1 reçoit %2 %3!",
+            "enemyLoss": "%1 perd %2 %3!",
+            "enemyNoDamage": "%1 ne subit pas de dégât!",
+            "enemyNoHit": "Manqué! %1 ne subit pas de dégât!",
+            "enemyRecovery": "%1 rétabli %2 %3!",
+            "escapeFailure": "Cependant, il n’a pas pu s’échapper!",
+            "escapeStart": "%1 a commencé à s'échapper!",
+            "evasion": "%1 esquive l'attaque!",
+            "expNext": "Prochain niveau %1",
+            "expTotal": "Exp actuel %1",
+            "file": "Fichier",
+            "levelUp": "%1 est maintenant %2 %3!",
+            "loadMessage": "Charger quel fichier?",
+            "magicEvasion": "%1 a annulé la magie!",
+            "magicReflection": "%1 repousse la magie!",
             "meVolume": "ME Volume",
-            "obtainExp": "%1 %2 received!",
-            "obtainGold": "%1\\G found!",
-            "obtainItem": "%1 found!",
-            "obtainSkill": "%1 learned!",
-            "partyName": "%1's Party",
+            "obtainExp": "%1 %2 a reçu!",
+            "obtainGold": "%1\\G trouvé!",
+            "obtainItem": "%1 trouvé!",
+            "obtainSkill": "%1 appris!",
+            "partyName": "Le groupe de %1",
             "possession": "Possession",
-            "preemptive": "%1 got the upper hand!",
-            "saveMessage": "Save to which file?",
+            "preemptive": "%1 prend le dessus!",
+            "saveMessage": "Enregistrer dans quel fichier?",
             "seVolume": "SE Volume",
-            "substitute": "%1 protected %2!",
-            "surprise": "%1 was surprised!",
-            "useItem": "%1 uses %2!",
-            "victory": "%1 was victorious!"
+            "substitute": "%1 a protégé %2!",
+            "surprise": "%1 a été surpris!",
+            "useItem": "%1 utilise %2!",
+            "victory": "%1 a triomphé!"
         }
     },
     "equip_types": [
@@ -402,112 +402,112 @@
             "message2": ""
         },
         {
-            "name": "Action potential",
-            "description": "Powerful electric charge that can stun enemies",
-            "message1": " casts %1!",
+            "name": "Potentiel d'action",
+            "description": "Charge électrique puissante qui peut étourdir les ennemis",
+            "message1": " utilise %1!",
             "message2": ""
         },
         {
-            "name": "Neurotransmitter barrage",
-            "description": "Rapid-fire attack that uses different neurotransmitters to confuse enemies",
-            "message1": " casts %1!",
+            "name": "Barrage de neurotransmetteurs",
+            "description": "Attaque rapide utilisant différents neurotransmetteurs pour perturber les ennemis",
+            "message1": " utilise %1!",
             "message2": ""
         },
         {
-            "name": "Dendritic strike",
-            "description": "Precise attack that targets an enemy's weak point,\ndealing extra damage",
-            "message1": " a precise strike!",
+            "name": "Frappe dendritique",
+            "description": "Attaque précise qui cible le point faible d'un ennemi,\ninfligeant des dégâts supplémentaires",
+            "message1": " une frappe précise!",
             "message2": ""
         },
         {
-            "name": "Neural network",
-            "description": "Creates a protective network of connections with the \nneuron's companions, increasing allies's defense",
-            "message1": " casts %1!",
+            "name": "Réseau neuronal",
+            "description": "Crée un réseau protecteur de connexions avec les compagnons \ndu neurone, augmentant ainsi la défense des alliés.",
+            "message1": " utilise %1!",
             "message2": ""
         },
         {
-            "name": "Plasticity boost",
-            "description": "Increases the neuron's ability to form new connections\nimproving the effectiveness of all attacks",
-            "message1": " casts %1!",
+            "name": "Augmentation de la plasticité",
+            "description": "Augmente la capacité du neurone à former de nouvelles connexions, \naméliorant l'efficacité de toutes les attaques",
+            "message1": " utilise %1!",
             "message2": ""
         },
         {
-            "name": "Phagocytosis",
-            "description": "Engulfs and digests enemy cells",
+            "name": "Phagocytose",
+            "description": "Engloutit et digère les cellules ennemies",
             "message1": "",
             "message2": ""
         },
         {
-            "name": "Pro-inflammatory burst",
-            "description": "Releases reactive oxygen species and other \ninflammatory molecules to damage multiple enemies",
-            "message1": " casts %1!",
+            "name": "Poussée pro-inflammatoire",
+            "description": "Libère des espèces réactives de l'oxygène et d'autres molécules \ninflammatoires pour endommager plusieurs ennemis.",
+            "message1": " utilise %1!",
             "message2": ""
         },
         {
-            "name": "Growth factor boost",
-            "description": "Stimulates neuron growth and repair",
-            "message1": " casts %1!",
+            "name": "Augmentation du facteur de croissance",
+            "description": "Stimule la croissance et la réparation des neurones",
+            "message1": " utilise %1!",
             "message2": ""
         },
         {
-            "name": "Synaptic pruning",
-            "description": "Removes weak or unnecessary synapses to improve neural\nefficiency and speed up processing (extra XP)",
-            "message1": " casts %1!",
+            "name": "Émondage synaptique",
+            "description": "Supprime les synapses faibles ou inutiles pour améliorer l'efficacité neuronale et accélérer le traitement (Exp supplémentaire)",
+            "message1": " utilise %1!",
             "message2": ""
         },
         {
-            "name": "Adaptive immunity",
-            "description": "Enhances the microglia's immune function, making it \nmore resistant to enemy attacks",
-            "message1": " casts %1!",
+            "name": "Immunité adaptative",
+            "description": "Améliore la fonction immunitaire de la microglie, la rendant \nplus résistante aux attaques ennemies",
+            "message1": " utilise %1!",
             "message2": ""
         },
         {
-            "name": "Myelinate",
-            "description": "Creates new myelin sheaths around nearby axons, \nincreasing their speed and defense",
-            "message1": " casts %1!",
+            "name": "Myélinate",
+            "description": "Crée de nouvelles gaines de myéline autour des axones proches, \naugmentant leur vitesse et leur défense",
+            "message1": " utilise %1!",
             "message2": ""
         },
         {
-            "name": "Demyelinate",
-            "description": "Breaks down myelin sheaths around nearby axons, \nmaking them more vulnerable to damage and slower",
-            "message1": " casts %1!",
+            "name": "Démyélinisation",
+            "description": "Détruit les gaines de myéline autour des axones proches, \nles rendant plus vulnérables aux dommages et plus lents",
+            "message1": " utilise %1!",
             "message2": ""
         },
         {
-            "name": "Neurotrophic support",
-            "description": "Secretes neurotrophic factors, which are molecules \nthat can promote the survival of nearby neurons",
-            "message1": " casts %1!",
+            "name": "Soutien neurotrophique",
+            "description": "Sécrète des facteurs neurotrophiques, qui sont des molécules pouvant favoriser la survie des neurones voisins.",
+            "message1": " utilise %1!",
             "message2": ""
         },
         {
-            "name": "Neurotransmitter",
-            "description": "Make the nearby neurons able to produce another action",
-            "message1": " casts %1!",
+            "name": "Neurotransmetteur",
+            "description": "Rend les neurones proches capables de produire une autre action",
+            "message1": " utilise %1!",
             "message2": ""
         },
         {
-            "name": "Ice",
+            "name": "Glace",
             "description": "",
-            "message1": " casts %1!",
+            "message1": " utilise %1!",
             "message2": ""
         },
         {
-            "name": "Instant death",
+            "name": "Mort instantanée",
             "description": "",
-            "message1": " does a fatal blow!",
+            "message1": " porte un coup fatal!",
             "message2": ""
         }
     ],
     "states": [
         {
             "name": "Knockout",
-            "message1": " has fallen!",
-            "message2": " is slain!",
+            "message1": " est tombé!",
+            "message2": " est tué!",
             "message3": "",
-            "message4": " revives!"
+            "message4": " est réanimé!"
         },
         {
-            "name": "Guard",
+            "name": "Garde",
             "description": "",
             "message1": "",
             "message2": "",
@@ -515,7 +515,7 @@
             "message4": ""
         },
         {
-            "name": "Immortal",
+            "name": "Immortel",
             "description": "",
             "message1": "",
             "message2": "",
@@ -524,101 +524,101 @@
         },
         {
             "name": "Poison",
-            "message1": " is poisoned!",
-            "message2": " is poisoned!",
+            "message1": " est empoisonné!",
+            "message2": " est empoisonné!",
             "message3": "",
-            "message4": " is no longer poisoned!"
+            "message4": " n'est plus empoisonné!"
         },
         {
-            "name": "Blind",
-            "message1": " is blinded!",
-            "message2": " is blinded!",
+            "name": "Aveuglement",
+            "message1": " est aveuglé!",
+            "message2": " est aveuglé!",
             "message3": "",
-            "message4": " is no longer blinded!"
+            "message4": " n'est plus aveuglé!"
         },
         {
             "name": "Silence",
-            "message1": " is silenced!",
-            "message2": " is silenced!",
+            "message1": " est réduit au silence!",
+            "message2": " est réduit au silence!",
             "message3": "",
-            "message4": " is no longer silenced!"
+            "message4": " n'est plus réduit au silence!"
         },
         {
             "name": "Rage",
-            "message1": " is enraged!",
-            "message2": " is enraged!",
+            "message1": " est enragé!",
+            "message2": " est enragé!",
             "message3": "",
-            "message4": " is no longer enraged!"
+            "message4": " n'est plus enragé!"
         },
         {
             "name": "Confusion",
-            "message1": " is confused!",
-            "message2": " is confused!",
+            "message1": " est confus!",
+            "message2": " est confus!",
             "message3": "",
-            "message4": " is no longer confused!"
+            "message4": " n'est plus confus!"
         },
         {
             "name": "Fascination",
-            "message1": " is fascinated!",
-            "message2": " is fascinated!",
+            "message1": " est fasciné!",
+            "message2": " est fasciné!",
             "message3": "",
-            "message4": " is no longer fascinated!"
+            "message4": " n'est plus fasciné!"
         },
         {
-            "name": "Sleep",
-            "message1": " falls asleep!",
-            "message2": " falls asleep!",
-            "message3": " is sleeping.",
-            "message4": " wakes up!"
+            "name": "Dormir",
+            "message1": " s'endort!",
+            "message2": " s'endort!",
+            "message3": " dort.",
+            "message4": " se réveille!"
         },
         {
-            "name": "Stuned",
-            "message1": " is stuned!",
-            "message2": " is stuned!",
+            "name": "Étourdir",
+            "message1": " est étourdi!",
+            "message2": " est étourdi!",
             "message3": "",
-            "message4": " is no longer stuned!"
+            "message4": " n'est plus étourdi!"
         },
         {
-            "name": "Improved attacks",
-            "message1": " has improved attacks!",
-            "message2": " has improved attacks!",
+            "name": "Attaques améliorées",
+            "message1": " a amélioré les attaques!",
+            "message2": " a amélioré les attaques!",
             "message3": "",
-            "message4": " hit normally again..."
+            "message4": " frappe à nouveau normalement..."
         },
         {
-            "name": "Burn",
-            "message1": " is burning!",
-            "message2": " is burning!",
+            "name": "Brûler",
+            "message1": " brûle!",
+            "message2": " brûle!",
             "message3": "",
-            "message4": " stopped burning!"
+            "message4": " a arrêté de brûler!"
         },
         {
-            "name": "Xp up",
-            "message1": " now gain double XP!",
+            "name": "Exp up",
+            "message1": " gagne le double d'Exp!",
             "message2": "",
             "message3": "",
-            "message4": " no longer gain extra xp..."
+            "message4": " ne gagne plus d'Exp supplémentaire..."
         },
         {
             "name": "Actions+",
-            "message1": " will be able to attack twice!",
-            "message2": " will be able to attack twice!",
+            "message1": " pourra attaquer deux fois!",
+            "message2": " pourra attaquer deux fois!",
             "message3": "",
             "message4": ""
         },
         {
-            "name": "Speed+",
-            "message1": " will attack faster!",
-            "message2": " will attack faster!",
+            "name": "Vitesse+",
+            "message1": " attaquera plus vite!",
+            "message2": " attaquera plus vite!",
             "message3": "",
-            "message4": " will no longer attack faster..."
+            "message4": " attaquera à nouveau à vitesse normal..."
         },
         {
-            "name": "Speed-",
-            "message1": " is slowed down!",
-            "message2": " is slowed down!",
+            "name": "Vitesse-",
+            "message1": " est ralenti!",
+            "message2": " est ralenti!",
             "message3": "",
-            "message4": " is no longer slowed!"
+            "message4": " n'est plus ralenti!"
         },
         {
             "name": "",
@@ -635,7 +635,7 @@
             "message4": ""
         },
         {
-            "name": "High crit",
+            "name": "Critique élevé",
             "message1": "",
             "message2": "",
             "message3": "",
