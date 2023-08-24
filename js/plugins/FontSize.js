@@ -1,7 +1,7 @@
 (function() {
   'use strict';
     const msgFontSize = function() {
-      return 24;  // <- message font size! Change this number.
+      return 20;  // <- message font size! Change this number.
     };
     // Show Text
     Window_Message.prototype.standardFontSize = msgFontSize;
